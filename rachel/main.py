@@ -8,7 +8,7 @@ def Historia():
     
 	moana = Elemento (img = linkdamoana, 
                        tit="moana",
-                       style=dict(left=90, top=60,  Width=60, height=50))
+                       style=dict(left=100, top=90,  Width=60, height=50))
 	moana.entra(cenaPraiamoana)                       
 	txtmoana = Texto (cenaPraiamoana, "Hello")
 	moana.vai = txtmoana.vai
