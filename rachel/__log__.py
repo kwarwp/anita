@@ -91,3 +91,10 @@ NameError: name 'STYLE' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 03 2019 20:27:01.361 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  colete = Elemento (img = linkcolete,
+  ^
+IndentationError: unexpected indent
+'''},
