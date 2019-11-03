@@ -1,6 +1,9 @@
 # anita.rachel.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto
+STYLE["width"] = 1200
+STYLE["heigth"] = "1000px"
 linkdamoana ="https://i.imgur.com/N5HXcxK.png"
+
 def Historia():
 	cenaPraiamoana = Cena (img = "https://i.imgur.com/Sj9T2Y8.gif")
 	moana = Elemento (img = linkdamoana, 
