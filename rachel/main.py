@@ -3,13 +3,17 @@ from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 STYLE["width"] = 600
 STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/N5HXcxK.png"
-colete = "https://i.imgur.com/wGsgSXe.png"
+linkcolete = "https://i.imgur.com/wGsgSXe.png"
 def Historia():
 	quartotalita = Cena (img = "https://i.imgur.com/Sj9T2Y8.gif")
-    
 	talita = Elemento (img = linkdatalita, 
                        tit="talita",
                        style=dict(left=100, top=90,  Width=60, height=50))
+     colete = Elemento (img = linkcolete,
+                        tit = "colete",
+                        style=dict(left=90, top=120, width=40, heigth=30))
+                       
+                      
 	talita.entra(quartotalita)                       
 	textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
 	talita.vai = textotalita.vai
