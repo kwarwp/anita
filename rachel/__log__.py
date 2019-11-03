@@ -165,3 +165,10 @@ NameError: name 'talita' is not defined
     talita.entra(quartotalita)                       
 NameError: name 'talita' is not defined
 '''},
+{'date': 'Sun Nov 03 2019 20:32:49.638 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  colete.entra(quartotalita)
+  ^
+IndentationError: unexpected indent
+'''},
