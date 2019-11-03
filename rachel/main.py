@@ -12,7 +12,7 @@ def Historia():
                        
 	colete = Elemento (img = linkcolete,
 	tit = "colete",
-	style=dict(left=90, top=120, width=40, heigth=30))
+	style=dict(left=100, top=90, width=70, heigth=80))
                                            
 	talita.entra(quartotalita)                       
 	textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
