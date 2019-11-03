@@ -172,3 +172,10 @@ NameError: name 'talita' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 03 2019 20:33:05.369 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
+  ^
+IndentationError: unexpected indent
+'''},
