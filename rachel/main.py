@@ -1,6 +1,6 @@
 # anita.rachel.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto
-linkdamoana ="https://i.imgur.com/upWf36v.jpg"
+linkdamoana ="https://i.imgur.com/N5HXcxK.png"
 def Historia():
 	cenaPraiamoana = Cena (img = "https://img.elo7.com.br/product/original/16965E0/painel-praia-g-frete-gratis-infanitl.jpg")
 	moana = Elemento (img = linkdamoana, 
