@@ -8,7 +8,7 @@ def Historia():
 	quartotalita = Cena (img = "https://i.imgur.com/Sj9T2Y8.gif")
 	talita = Elemento (img = linkdatalita, 
                        tit="talita",
-                       style=dict(left=100, top=90,  Width=40, height=40))
+                       style=dict(left=100, top=90,  Width=60, height=50))
                        
 	colete = Elemento (img = linkcolete,
 	tit = "colete",
