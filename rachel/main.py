@@ -14,7 +14,8 @@ def Historia():
 	tit = "colete",
 	style=dict(left=100, top=90, width=70, heigth=80))
                                            
-	talita.entra(quartotalita)                       
+	talita.entra(quartotalita)
+     colete.entra(quartotalita)
 	textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
 	talita.vai = textotalita.vai
 	quartotalita.vai ()
