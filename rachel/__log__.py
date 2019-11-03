@@ -272,3 +272,10 @@ IndentationError: unexpected indent
     talita.vai = textotalita.vai
 NameError: name 'talita' is not defined
 '''},
+{'date': 'Sun Nov 03 2019 20:56:19.291 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  talita.vai = textotalita.vai()
+  ^
+IndentationError: unexpected indent
+'''},
