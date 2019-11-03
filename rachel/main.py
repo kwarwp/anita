@@ -2,7 +2,7 @@
 from _spy.vitollino.main import Cena, Elemento, Texto
 linkdamoana ="https://i.imgur.com/N5HXcxK.png"
 def Historia():
-	cenaPraiamoana = Cena (img = "https://i.imgur.com/KmfTQCq.jpg")
+	cenaPraiamoana = Cena (img = "https://i.imgur.com/Sj9T2Y8.gif")
 	moana = Elemento (img = linkdamoana, 
                        tit="moana",
                        style=dict(left=10, top=60,  Width=60, height=50))
