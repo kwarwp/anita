@@ -38,3 +38,10 @@ NameError: name 'STYLE' is not defined
     STYLE["width"] = 1200
 NameError: name 'STYLE' is not defined
 '''},
+{'date': 'Sun Nov 03 2019 20:04:59.586 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 8
+  moana = Elemento (img = linkdamoana, 
+                                                                                                                                                                             ^
+SyntaxError: invalid syntax
+'''},
