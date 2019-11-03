@@ -279,3 +279,10 @@ NameError: name 'talita' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 03 2019 20:56:30.683 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 22
+  quartotalita.vai()
+  ^
+IndentationError: unexpected indent
+'''},
