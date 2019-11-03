@@ -12,7 +12,7 @@ def Historia():
                        
 	colete = Elemento (img = linkcolete,
 	tit = "colete",
-	style=dict(left=400, top=230, width=30, heigth=20))
+	style=dict(left=400, top=230, width=60, heigth=20))
                                            
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
