@@ -3,6 +3,7 @@ from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 STYLE["width"] = 600
 STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/N5HXcxK.png"
+colete = "https://i.imgur.com/wGsgSXe.png"
 def Historia():
 	quartotalita = Cena (img = "https://i.imgur.com/Sj9T2Y8.gif")
     
