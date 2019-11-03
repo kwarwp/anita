@@ -193,3 +193,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 03 2019 20:33:37.156 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 20
+  talita.vai = textotalita.vai
+  ^
+IndentationError: unexpected indent
+'''},
