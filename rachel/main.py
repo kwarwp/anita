@@ -19,7 +19,7 @@ def Historia():
      	textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
     	textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
         talita.vai = textotalita.vai
-        talita.vai = textocolete.vai
+        colete.vai = textocolete.vai
         quartotalita.vai()
 
 Historia()
