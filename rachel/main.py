@@ -12,12 +12,13 @@ def Historia():
                        
 	colete = Elemento (img = linkcolete,
 	tit = "colete",
-	style=dict(left=380, top=230, width=60, heigth=20))
+	style=dict(left=400, top=230, width=60, heigth=20))
                                            
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
      	textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
-	talita.vai = textotalita.vai
+	    textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais"
+    talita.vai = textotalita.vai
 	quartotalita.vai ()
 
 Historia()
