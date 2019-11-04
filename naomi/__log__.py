@@ -6,3 +6,10 @@
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Nov 04 2019 09:48:37.774 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  talita=elemento(img="linkdatalita"
+                                                           ^
+SyntaxError: invalid syntax
+'''},
