@@ -76,3 +76,10 @@ SyntaxError: invalid syntax
                                                                                                                                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 04 2019 10:06:38.502 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 13
+  textotalita=(quartodatalita,"Para mim sai do quarto,preciso que vc ache para mim o objeto que stephanie kudlek criou"
+                                                                                                                             ^
+SyntaxError: invalid syntax
+'''},
