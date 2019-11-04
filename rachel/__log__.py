@@ -473,3 +473,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 03 2019 21:43:38.921 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  protetorsolar = Elemento (img = linkprotetorsolar,
+  ^
+IndentationError: unexpected indent
+'''},
