@@ -5,7 +5,7 @@ STYLE["heigth"]= "200px"
 linkdatalita="https://i.imgur.com/2LZFFjU.png"
 linkcolete="https://i.imgur.com/lWiNq2H.png"
 def Jogo():
-	quartodatalita=Cena("https://i.pinimg.com/736x/d4/50/3e/d4503ef624a8c8212e992d6e93047c4f.jpg")
+	quartodatalita=Cena("https://i.imgur.com/n8qtGdt.jpg")
 	talita=Elemento(img="linkdatalita",
                      tit="talita",
                      style=dict(left=180, top=50, width=60, heigth=50))
