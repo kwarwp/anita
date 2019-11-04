@@ -6,7 +6,7 @@ linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
 linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
 def Historia():
-	quartotalita = Cena (img = "https://i.imgur.com/fY0LeMR.jpg")
+	quartotalita = Cena (img = "https://i.imgur.com/w3Xxd4J.gif")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
 	talita = Elemento (img = linkdatalita, 
                        tit="talita",
@@ -18,7 +18,7 @@ def Historia():
     
      	protetorsolar = Elemento (img = linkprotetorsolar,
     	tit = "protetorsolar",
-     	style = dict(left=90, top=80, width=100, height=10))
+     	style = dict(left=200, top=180, width=100, height=90))
                                            
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
