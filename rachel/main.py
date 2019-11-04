@@ -10,15 +10,15 @@ def Historia():
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
 	talita = Elemento (img = linkdatalita, 
                        tit="talita",
-                       style=dict(left=180, top=30,  Width=60, height=50))
+                       style=dict(left=180, top=50,  Width=60, height=50))
                        
 	colete = Elemento (img = linkcolete,
 	tit = "colete",
-	style=dict(left=300, top=30, width=50, heigth=50))
+	style=dict(left=300, top=140, width=50, heigth=50))
     
      	protetorsolar = Elemento (img = linkprotetorsolar,
     	tit = "protetorsolar",
-     	style = dict(left=20, top=30, width=50, height=50))
+     	style = dict(left=20, top=30, width=50, height=10))
                                            
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
