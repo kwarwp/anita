@@ -416,3 +416,10 @@ UnboundLocalError: local variable 'talita' referenced before assignment
     	talita= Elemento (img=linkdatalita,
 UnboundLocalError: local variable 'talita' referenced before assignment
 '''},
+{'date': 'Mon Nov 04 2019 10:50:18.968 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 10
+  tit="talita',
+               ^
+SyntaxError: EOL while scanning string literal
+'''},
