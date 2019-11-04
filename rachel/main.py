@@ -14,11 +14,11 @@ def Historia():
                        
 	colete = Elemento (img = linkcolete,
 	tit = "colete",
-	style=dict(left=300, top=150, width=60, heigth=50))
+	style=dict(left=300, top=150, width=50, heigth=50))
     
      	protetorsolar = Elemento (img = linkprotetorsolar,
     	tit = "protetorsolar",
-     	style = dict(left=20, top=180, width=100, height=90))
+     	style = dict(left=20, top=180, width=50, height=50))
                                            
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
