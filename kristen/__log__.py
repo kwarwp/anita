@@ -214,3 +214,10 @@ NameError: name 'quartotalita' is not defined
     	textotalita = Texto (quartotalita, "Olá! Me ajude a encontrar o objeto criado por Stephanie Kwolek e ganhe moedas")
 NameError: name 'quartotalita' is not defined
 '''},
+{'date': 'Mon Nov 04 2019 10:19:36.363 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 13
+  colete = Elemento(img=linkdocolete,
+  ^
+IndentationError: unexpected indent
+'''},
