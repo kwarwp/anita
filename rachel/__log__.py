@@ -505,3 +505,10 @@ IndentationError: unexpected indent
     protetor.vai = textoprotetor.vai
 NameError: name 'protetor' is not defined
 '''},
+{'date': 'Sun Nov 03 2019 21:47:03.734 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  protetorsolar.entra(quartotalita)
+  ^
+IndentationError: unexpected indent
+'''},
