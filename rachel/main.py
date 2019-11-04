@@ -6,7 +6,7 @@ linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
 def Historia():
 	quartotalita = Cena (img = "https://i.imgur.com/Sj9T2Y8.gif")
-     sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
+	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
 	talita = Elemento (img = linkdatalita, 
                        tit="talita",
                        style=dict(left=100, top=90,  Width=60, height=50))
@@ -22,6 +22,7 @@ def Historia():
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         quartotalita.vai()
-	   quartotalita.direita = sala
+        quartotalita.direita = sala
+        sala,esquerda = quartotalita
 Historia()
         
