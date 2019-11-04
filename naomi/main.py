@@ -4,7 +4,7 @@ STYLE["width"]= 600
 STYLE["heigth"]= "200px"
 linkdatalita="https://i.imgur.com/2LZFFjU.png"
 linkcolete="https://i.imgur.com/lWiNq2H.png"
-def jogo():
+def Jogo():
 	quartodatalita=Cena(img="https://i.imgur.com/DEC5m3T.jpg")
 	talita=Elemento(img="linkdatalita",
                      tit="talita",
@@ -19,5 +19,5 @@ def jogo():
    	textocolete=Texto(quartodatalita,"parabéns! vista o colete e passe para a proxima fase")
    	talita.vai=textotalita.vai
    	colete.vai=textocolete.vai
-   	quartotalita.vai()
-jogo()
+   	quartotadalita.vai()
+Jogo()
