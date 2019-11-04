@@ -1,26 +1,26 @@
 # anita.kristen.main.py
-from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
-STYLE["wilth"]= 600
-STYLE["heigh"] = "200 px"
-linkdatalita = "https://imagensemoldes.com.br/wp-content/uploads/2018/03/Bonecas-LOL-Serie-2-Hip-Hop-Club-D.J.-PNG.png"
-linkcoletetalita =  "https://i.imgur.com/VAVNngX.png"
+# anita.naomi.main.py
+from _spy.vitollino.main import Cena,Elemento,Texto,STYLE
+STYLE["width"]= 600
+STYLE["heigth"]= "200px"
+linkdatalita="https://i.imgur.com/2LZFFjU.png"
+linkcolete="https://i.imgur.com/lWiNq2H.png"
+linkjogos="https://i.imgur.com/3FXCWmB.jpg"
 def Jogo():
-	quartodatalita=Cena(img="https://i.pinimg.com/736x/d4/50/3e/d4503ef624a8c8212e992d6e93047c4f.jpg")
-	talita = Elemento(img = linkdatalita,
-				tit="talita",
-				style= dict (left=180, top = 50, width= 60, height=50))
+	quartodatalita=Cena(img="https://i.imgur.com/DEC5m3T.jpg")
+	talita= Elemento (img= linkdatalita,
+                     tit="talita",
+                     style=dict(left=180, top=50, width=60, heith=50))
+     
+	colete= Elemento(img=linkcolete,
+	tit="colete",
+	style=dict(left=90, top=25, width=30, heith=25))
       
-	colete = Elemento (img = linkcoletetalita,
-                        tit = "colete"
-                        style = dict (left = 60, top = 20, width = 25, height = 20))
-      
-	talita.entra(quartodatalita)
-           colete.entra(quartodatalita)
-	textotalita = Texto (quartotalita, "Olá! Me ajude a encontrar o objeto criado por Stephanie Kwolek e ganhe moedas")
-	textocolete = Texto (quartotalita, "Parabéns! Vista o colete")
-	talita.vai = textotalita.vai
-	colete.vai = textocolete.vai
-	quartotalita.vai()
-
+   	talita.entra(quartodatalita)
+   	colete.entra(quartodatalita)
+   	textotalita=Texto(quartodatalita,"hey,encontre o objeto criado por stephanie kwolek e ganhe moedas") 
+   	textocolete=Texto(quartodatalita,"parabéns! vista o colete e passe para a proxima fase")
+   	talita.vai=textotalita.vai
+   	colete.vai=textocolete.vai
+   	quartodatalita.vai()
 Jogo()
-         
