@@ -90,3 +90,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Nov 04 2019 10:02:52.924 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 13
+  textotalita = Texto (quartotalita,"Olá! Me ajude a encontrar o objeto criado por Stephanie Kwolek e ganhe moedas")
+  ^
+IndentationError: unexpected indent
+'''},
