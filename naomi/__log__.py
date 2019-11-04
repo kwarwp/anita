@@ -213,3 +213,10 @@ NameError: name 'quartotalita' is not defined
     	colete.vai=textocolete.vai
 NameError: name 'colete' is not defined
 '''},
+{'date': 'Mon Nov 04 2019 10:17:25.431 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  talita=Elemento(img="linkdatalita",
+                                                                                                                                                                         ^
+SyntaxError: invalid syntax
+'''},
