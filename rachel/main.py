@@ -4,7 +4,7 @@ STYLE["width"] = 600
 STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
-linkprotetorsolar = "https://i.imgur.com/lN9kKXI.png"
+linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
 def Historia():
 	quartotalita = Cena (img = "https://i.imgur.com/fY0LeMR.jpg")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
@@ -18,7 +18,7 @@ def Historia():
     
      	protetorsolar = Elemento (img = linkprotetorsolar,
     	tit = "protetorsolar",
-     	style = dict(left=90, top=80, width=40, height=20))
+     	style = dict(left=90, top=80, width=100, height=10))
                                            
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
