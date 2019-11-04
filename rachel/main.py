@@ -4,6 +4,7 @@ STYLE["width"] = 600
 STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
+linksala = "https://i.imgur.com/Q57lw3T.jpg"
 def Historia():
 	quartotalita = Cena (img = "https://i.imgur.com/Sj9T2Y8.gif")
 	talita = Elemento (img = linkdatalita, 
@@ -21,6 +22,6 @@ def Historia():
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         quartotalita.vai()
-
+	   quartotalita.direita = sala
 Historia()
         
