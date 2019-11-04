@@ -7,8 +7,8 @@ linkdocolete="https://i.imgur.com/mbj8tzc.png"
 def Jogo ():
     quartodatalita= Cena (img= "https://image.freepik.com/vetores-gratis/modelo-de-plano-de-fundo-interior-quarto-dos-desenhos-animados-aconchegante-casa-moderna-sala-na-luz-da-manha_33099-171.jpg")
     talita = Elemento (img ="linkdatalita",
-                     tit="talita",
-                     style=dict (left=50,top=250,width=50,height=200))
+				tit="talita",
+				style=dict (left=50,top=250,width=50,height=200))
                      
     colete = Elemento (img= linkdocolete,
     			tit="colete",
