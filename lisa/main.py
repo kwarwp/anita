@@ -1,7 +1,7 @@
 # anita.lisa.main.py
 from _spy.vitollino.main import Cena,Elemento,Texto,STYLE
 STYLE ["width"]=600
-STYLE ["hugyh"]= "200px"
+STYLE ["height"]= "200px"
 linkdatalita="https://www.pngix.com/pngfile/middle/341-3413543_menina-boneca-desenho-hd-png-download.png"
 linkdocolete="https://i.imgur.com/mbj8tzc.png"
 def Jogo ():
