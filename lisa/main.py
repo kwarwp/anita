@@ -6,7 +6,7 @@ linkdatalita="https://www.pngix.com/pngfile/middle/341-3413543_menina-boneca-des
 linkdocolete="https://i.imgur.com/mbj8tzc.png"
 def Jogo ():
     quartodatalita= Cena (img= "https://image.freepik.com/vetores-gratis/modelo-de-plano-de-fundo-interior-quarto-dos-desenhos-animados-aconchegante-casa-moderna-sala-na-luz-da-manha_33099-171.jpg")
-    talita= Elemento (img= linkdatalita 
+    talita= Elemento (img= linkdatalita,
                      tit="talita",
                      style=dict (180,top=50,width=,hight) 
     talita.entra(quartodatalita)
