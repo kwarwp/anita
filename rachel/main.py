@@ -4,7 +4,7 @@ STYLE["width"] = 600
 STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
-linkprotetorsolar = "https://i.imgur.com/P7Zynfx.png"
+linkprotetorsolar = "https://i.imgur.com/lN9kKXI.png"
 def Historia():
 	quartotalita = Cena (img = "https://i.imgur.com/fY0LeMR.jpg")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
@@ -22,7 +22,7 @@ def Historia():
                                            
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
-         protetorsolar.entra(quartotalita)
+        protetorsolar.entra(quartotalita)
      	textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
     	textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
         textoprotetor = Texto (quartotalita,"O protetor solar é muito importante, mas não é o que estou procurando.")
