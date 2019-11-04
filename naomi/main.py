@@ -14,7 +14,7 @@ def Jogo():
 	colete=Elemento(img = linkcolete,
 	                tit="colete",
 	                style=dict(left=50, top=5, width=40, heigth=5))
-      camisa=Elemento(img = 
+      
    	talita.entra(quartodatalita)
    	colete.entra(quartodatalita)
    	textotalita=Texto(quartodatalita,"hey,encontre o objeto criado por stephanie kwolek e ganhe moedas") 
