@@ -4,7 +4,6 @@ STYLE["width"]= 600
 STYLE["heigth"]= "200px"
 linkdatalita="https://i.imgur.com/2LZFFjU.png"
 linkcolete="https://i.imgur.com/lWiNq2H.png"
-linkcamisa=
 def Jogo():
 	quartodatalita=Cena("https://i.imgur.com/n8qtGdt.jpg")
 	talita=Elemento(img= linkdatalita,
