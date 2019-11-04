@@ -459,3 +459,10 @@ Exception: <TypeError: $locals_$exec_1881.salatalita is not a function>
 'error': '''
 Exception: <TypeError: $locals_$exec_1897.salatalita is not a function>
 '''},
+{'date': 'Sun Nov 03 2019 21:42:41.597 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  protetorsolar = Elemento (img = linkprotetorsolar,
+  ^
+IndentationError: unexpected indent
+'''},
