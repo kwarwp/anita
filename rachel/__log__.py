@@ -455,3 +455,7 @@ TypeError: 'NoneType' object is not iterable
 'error': '''
 Exception: <TypeError: $locals_$exec_1881.salatalita is not a function>
 '''},
+{'date': 'Sun Nov 03 2019 21:30:24.789 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <TypeError: $locals_$exec_1897.salatalita is not a function>
+'''},
