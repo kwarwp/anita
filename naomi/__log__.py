@@ -13,3 +13,10 @@ IndentationError: unexpected indent
                                                            ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 04 2019 09:49:08.769 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  talita.entra(quartodatalita)
+  ^
+IndentationError: unexpected indent
+'''},
