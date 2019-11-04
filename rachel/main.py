@@ -18,7 +18,7 @@ def Historia():
     
      	protetorsolar = Elemento (img = linkprotetorsolar,
     	tit = "protetorsolar",
-     	style = dict(left=10, top=230, width=50, height=100))
+     	style = dict(left=50, top=250, width=50, height=200))
                                            
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
