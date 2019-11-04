@@ -451,3 +451,7 @@ TypeError: 'Cena' object is not iterable
     sala,esquerda = talita.entra(quartotalita)
 TypeError: 'NoneType' object is not iterable
 '''},
+{'date': 'Sun Nov 03 2019 21:30:15.551 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <TypeError: $locals_$exec_1881.salatalita is not a function>
+'''},
