@@ -24,10 +24,9 @@ def Historia():
         quartotalita.vai()
         quartotalita.direita = sala
         sala.esquerda = quartotalita
-        salatalita()    
+         
 Historia()
 
-def salatalita():
-	talita.entra(sala)
+
 
         
