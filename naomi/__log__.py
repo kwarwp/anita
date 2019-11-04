@@ -430,3 +430,10 @@ SyntaxError: EOL while scanning string literal
               ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 04 2019 11:06:40.282 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  camisa=Elemento(img = 
+  ^
+IndentationError: unexpected indent
+'''},
