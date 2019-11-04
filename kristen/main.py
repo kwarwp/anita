@@ -10,8 +10,8 @@ def Jogo():
 				tit="talita",
 				style= dict (left=180, top = 50, width= 60, height=50))
 	talita.entra(quartodatalita)
-          textotalita = Texto (quartotalita, "Olá! Me ajude a encontrar o objeto criado por Stephanie Kwolek e ganhe moedas")
-	     textocolete = Texto(quartotalita, "Parabéns! Vista o colete")
+		textotalita = Texto (quartotalita, "Olá! Me ajude a encontrar o objeto criado por Stephanie Kwolek e ganhe moedas")
+		textocolete = Texto (quartotalita, "Parabéns! Vista o colete")
 	   talita.vai = textotalita.vai
 	   colete.vai = textocolete.vai
 	   quartotalita.vai()
