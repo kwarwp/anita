@@ -220,3 +220,10 @@ NameError: name 'colete' is not defined
                                                                                                                                                                          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 04 2019 10:25:29.203 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  colete=Elemento(img="linkcolete",
+  ^
+IndentationError: unexpected indent
+'''},
