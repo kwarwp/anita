@@ -23,6 +23,6 @@ def Historia():
         colete.vai = textocolete.vai
         quartotalita.vai()
         quartotalita.direita = sala
-        sala,esquerda = quartotalita
+        sala,esquerda = talita.entra(quartotalita)
 Historia()
         
