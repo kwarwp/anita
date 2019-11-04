@@ -19,5 +19,5 @@ def Jogo():
    	textocolete=Texto(quartodatalita,"parabéns! vista o colete e passe para a proxima fase")
    	talita.vai=textotalita.vai
    	colete.vai=textocolete.vai
-   	quartotadalita.vai()
+   	quartodatalita.vai()
 Jogo()
