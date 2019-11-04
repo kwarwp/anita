@@ -11,13 +11,13 @@ def jogo():
                      style=dict(left=180, top=50, width=60, heith=50))
      
 	colete=Elemento(img="linkcolete",
-	tit="colete"
+	tit="colete",
 	style=dict(left=90, top=25, width=30, heith=25))
    	talita.entra(quartodatalita)
    	colete.entra(quartodatalita)
    	textotalita=Texto(quartodatalita,"hey,encontre o objeto criado por stephanie kwolek e ganhe moedas") 
-   	textotalita=Texto(quartodatalita,"parabéns! vista o colete e passe para a proxima fase")
+   	textocolete=Texto(quartodatalita,"parabéns! vista o colete e passe para a proxima fase")
    	talita.vai=textotalita.vai
    	colete.vai=textocolete.vai
-   	quartotalita.vai()
+   	quartotadalita.vai()
 jogo()
