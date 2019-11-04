@@ -12,7 +12,8 @@ def Jogo ():
                      
     colete = Elemento (img= linkdocolete,
     			tit="colete",
-                	style=dict (left=  , top =, width= , height= ))
+                	style=dict (left=50 , top=250 , width=200 , height= ))
+                    
     talita.entra(quartodatalita)
     colete.entra(quartodatalita)
     textotalita=Texto(quartodatalita,"Para mim sai do quarto preciso que vc ache para mim o objeto que stephanie kudlek criou")
