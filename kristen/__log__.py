@@ -221,3 +221,10 @@ NameError: name 'quartotalita' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Nov 04 2019 10:20:13.420 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 13
+  colete = Elemento(img=linkdocolete,
+  ^
+IndentationError: unexpected indent
+'''},
