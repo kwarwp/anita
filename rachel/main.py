@@ -4,16 +4,17 @@ STYLE["width"] = 600
 STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
+linkprotetorsolar = "https://i.imgur.com/P7Zynfx.png"
 def Historia():
-	quartotalita = Cena (img = "https://i.imgur.com/Sj9T2Y8.gif")
+	quartotalita = Cena (img = "https://i.imgur.com/fY0LeMR.jpg")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
 	talita = Elemento (img = linkdatalita, 
                        tit="talita",
-                       style=dict(left=100, top=90,  Width=60, height=50))
+                       style=dict(left=80, top=90,  Width=60, height=50))
                        
 	colete = Elemento (img = linkcolete,
 	tit = "colete",
-	style=dict(left=400, top=230, width=60, heigth=20))
+	style=dict(left=310, top=150, width=60, heigth=20))
                                            
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
