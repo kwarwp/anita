@@ -8,11 +8,11 @@ def Jogo():
 	quartodatalita=Cena("https://i.imgur.com/n8qtGdt.jpg")
 	talita=Elemento(img= linkdatalita,
                      tit="talita",
-                     style=dict(left=180, top=50, width=60, heigth=50))
+                     style=dict(left=150, top=25, width=60, heigth=50))
      
 	colete=Elemento(img = linkcolete,
 	                tit="colete",
-	                style=dict(left=80, top=10, width=40, heigth=10))
+	                style=dict(left=50, top=5, width=40, heigth=5))
    	talita.entra(quartodatalita)
    	colete.entra(quartodatalita)
    	textotalita=Texto(quartodatalita,"hey,encontre o objeto criado por stephanie kwolek e ganhe moedas") 
