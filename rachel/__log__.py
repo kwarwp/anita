@@ -466,3 +466,10 @@ Exception: <TypeError: $locals_$exec_1897.salatalita is not a function>
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 03 2019 21:43:12.610 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  protetorsolar = Elemento (img = linkprotetorsolar,
+  ^
+IndentationError: unexpected indent
+'''},
