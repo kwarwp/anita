@@ -1,15 +1,15 @@
 # anita.rachel.main.py
-from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
+from _spy.vitollino.main import  Cena, Elemento, Texto, STYLE
 STYLE["width"] = 600
 STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
 linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
 def Historia():
-	quartotalita = Cena (img = "https://i.imgur.com/fY0LeMR.jpg")
+	quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
 	talita = Elemento (img = linkdatalita, 
-                       tit="talita",
+				tit="talita",
                        style=dict(left=180, top=50,  Width=60, height=50))
                        
 	colete = Elemento (img = linkcolete,
@@ -30,6 +30,9 @@ def Historia():
         colete.vai = textocolete.vai
         protetorsolar.vai = textoprotetor.vai
         quartotalita.vai()
+        
+        
+        
         quartotalita.direita = sala
         sala.esquerda = quartotalita
          
