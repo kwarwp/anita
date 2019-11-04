@@ -18,10 +18,11 @@ def Historia():
     
      	protetorsolar = Elemento (img = linkprotetorsolar,
     	tit = "protetorsolar",
-     	style = dict(left=300, top=140, width=40, height=20))
+     	style = dict(left=90, top=80, width=40, height=20))
                                            
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
+         protetorsolar.entra(quartotalita)
      	textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
     	textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
         textoprotetor = Texto (quartotalita,"O protetor solar é muito importante, mas não é o que estou procurando.")
