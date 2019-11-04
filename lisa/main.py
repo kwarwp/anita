@@ -15,7 +15,7 @@ def Jogo ():
     talita.vai=textotalita.vai
     colete.vai=textocolete.vai
     quartodatalita.vai()
-jogo()
+Jogo()
                     
                    
     
