@@ -20,3 +20,10 @@ SyntaxError: invalid syntax
                                                             ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 04 2019 09:50:32.759 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  talita= Elemento (img= linkdatalita 
+                                                             ^
+SyntaxError: invalid syntax
+'''},
