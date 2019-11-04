@@ -12,7 +12,10 @@ def Jogo ():
     talita.entra(quartodatalita)
     textotalita=(quartotalita," Para mim sai do quarto,preciso que vc ache para mim o objeto que stephanie kudlek criou "
     textocolete=texto (quartotalita, "parabéns,vc encontou o colete!tenho um presente pra vc")
-    
+    talita.vai=textotalita.vai
+    colete.vai=textocolete.vai
+    quartotalita.vai()
+jogo()
                     
                    
     
