@@ -177,3 +177,21 @@ NameError: name 'texto' is not defined
     	textotalita=Texto(quartotalita,"hey,encontre o objeto criado por stephanie kwolek e ganhe moedas") 
 NameError: name 'quartotalita' is not defined
 '''},
+{'date': 'Mon Nov 04 2019 10:06:15.532 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''Traceback (most recent call last):
+  module _core.main line 160
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 306
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 278
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 295
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 18
+    jogo()
+  module <module> line 14
+    	textotalita=Texto(quartotalita,"parabéns! vista o colete e passe para a proxima fase")
+NameError: name 'quartotalita' is not defined
+'''},
