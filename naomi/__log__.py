@@ -423,3 +423,10 @@ UnboundLocalError: local variable 'talita' referenced before assignment
                ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Nov 04 2019 11:05:57.359 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 7
+  linkcamisa=
+              ^
+SyntaxError: invalid syntax
+'''},
