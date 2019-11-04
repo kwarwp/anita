@@ -14,7 +14,7 @@ def Historia():
                        
 	colete = Elemento (img = linkcolete,
 	tit = "colete",
-	style=dict(left=300, top=140, width=50, heigth=50))
+	style=dict(left=300, top=50, width=10, heigth=50))
     
      	protetorsolar = Elemento (img = linkprotetorsolar,
     	tit = "protetorsolar",
