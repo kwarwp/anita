@@ -2,7 +2,7 @@
 from _spy.vitollino.main import Cena,Elemento,Texto,STYLE
 STYLE ["width"]=600
 STYLE ["height"]= "200px"
-linkdatalita="https://www.pngix.com/pngfile/middle/341-3413543_menina-boneca-desenho-hd-png-download.png"
+linkdatalita="https://i.imgur.com/8gMTfMm.png"
 linkdocolete="https://i.imgur.com/mbj8tzc.png"
 def Jogo ():
     quartodatalita= Cena (img= "https://image.freepik.com/vetores-gratis/modelo-de-plano-de-fundo-interior-quarto-dos-desenhos-animados-aconchegante-casa-moderna-sala-na-luz-da-manha_33099-171.jpg")
