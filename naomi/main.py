@@ -11,7 +11,7 @@ def jogo():
                      style=dict (left=180,top=50,width=60,hight=50)) 
    	talita.entra(quartodatalita)
    	textotalita=Texto(quartodatalita,"hey,encontre o objeto criado por stephanie kwolek e ganhe moedas") 
-   	textotalita=Texto(quartotalita,"parabéns! vista o colete e passe para a proxima fase")
+   	textotalita=Texto(quartodatalita,"parabéns! vista o colete e passe para a proxima fase")
    	talita.vai=textotalita.vai
    	colete.vai=textocolete.vai
    	quartotalita.vai()
