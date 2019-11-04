@@ -291,3 +291,10 @@ SyntaxError: invalid syntax
                                                                                                              ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 04 2019 10:31:35.702 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  colete.entra(quartodatalita)
+  ^
+IndentationError: unexpected indent
+'''},
