@@ -480,3 +480,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 03 2019 21:44:08.685 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 27
+  textoprotetor = Texto (quartotalita,"O protetor solar é muito importante, mas não é o que estou procurando.")
+  ^
+IndentationError: unexpected indent
+'''},
