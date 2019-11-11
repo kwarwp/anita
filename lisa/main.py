@@ -14,6 +14,9 @@ def Jogo ():
     colete = Elemento (img= linkdocolete,
     			tit="colete",
                 	style=dict (left=50, top=250, width=50, height=200))
+    protetor solar= Elemento (img=coisa1,
+                              tit="protetor solar"
+                              style=dict (left=300,top=50,width=60,height=50))
                     
     talita.entra(quartodatalita)
     colete.entra(quartodatalita)
