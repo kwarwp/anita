@@ -1,5 +1,5 @@
 # anita.amanda.main.py
-from _spy.vitollino.main import,Cena,Elemento,Texto,STYLE
+from _spy.vitollino.main import Cena,Elemento,Texto,STYLE
 STYLE[wilth]=600 
 STYLE[heigh]="200px"
 linkdatalita="https://img2.gratispng.com/20180623/kjj/kisspng-figurine-doll-cartoon-character-costume-cry-girl-5b2eca836b23a0.0029348415297931554389.jpg"
