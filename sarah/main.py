@@ -10,8 +10,15 @@ quartodatalita=Cena(img="linkquartotalita")
                     tit="quarto"
                     style=dict(left=80, top=25, width=30, heith=30))
 coletedatalita=Elemento (img="linkcoletetalita")
+                          tit="colete"
+                          style=dict(left=15, top=15, width=10, heith=20))
 
 talita=Elemento(img="linkdatalita")
 			tit="talita
  			style=dict(left=180.top=50,width=60,heih=50))
-colete=Elemento(img="https://i.imgur.com/IZkZR1d.jpg")
+            
+
+talita.entra(quartodatalita)
+colete.entra(quartodatalita)
+quartodatalita.vai
+jogo():
