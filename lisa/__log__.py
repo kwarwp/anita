@@ -176,3 +176,10 @@ NameError: name 'colete' is not defined
     colete.entra(quartodatalita)
 NameError: name 'colete' is not defined
 '''},
+{'date': 'Mon Nov 11 2019 09:16:15.348 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 10
+  talita = Elemento (img =linkdatalita,
+                                                      ^
+SyntaxError: invalid syntax
+'''},
