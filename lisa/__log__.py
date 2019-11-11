@@ -232,3 +232,10 @@ SyntaxError: invalid syntax
             ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 11 2019 09:46:24.192 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  protetor solar = Elemento (img= linkcoisa1,
+            ^
+SyntaxError: invalid syntax
+'''},
