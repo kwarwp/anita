@@ -21,7 +21,8 @@ def Historia():
                 
       	talita.entra(quartotalita)
       	colete.entra(quartotalita)
-         livro.entra(quartotalita)
+        livro.entra(quartotalita)
+         
         
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
