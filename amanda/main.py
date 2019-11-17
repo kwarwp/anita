@@ -7,15 +7,15 @@ linkquartodatalita="https://www.dhresource.com/600x600/f2/albu/g5/M00/9D/73/rBVa
 linkcoletedatalita="https://i.imgur.com/q7R5gdc.jpg"
 def jogo():
 
-quartodatalita = Cena (img="linkquartodatalita")
+	quartodatalita = Cena (img=linkquartodatalita,
                      tit="quarto"
-                     style=dict(left=80.top=25,width=30,heih=30
-coletedatalita = Elemento (img="coletedatalita")
+                     style=dict(left=80.top=25,width=30,heih=30))
+	coletedatalita = Elemento (img=coletedatalita,
                        tit="colete"
-                       style=dict(lef=15,top=15,width=10,heih=20
-talita = Elemento (img="linkdatalita
+                       style=dict(lef=15,top=15,width=10,heih=20))
+	talita = Elemento (img=linkdatalita,
 			 tit="talita"
-			 style=dict(left=180.top=50,width=60,heih=50)
+			 style=dict(left=180.top=50,width=60,heih=50))
             
             
 talita.entra(quartodatalita)
