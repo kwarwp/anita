@@ -8,13 +8,13 @@ linkcoletedatalita="https://i.imgur.com/q7R5gdc.jpg"
 def jogo():
 
 	quartodatalita = Cena (img=linkquartodatalita,
-                     tit="quarto"
+                     tit="quarto",
                      style=dict(left=80.top=25,width=30,heih=30))
 	coletedatalita = Elemento (img=coletedatalita,
-                       tit="colete"
+                       tit="colete",
                        style=dict(lef=15,top=15,width=10,heih=20))
 	talita = Elemento (img=linkdatalita,
-			 tit="talita"
+			 tit="talita",
 			 style=dict(left=180.top=50,width=60,heih=50))
             
             
