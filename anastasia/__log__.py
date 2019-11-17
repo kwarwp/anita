@@ -55,3 +55,10 @@ SyntaxError: keyword can't be an expression
                 ^
 SyntaxError: keyword can't be an expression
 '''},
+{'date': 'Sun Nov 17 2019 15:47:54.358 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  textocolete = Texto (quartotalita,"Stephanie Kwolek criou o colete à prova de balas, que todos os anos salva a vida de milhares de policiais")
+              ^
+SyntaxError: keyword can't be an expression
+'''},
