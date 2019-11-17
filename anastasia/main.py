@@ -28,4 +28,4 @@ def Historia():
         colete.vai = textocolete.vai
         livro.vai = textoprotetor.vai
         quartotalita.vai()
-        Jogo():
+        
