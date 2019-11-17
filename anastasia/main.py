@@ -5,6 +5,7 @@ STYLE["heigth"] = "200px"
 linkdatalita = "https://i.imgur.com/e3dxEn1.jpg"
 linkdocolete = "https://i.imgur.com/Pkho3lb.jpg"
 linkdolivro = "https://i.imgur.com/whDJvGT.gif"
+
 def Historia():
 	quartotalita = Cena (img = "https://i.imgur.com/MXoIGJR.jpg")
 	saladeaula = cena (img = "https://i.imgur.com/mL5qUKk.jpg")
@@ -17,9 +18,11 @@ def Historia():
 	livro = Elemento (img = linkdolivro,
 				tit="livro",
 				style=dict(left=20, top=10, width=13, height=20))
+                
       	talita.entra(quartotalita)
       	colete.entra(quartotalita)
         livro.entra(quartotalita)
+        
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         livro.vai = textoprotetor.vai
