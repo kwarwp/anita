@@ -41,3 +41,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Sun Nov 17 2019 16:49:59.787 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  quartodatalita=Cena(img="linkquartodatalita")
+  ^
+IndentationError: expected an indented block
+'''},
