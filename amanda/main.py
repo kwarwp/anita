@@ -6,10 +6,10 @@ linkdatalita="https://img2.gratispng.com/20180623/kjj/kisspng-figurine-doll-cart
 linkquartodatalita="https://www.dhresource.com/600x600/f2/albu/g5/M00/9D/73/rBVaI1ipR1qAWzKcAAacXdBLd0Y328.jpg"
 linkcoletedatalita="https://i.imgur.com/q7R5gdc.jpg"
 def jogo():
-quartodatalita=Cena(img="linkquartodatalita")
+quartodatalita = Cena (img="linkquartodatalita")
                      tit="quarto"
                      style=dict(left=80.top=25,width=30,heih=30
-coletedatalita=Elemento(img="coletetalita")
+coletedatalita = Elemento (img="coletetalita")
                        tit="colete"
                        style=dict(lef=15,top=15,width=10,heih=20
 talita=Elemento(img="linkdatalita
