@@ -15,7 +15,7 @@ def Historia():
 				tit = "colete",
 				style=dict(left=40, top=20, widtth=15, height=15))
 	livro = Elemento (img = linkdolivro,
-				tit="livro"
+				tit="livro",
 				style=dict(left=20, top=10, width=13, height=20))
       talita.entra(quartotalita)
       colete.entra(quartotalita)
