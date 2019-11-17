@@ -19,10 +19,10 @@ def Historia():
 				style=dict(left=20, top=10, width=13, height=20))
       	talita.entra(quartotalita)
       	colete.entra(quartotalita)
-	    livro.entra(quartotalita)
+        livro.entra(quartotalita)
      	textotalita = Texto (quartotalita, "Oi sou a Talita, venha comigo nessa aventura! Procure objetos que foram feitos por mulheres".
-    	textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
-        textolivro = Texto (quartotalita,"O livro possui aventuras mágicas, que te ajudaram em alguns desafios".
+    	textodocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
+        textodolivro = Texto (quartotalita,"O livro possui aventuras mágicas, que te ajudaram em alguns desafios".
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         livro.vai = textoprotetor.vai
