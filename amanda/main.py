@@ -10,7 +10,7 @@ def jogo():
 quartodatalita = Cena (img="linkquartodatalita")
                      tit="quarto"
                      style=dict(left=80.top=25,width=30,heih=30
-coletedatalita = Elemento (img="coletetalita")
+coletedatalita = Elemento (img="coletedatalita")
                        tit="colete"
                        style=dict(lef=15,top=15,width=10,heih=20
 talita = Elemento (img="linkdatalita
