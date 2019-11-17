@@ -20,7 +20,7 @@ def Jogo ():
                     
     talita.entra(quartodatalita)
     colete.entra(quartodatalita)
-    textotalita=Texto(quartodatalita,"Para mim sai do quarto preciso que vc ache para mim o objeto que stephanie kudlek criou")
+    textotalita=Texto(quartodatalita,"Para eu sair do quarto preciso que vc ache para mim o objeto que stephanie kudlek criou")
     textocolete=Texto (quartodatalita, "parabéns,vc encontou o colete!tenho um presente pra vc")
     talita.vai=textotalita.vai
     colete.vai=textocolete.vai
