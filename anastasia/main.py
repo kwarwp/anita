@@ -21,7 +21,7 @@ def Historia():
       	colete.entra(quartotalita)
         livro.entra(quartotalita)
         textotalita = Texto (quartotalita, "Oi sou a Talita, venha comigo nessa aventura! Procure objetos que foram feitos por mulheres".
-        textodocolete = Texto (quartotalita,"Stephanie Kwolek criou o colete à prova de balas, que todos os anos salva a vida de milhares de policiais")
+        textocolete = Texto (quartotalita,"Stephanie Kwolek criou o colete à prova de balas, que todos os anos salva a vida de milhares de policiais")
         textodolivro = Texto (quartotalita,"O livro possui aventuras mágicas, que te ajudaram em alguns desafios".
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
