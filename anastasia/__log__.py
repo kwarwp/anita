@@ -62,3 +62,10 @@ SyntaxError: keyword can't be an expression
               ^
 SyntaxError: keyword can't be an expression
 '''},
+{'date': 'Sun Nov 17 2019 15:52:48.134 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  livro.entra(quartotalita)
+  ^
+IndentationError: unexpected indent
+'''},
