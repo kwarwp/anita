@@ -76,3 +76,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 17 2019 15:55:16.973 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  livro.entra(quartotalita)
+  ^
+IndentationError: unexpected indent
+'''},
