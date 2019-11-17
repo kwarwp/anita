@@ -12,9 +12,9 @@ quartodatalita = Cena (img="linkquartodatalita")
 coletedatalita = Elemento (img="coletetalita")
                        tit="colete"
                        style=dict(lef=15,top=15,width=10,heih=20
-talita=Elemento(img="linkdatalita
-			tit="talita"
-			style=dict(left=180.top=50,width=60,heih=50)
+talita = Elemento (img="linkdatalita
+			 tit="talita"
+			 style=dict(left=180.top=50,width=60,heih=50)
             
             
 talita.entra(quartodatalita)
