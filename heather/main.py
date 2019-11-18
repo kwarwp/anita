@@ -8,7 +8,7 @@ def Historia():
     
 	botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
 	tit="Jogar",
-	style=dict(left=250, top=300,  Width=300, height=300))
+	style=dict(x=0, y=900, left=200, top=280, width=200, height=200))
      
 	botao.entra(introd)
 	introd.vai()
