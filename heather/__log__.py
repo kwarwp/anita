@@ -323,3 +323,10 @@ IndentationError: unexpected indent
     	talita = Elemento (img = linkdatalita, 
 NameError: name 'linkdatalita' is not defined
 '''},
+{'date': 'Mon Nov 18 2019 07:57:23.926 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 45
+  quartotalita.direita = sala
+  ^
+IndentationError: unexpected indent
+'''},
