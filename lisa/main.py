@@ -25,8 +25,9 @@ def Jogo ():
     talita.vai=textotalita.vai
     colete.vai=textocolete.vai
     quartodatalita.vai()
-Jogo()
-Intro()
+    Jogo()
+    Intro()
+linkcapadojogo="https://www.canva.com/design/DADrjHtGoU0/psOXJy5HTPTGYrWht3opWw/edit?category=tADonkd1dwU"
 
                     
                    
