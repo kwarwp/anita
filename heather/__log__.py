@@ -150,3 +150,10 @@ IndentationError: unexpected indent
     	botao.vai= quartotalita
 NameError: name 'quartotalita' is not defined
 '''},
+{'date': 'Mon Nov 18 2019 07:08:49.621 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  botao = Elemento (img = "botao_iniciar_jogo",
+  ^
+IndentationError: unexpected indent
+'''},
