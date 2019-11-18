@@ -738,3 +738,10 @@ NameError: name 'FOCO' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 17 2019 23:35:33.858 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 10
+  intro.entra(intro)
+  ^
+IndentationError: unexpected indent
+'''},
