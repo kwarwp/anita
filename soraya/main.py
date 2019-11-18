@@ -17,4 +17,13 @@ def Jogo ():
     
 		talita.entra(quartodatalita)
 		Conlete.enrta(quartodatalita) 
-		textotalita=texto(quartodata, " 
+	    textotalita=texto(quartodata, " oi esse aqui e o meu quarto,ache oo elemento que a stephanie kudlek criou"
+         textocolete=texto(quartodatalita,"parabens,tenho um presente para vc")
+         talita.vai=textotalita.vai
+         Colete.vai=textocolete.vai
+         quartodatalita.vai()
+     Jogo()
+     Intro()
+link     
+     
+      
