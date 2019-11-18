@@ -26,6 +26,8 @@ def Jogo ():
     colete.vai=textocolete.vai
     quartodatalita.vai()
 Jogo()
+Intro()
+
                     
                    
     
