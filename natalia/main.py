@@ -7,7 +7,7 @@ linkdocolete = "https://i.imgur.com/IZkZR1d.jpg"
 linkdachave = "https://i.imgur.com/Jwdhb9P.jpg"
 linkdapanelinha = "https://i.imgur.com/HCb4RvU.jpg"
 def jogo (): 
-    quartodatalita = Cena (img="https://i.imgur.com/RCRUtAf.jpg"
+    quartodatalita = Cena (img = "https://i.imgur.com/RCRUtAf.jpg"
     talita = Elemento (img="linkdatalita")
     			tit = "talita"
                      style = dict(left=180, top=50,  Width=60, height=50))
