@@ -298,3 +298,10 @@ SyntaxError: EOL while scanning string literal
                                 ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 18 2019 07:56:13.658 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 34
+  botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
+  ^
+IndentationError: unexpected indent
+'''},
