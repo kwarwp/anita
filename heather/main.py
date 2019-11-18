@@ -7,7 +7,7 @@ def Historia():
 	quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
 	botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
 	tit="Jogar",
-	style=dict(left=250, top=280, width=120, height=80))
+	style=dict(left=160, x=400, width=200, height=200))
      
 	botao.entra(introd)
 	introd.vai()
