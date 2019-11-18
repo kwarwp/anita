@@ -26,11 +26,13 @@ def Historia():
      	textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
     	textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
         textoprotetor = Texto (quartotalita,"O protetor solar é muito importante, mas não é o que estou procurando.")
+        textoflorzinha = Texto (quartotalita, "Eu sou uma florzinha")
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         protetorsolar.vai = textoprotetor.vai
         quartotalita.vai()
-        
+        florzinha = Elemento(FOCO, x=0, y=350, cena=quartotalita,
+             style={"opacity": 1},vai=textoflorzinha)
         
         
         quartotalita.direita = sala
