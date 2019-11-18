@@ -241,3 +241,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Nov 18 2019 07:42:13.737 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
+  ^
+IndentationError: unexpected indent
+'''},
