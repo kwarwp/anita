@@ -731,3 +731,10 @@ NameError: name 'FOCO' is not defined
     florzinha = Elemento(FOCO, x=50, y=300, cena=quartotalita,
 NameError: name 'FOCO' is not defined
 '''},
+{'date': 'Sun Nov 17 2019 23:34:26.232 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  intro.direita = talita.entra(quartotalita)
+  ^
+IndentationError: unexpected indent
+'''},
