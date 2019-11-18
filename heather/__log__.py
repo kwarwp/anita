@@ -27,3 +27,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 17 2019 23:43:10.44 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 10
+  botao_iniciar_jogo = Elemento (img = "botao_iniciar_jogo", 
+  ^
+IndentationError: unexpected indent
+'''},
