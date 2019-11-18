@@ -284,3 +284,10 @@ NameError: name 'linkdatalita' is not defined
     	talita = Elemento (img = linkdatalita, 
 NameError: name 'linkdatalita' is not defined
 '''},
+{'date': 'Mon Nov 18 2019 07:43:11.868 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 8
+  quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4
+                                                                                                                                ^
+SyntaxError: EOL while scanning string literal
+'''},
