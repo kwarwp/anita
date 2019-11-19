@@ -146,3 +146,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Nov 19 2019 03:35:24.379 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  talita= Elemento (img = "https://img2.gratispng.com/20180623/kjj/kisspng-figurine-doll-cartoon-character-costume-cry-girl-5b2eca836b23a0.0029348415297931554389.jpg" 
+  ^
+IndentationError: unexpected indent
+'''},
