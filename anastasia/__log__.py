@@ -104,3 +104,10 @@ IndentationError: unexpected indent
          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Nov 19 2019 05:06:51.414 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 27
+  textotalita = Texto (quartotalita, "Oi, eu sou a Talita, preciso de sua ajuda nessa aventura! Me ajude a achar objetos fabricados por mulheres")
+  ^
+IndentationError: unexpected indent
+'''},
