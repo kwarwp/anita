@@ -24,9 +24,8 @@ def Historia():
       	livro.entra(quartotalita)
          
         
-		textotalita = Texto (quartotalita, "Oi, eu sou a Talita, preciso de sua ajuda nessa aventura! Me ajude a achar objetos fabricados por mulheres.")
-    	textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais.")
-        textolivro = Texto (quartotalita,"O livro mágico poderá te ajudar a passar em algumas fases do jogo.")
-        talita.vai = textotalita.vai
-        colete.vai = textocolete.vai
-        protetorsolar.vai = textoprotetor.vai
+textotalita = Texto (quartotalita, "Oi, eu sou a Talita, preciso de sua ajuda nessa aventura! Me ajude a achar objetos fabricados por mulheres.")
+textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais.") textolivro = Texto (quartotalita,"O livro mágico poderá te ajudar a passar em algumas fases do jogo.")
+talita.vai = textotalita.vai
+colete.vai = textocolete.vai
+protetorsolar.vai = textoprotetor.vai
