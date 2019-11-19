@@ -118,3 +118,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Nov 19 2019 05:10:04.132 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 28
+  textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais.") textolivro = Texto (quartotalita,"O livro mágico poderá te ajudar a passar em algumas fases do jogo.")
+                                                                                                                                                           ^
+SyntaxError: invalid syntax
+'''},
