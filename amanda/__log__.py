@@ -181,3 +181,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Nov 19 2019 03:52:35.439 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  talita = Elemento (img = linkdatalita,
+  ^
+IndentationError: unexpected indent
+'''},
