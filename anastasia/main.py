@@ -13,7 +13,7 @@ def Historia():
 				tit="talita",
 				style=dict(left=180, top=50,  Width=60, height=50))
 	colete = Elemento (img = linkdocolete,
-				tit = "colete",
+				tit= "colete",
 				style=dict(left=40, top=20, widtth=15, height=15))
 	livro = Elemento (img = linkdolivro,
 				tit="livro",
