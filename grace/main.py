@@ -26,9 +26,8 @@ def Historia():
       	colete.entra(quartodatalita)
       	livro.entra(quartodatalita)
          
-        
-textodatalita = Texto (quartodatalita, "Oi, eu sou a Talita, preciso de sua ajuda nessa aventura! Me ajude a achar objetos fabricados por mulheres.")
-textodocolete = Texto (quartodatalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais.") 
-textodolivro = Texto (quartodatalita,"O livro mágico poderá te ajudar a passar em algumas fases do jogo.")
-talita.vai = textotalita.vai
-colete.vai = textocolete.vai
+	textodatalita = Texto (quartodatalita, "Oi, eu sou a Talita, preciso de sua ajuda nessa aventura! Me ajude a achar objetos fabricados por mulheres.")
+	textodocolete = Texto (quartodatalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais.") 
+	textodolivro = Texto (quartodatalita,"O livro mágico poderá te ajudar a passar em algumas fases do jogo.")
+	talita.vai = textodatalita.vai
+	colete.vai = textodocolete.vai
