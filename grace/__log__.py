@@ -47,3 +47,10 @@ NameError: name 'quartotalita' is not defined
     textodatalita = Texto (quartotalita, "Oi, eu sou a Talita, preciso de sua ajuda nessa aventura! Me ajude a achar objetos fabricados por mulheres.")
 NameError: name 'quartotalita' is not defined
 '''},
+{'date': 'Wed Nov 20 2019 17:10:03.265 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  quartotalita = Cena (img = linkquartodatalita,
+                                                                                                                                                                         ^
+SyntaxError: invalid syntax
+'''},
