@@ -130,3 +130,10 @@ NameError: name 'quartodatalita' is not defined
     textodatalita = Texto (quartodatalita, "Oi, eu sou a Talita, preciso de sua ajuda nessa aventura! Me ajude a achar objetos fabricados por mulheres.")
 NameError: name 'quartodatalita' is not defined
 '''},
+{'date': 'Wed Nov 20 2019 17:38:05.158 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 34
+  livro.vai = textodolivro.vai
+  ^
+IndentationError: unexpected indent
+'''},
