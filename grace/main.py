@@ -9,7 +9,7 @@ linkdocolete = "https://i.imgur.com/Pkho3lb.jpg"
 linkdolivro = "https://i.imgur.com/whDJvGT.gif"
 
 def Historia():
-	quartodatalita = Cena (img = linkquartodatalita,
+	quartodatalita = Cena (img = "https://i.imgur.com/MXoIGJR.jpg")
                      tit="quartodatalita",
                      style= (dict(left=200, top=50,  Width=60, height=50))
 	saladeaula = cena (img =linksaladeaula,
