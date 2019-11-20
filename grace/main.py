@@ -10,7 +10,7 @@ linkdolivro = "https://i.imgur.com/whDJvGT.gif"
 
 def Historia():
 	quartodatalita = Cena (img = "https://i.imgur.com/MXoIGJR.jpg")            
-	saladeaula = cena (img = "https://i.imgur.com/7b4Caxs.jpg")
+	saladeaula = Cena (img = "https://i.imgur.com/7b4Caxs.jpg")
                   
 	talita = Elemento (img = linkdatalita,
 				tit="talita",
@@ -31,3 +31,6 @@ def Historia():
 	textodolivro = Texto (quartodatalita,"O livro mágico poderá te ajudar a passar em algumas fases do jogo.")
 	talita.vai = textodatalita.vai
 	colete.vai = textodocolete.vai
+    
+Historia()
+Historia()
