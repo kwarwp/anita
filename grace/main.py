@@ -10,11 +10,9 @@ linkdolivro = "https://i.imgur.com/whDJvGT.gif"
 
 def Historia():
 	quartodatalita = Cena (img = "https://i.imgur.com/MXoIGJR.jpg")
-                     tit="quartodatalita",
-                     style= (dict(left=200, top=50,  Width=60, height=50))
+                  
 	saladeaula = cena (img =linksaladeaula,
-                   tit="saladeaula",
-                   style= (dict(left=200, top=50,  Width=60, height=50))
+                  
 	talita = Elemento (img = linkdatalita,
 				tit="talita",
 				style=dict(left=180, top=50,  Width=60, height=50))
