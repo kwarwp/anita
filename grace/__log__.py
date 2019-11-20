@@ -75,3 +75,10 @@ SyntaxError: invalid syntax
                                                                                                                                                                            ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Nov 20 2019 17:16:42.847 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 13
+  tit="quartodatalita",
+  ^
+IndentationError: unexpected indent
+'''},
