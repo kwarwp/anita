@@ -31,6 +31,7 @@ def Historia():
 	textodolivro = Texto (quartodatalita,"O livro mágico poderá te ajudar a passar em algumas fases do jogo.")
 	talita.vai = textodatalita.vai
 	colete.vai = textodocolete.vai
+      livro.vai = textodolivro.vai
     
 Historia()
 Historia()
