@@ -68,3 +68,10 @@ SyntaxError: invalid syntax
                                                                                                                                                                            ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Nov 20 2019 17:12:42.971 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  quartodatalita = Cena (img = linkquartodatalita,
+                                                                                                                                                                           ^
+SyntaxError: invalid syntax
+'''},
