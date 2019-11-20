@@ -2,13 +2,19 @@
 from _spy.vitollino.main import  Cena, Elemento, Texto, STYLE
 STYLE["width"] = 600
 STYLE["heigth"] = "200px"
+linkquartodatalita = "https://i.imgur.com/MXoIGJR.jpg"
+linksaladeaula = "https://i.imgur.com/7b4Caxs.jpg"
 linkdatalita = "https://i.imgur.com/e3dxEn1.jpg"
 linkdocolete = "https://i.imgur.com/Pkho3lb.jpg"
 linkdolivro = "https://i.imgur.com/whDJvGT.gif"
 
 def Historia():
-	quartotalita = Cena (img = "https://i.imgur.com/MXoIGJR.jpg")
-	saladeaula = cena (img = "https://i.imgur.com/mL5qUKk.jpg")
+	quartotalita = Cena (img = linkquartodatalita,
+                     tit="quartodatalita",
+                     style= (dict(left=200, top=50,  Width=60, height=50))
+	saladeaula = cena (img =linksaladeaula,
+                   tit="saladeaula",
+                   style= (dict(left=200, top=50,  Width=60, height=50))
 	talita = Elemento (img = linkdatalita,
 				tit="talita",
 				style=dict(left=180, top=50,  Width=60, height=50))
@@ -29,4 +35,3 @@ textodocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova d
 textodolivro = Texto (quartotalita,"O livro mágico poderá te ajudar a passar em algumas fases do jogo.")
 talita.vai = textotalita.vai
 colete.vai = textocolete.vai
-protetorsolar.vai = textoprotetor.vai
