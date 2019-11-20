@@ -22,9 +22,9 @@ def Historia():
 				tit="livro",
 				style=dict(left=20, top=10, width=13, height=20))
                 
-      	talita.entra(quartotalita)
-      	colete.entra(quartotalita)
-      	livro.entra(quartotalita)
+      	talita.entra(quartodatalita)
+      	colete.entra(quartodatalita)
+      	livro.entra(quartodatalita)
          
         
 textodatalita = Texto (quartodatalita, "Oi, eu sou a Talita, preciso de sua ajuda nessa aventura! Me ajude a achar objetos fabricados por mulheres.")
