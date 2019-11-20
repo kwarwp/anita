@@ -9,9 +9,8 @@ linkdocolete = "https://i.imgur.com/Pkho3lb.jpg"
 linkdolivro = "https://i.imgur.com/whDJvGT.gif"
 
 def Historia():
-	quartodatalita = Cena (img = "https://i.imgur.com/MXoIGJR.jpg")
-                  
-	saladeaula = cena (img =linksaladeaula,
+	quartodatalita = Cena (img = "https://i.imgur.com/MXoIGJR.jpg")            
+	saladeaula = cena (img = "https://i.imgur.com/7b4Caxs.jpg")
                   
 	talita = Elemento (img = linkdatalita,
 				tit="talita",
