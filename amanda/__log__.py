@@ -546,3 +546,10 @@ NameError: name 'colete' is not defined
     	colete.entra(quartodatalita)
 NameError: name 'colete' is not defined
 '''},
+{'date': 'Fri Nov 22 2019 10:37:25.15 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  linkdaescoladatalita="
+                        ^
+SyntaxError: EOL while scanning string literal
+'''},
