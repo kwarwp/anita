@@ -1,7 +1,7 @@
 # anita.natalia.main.py
 from _ spy.vitolino.main import Cena,Elemento,Texto, STYLE
-STYLE["wilth"]= 600
-STYLE["heigt"]= "200px" 
+STYLE ["wilth"]= 600
+STYLE ["heigt"]= "200px" 
 linkdatalita= "https://www.trzcacak.rs/myfile/detail/201-2017902_bonecas-png-menina-paris.png"
 linkdocolete= "https://i.imgur.com/IZkZR1d.jpg"
 
