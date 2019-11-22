@@ -29,11 +29,11 @@ def Jogo():
      
 	escrivaninha = Elemento (img = linkdaescrivaninha,
       tit="escrivaninha",
-      style= dict(left=50, top=250, width=50, heigth=80))
+      style= dict(left=50, top=250, width=50, heigth=80)
       
 	bola = Elemento (img = linkdabola,
       tit="bola",
-      style= dict(left=250, top=180, widt=30, heigth=50))
+      style= dict(left=150, top=90, widt=30, heigth=50)
                          
                       
                         
