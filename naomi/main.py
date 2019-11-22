@@ -4,7 +4,7 @@ STYLE["width"]= 600
 STYLE["heigth"]= "200px"
 linkdatalita="https://i.imgur.com/2LZFFjU.png"
 linkcolete="https://i.imgur.com/lWiNq2H.png"
-linkmochila="https://i.imgur.com/zj60bfj.jpg"
+linkmochila="https://i.imgur.com/I2wUxYv.jpg"
 linkjogos="https://i.imgur.com/3FXCWmB.jpg"
 def Jogo():
 	quartodatalita=Cena(img="https://i.imgur.com/DEC5m3T.jpg")
