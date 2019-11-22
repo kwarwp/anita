@@ -15,10 +15,10 @@ def jogo ():
   	colete = Elemento (img= linkdocolete,
     			 tit = "colete",
                       style = dict(left=140, top= 30, width= 20, height=10))
-    chave= Elemento (img= linkdachave,
+	chave= Elemento (img= linkdachave,
     			tit = "chave"
                      style = dict(left=90, top= 18,  width= 15, height= 6)
-    panelinha= Elemento (img= linkdapanelinha,
+	panelinha= Elemento (img= linkdapanelinha,
     			   tit= "panelinha"
                         style = dict(left= 5, top= 3, width= 4, height=2))
                      
