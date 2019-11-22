@@ -323,3 +323,10 @@ IndentationError: unexpected indent
     	textotalita = Texto (quartotalita, "Olá! Me ajude a encontrar o objeto criado por Stephanie Kwolek e ganhe moedas")
 NameError: name 'quartotalita' is not defined
 '''},
+{'date': 'Fri Nov 22 2019 06:04:11.360 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  jogos = Elemento (img = linkjogos,
+  ^
+IndentationError: unexpected indent
+'''},
