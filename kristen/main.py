@@ -16,9 +16,9 @@ def Jogo():
 	tit="colete",
 	style=dict(left=300, top=140, width=50, heigth=80))
     
- 	jogos = Elemento (img = linkjogos,
-    	tit = "jogos",
-     	style = dict(left=50, top=250, width=50, height=200))
+	jogos = Elemento (img = linkjogos,
+	tit = "jogos",
+	style = dict(left=50, top=250, width=50, height=200))
       
    	talita.entra(quartodatalita)
    	colete.entra(quartodatalita)
