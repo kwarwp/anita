@@ -13,7 +13,7 @@ def Jogo():
      
 	colete= Elemento(img=linkcolete,
 	tit="colete",
-	style=dict(left=90, top=190, width=30, heith=25))
+	style=dict(left=90, top=200, width=30, heith=25))
       
    	talita.entra(quartodatalita)
    	colete.entra(quartodatalita)
