@@ -15,10 +15,11 @@ def Jogo():
 	coletedatalita = Elemento (img = linkcoletedatalita,
 			                tit="colete",
 			                style=dict(lef=15, top=15, width=10, heih=20))
+                            
+                            
 
 	talita.entra(quartodatalita)
 	colete.entra(quartodatalita)
-    
 	quartodatalita.vai()
     
 Jogo()
