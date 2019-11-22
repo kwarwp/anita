@@ -8,6 +8,7 @@ linkcolete="https://i.imgur.com/lWiNq2H.png"
 linkjogos="https://i.imgur.com/3FXCWmB.jpg"
 linklivros="https://i.imgur.com/TwENnNe.gif"
 linkdaescrivaninha="https://i.imgur.com/Rw3pEJu.jpg"
+linkdabola="https://i.imgur.com/Rw3pEJu.jpg"
 def Jogo():
 	quartodatalita=Cena(img="https://i.imgur.com/DEC5m3T.jpg")
 	talita= Elemento (img= linkdatalita,
@@ -38,6 +39,7 @@ def Jogo():
    	jogos.entra(quartodatalita)
    	livros.entra(quartodatalita)
    	escrivaninha.entra(quartodatalita)
+   	bola.entra(quartotalita)
    	textotalita=Texto(quartodatalita,"hey,encontre o objeto criado por stephanie kwolek e ganhe moedas") 
    	textocolete=Texto(quartodatalita,"parabéns! vista o colete e passe para a proxima fase")
    	talita.vai=textotalita.vai
