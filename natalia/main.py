@@ -31,5 +31,5 @@ def jogo ():
 	colete.vai
 	chave.vai
 	panelinha.vai
-	quartodatalita.vai
+	quartodatalita.vai()
 jogo()
