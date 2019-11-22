@@ -20,5 +20,6 @@ def jogo():
 	colete.entra(quartodatalita)
     
 	quartodatalita.vai ()
+    
 Jogo()
     
