@@ -3,7 +3,7 @@ from _spy.vitollino.main import Cena,Elemento,Texto,STYLE
 STYLE["width"]= 500
 STYLE["heigh"]="200px"
 linkdatalita=" https://i.imgur.com/BpSSVSi.png"
-linkquartodatalita="https://www.dhresource.com/600x600/f2/albu/g5/M00/9D/73/rBVaI1ipR1qAWzKcAAacXdBLd0Y328.jpg"
+linkquartodatalita=" https://i.imgur.com/y9mhS0G.jpg"
 linkcoletedatalita="https://i.imgur.com/MhoUxzF.jpg"
 linkursodatalita="https://i.imgur.com/Vbcx4Bf.jpg"
 def Jogo():
