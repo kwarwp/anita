@@ -23,7 +23,7 @@ def Jogo():
     
 	livros = Elemento (img= linklivros,
       tit="livros",
-      style=dict(left=50, top=50, width=30, height=50))
+      style=dict(left=120, top=50, width=30, height=50))
                          
                         
       
