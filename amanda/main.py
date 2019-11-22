@@ -10,11 +10,11 @@ def Jogo():
 	quartodatalita=Cena (img = "https://i.imgur.com/MXoIGJR.jpg")
 	talita = Elemento (img = linkdatalita,
 			       tit="talita",
-			       style=dict(left=30, top=10, width=10, heih=10))
+			       style=dict(left=150, top=80, width=80, heih=150))
             
 	coletedatalita = Elemento (img = linkcoletedatalita,
 			                tit="colete",
-			                style=dict(lef=15, top=15, width=10, heih=20))
+			                style=dict(lef=100, top=40, width=40, heih=100))
                             
                             
 
