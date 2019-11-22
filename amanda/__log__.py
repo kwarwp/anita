@@ -553,3 +553,10 @@ NameError: name 'colete' is not defined
                         ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Fri Nov 22 2019 10:37:53.769 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  linkescoladatalita="
+                      ^
+SyntaxError: EOL while scanning string literal
+'''},
