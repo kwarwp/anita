@@ -9,6 +9,11 @@ linkjogos="https://i.imgur.com/3FXCWmB.jpg"
 linklivros="https://i.imgur.com/TwENnNe.gif"
 linkdaescrivaninha="https://i.imgur.com/Rw3pEJu.jpg"
 linkdabola="https://i.imgur.com/YcE5EW6.jpg"
+linkdaescoladatalita=
+linkdosubmarino="https://i.imgur.com/zuCVdGW.png"
+linkquadro1="https://i.imgur.com/ly6mhuo.jpg"
+linkdoquadro2="https://i.imgur.com/tJlMNQA.jpg"
+linkdosotao="https://i.imgur.com/KrFFLIr.png"
 def Jogo():
 	quartodatalita=Cena(img="https://i.imgur.com/DEC5m3T.jpg")
 	talita= Elemento (img= linkdatalita,
@@ -51,3 +56,11 @@ def Jogo():
   
    	quartodatalita.vai()
 Jogo()
+
+	submarino= Cena(img="https://i.imgur.com/KrFFLIr.png")
+      quadro1=
+      tit="quarto1"
+      style=dict(left=20, top=40, width=30, height=60,
+    quadro2=
+    tit="quadro2"
+    style=dict(left=10, top=20, width=30, heigth=60,
