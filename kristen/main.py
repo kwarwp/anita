@@ -31,7 +31,7 @@ def Jogo():
       tit="escrivaninha",
       style= dict(left=50, top=250, width=50, heigth=80))
       
-	bola = Elemento (img = linkbola,
+	bola = Elemento (img = linkdabola,
       tit="bola",
       style= dict(left=20, top=250, widt=50, heigth=90))
                          
