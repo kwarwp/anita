@@ -583,3 +583,10 @@ SyntaxError: EOL while scanning string literal
     linkdaescoladatalita
 NameError: name 'linkdaescoladatalita' is not defined
 '''},
+{'date': 'Fri Nov 22 2019 10:43:53.368 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  linkescoladatalita="
+                      ^
+SyntaxError: EOL while scanning string literal
+'''},
