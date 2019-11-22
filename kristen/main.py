@@ -32,6 +32,7 @@ def Jogo():
    	jogos.entra(quartodatalita)
    	textotalita=Texto(quartodatalita,"hey,encontre o objeto criado por stephanie kwolek e ganhe moedas") 
    	textocolete=Texto(quartodatalita,"parabéns! vista o colete e passe para a proxima fase")
+   	textolivros=Texto(quartotalita, "o livro vai de ajudar nas próximas fases")
    	talita.vai=textotalita.vai
    	colete.vai=textocolete.vai
    	livros.vai=textolivros.vai
