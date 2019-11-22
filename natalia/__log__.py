@@ -138,3 +138,10 @@ AttributeError: 'module' object has no attribute '__setitem__'
     STYLE["wilth"]= 600
 AttributeError: 'module' object has no attribute '__setitem__'
 '''},
+{'date': 'Fri Nov 22 2019 10:22:53.241 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  talita= Elemento (img= linkdatalita,
+                                                                                                       ^
+SyntaxError: invalid syntax
+'''},
