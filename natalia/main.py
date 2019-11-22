@@ -28,7 +28,7 @@ def jogo ():
 	panelinha.entra(quartodatalita)
     
 	talita.vai
-      colete.vai
-      chave.vai
-      panelinha.vai
-jogo():
+	colete.vai
+	chave.vai
+	panelinha.vai
+jogo()
