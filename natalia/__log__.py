@@ -76,3 +76,10 @@ IndentationError: unexpected indent
                                                                                 ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Fri Nov 22 2019 09:46:51.842 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  chave= Elemento (img= linkdachave,
+                                                                                ^
+SyntaxError: invalid syntax
+'''},
