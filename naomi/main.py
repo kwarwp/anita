@@ -18,7 +18,7 @@ def Jogo():
     
 	mochila= Elemento(img=linkmochila,
 	tit="mochila",
-	style=dict(left=90, top=240, width=50, heith=30))
+	style=dict(left=90, top=200, width=50, heith=30))
       
    	talita.entra(quartodatalita)
    	colete.entra(quartodatalita)
