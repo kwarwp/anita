@@ -6,7 +6,7 @@ linkdatalita="https://i.imgur.com/BpSSVSi.png"
 linkquartodatalita="https://i.imgur.com/y9mhS0G.jpg"
 linkcoletedatalita="https://i.imgur.com/MhoUxzF.jpg"
 linkursodatalita="https://i.imgur.com/Vbcx4Bf.jpg"
-linkdaescoladatalita
+linkescoladatalita="
 linkdosubmarinodatalita=" https://i.imgur.com/x0K3VTh.png"
 linkdosotaodatalita="https://i.imgur.com/WIA1F7a.jpg"
 def Jogo():
