@@ -13,7 +13,7 @@ def jogo ():
     			   tit = "talita",
 			       style = dict(left=180, top=50,  Width=60, height=50))
     colete = Elemento (img= linkdocolete
-    			tit = "colete"
+    			tit = "colete",
                      style = dict(left=140, top= 30, width= 20, height=10)
     chave= Elemento (img= "linkdachave",
     			tit = "chave"
