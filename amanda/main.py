@@ -12,7 +12,7 @@ def Jogo():
 			       tit="talita",
 			       style=dict(left=30, top=10, width=10, heih=10))
             
-	coletedatalita = Elemento (img = linkcoletetalita,
+	coletedatalita = Elemento (img = linkdocoletedatalita,
 			                tit="colete",
 			                style=dict(lef=15, top=15, width=10, heih=20))
 
