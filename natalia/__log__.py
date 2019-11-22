@@ -145,3 +145,10 @@ AttributeError: 'module' object has no attribute '__setitem__'
                                                                                                        ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Fri Nov 22 2019 10:24:20.812 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  talita= Elemento (img=linkdatalita,
+                                                                                                     ^
+SyntaxError: invalid syntax
+'''},
