@@ -25,7 +25,7 @@ def Jogo():
     
 	livros = Elemento (img = linklivros,
       tit="livros",
-      style=dict(left=120, top=200, width=50, height=180))
+      style=dict(left=250, top=200, width=50, height=180))
      
 	escrivaninha = Elemento (img = linkdaescrivaninha,
       tit="escrivaninha",
@@ -33,7 +33,7 @@ def Jogo():
       
 	bola = Elemento (img = linkdabola,
       tit="bola",
-      style= dict(left=120, top=200, widt=30, heigth=50))
+      style= dict(left=250, top=180, widt=30, heigth=50))
                          
                       
                         
