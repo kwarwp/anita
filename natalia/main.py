@@ -6,6 +6,8 @@ linkdatalita= "https://www.trzcacak.rs/myfile/detail/201-2017902_bonecas-png-men
 linkdocolete= "https://i.imgur.com/IZkZR1d.jpg"
 linkdachave= "https://i.imgur.com/Jwdhb9P.jpg"
 linkdapanelinha= "https://i.imgur.com/HCb4RvU.jpg"
+linkdaescoladatalita=
+linkdosubmarino=
 def jogo (): 
 	quartodatalita=Cena(img = "https://i.imgur.com/RCRUtAf.jpg") 
 	talita= Elemento (img=linkdatalita,
