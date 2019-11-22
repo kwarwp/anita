@@ -22,8 +22,8 @@ def Jogo():
 	style = dict(left=50, top=250, width=50, height=200))
     
 	livros = Elemento (img= linklivros,
-                         tit="livros"
-                         style=dict(left=, top=50, width=30, height=50))
+      tit="livros"
+      style=dict(left=, top=50, width=30, height=50))
                          
                         
       
