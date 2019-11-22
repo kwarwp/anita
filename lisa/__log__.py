@@ -350,3 +350,10 @@ NameError: name 'Intro' is not defined
     Intro()
 NameError: name 'Intro' is not defined
 '''},
+{'date': 'Fri Nov 22 2019 10:23:41.812 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  colete = Elemento (img= linkdocolete,
+  ^
+IndentationError: unexpected indent
+'''},
