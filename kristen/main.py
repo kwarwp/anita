@@ -7,7 +7,7 @@ linkdatalita="https://i.imgur.com/2LZFFjU.png"
 linkcolete="https://i.imgur.com/lWiNq2H.png"
 linkjogos="https://i.imgur.com/3FXCWmB.jpg"
 linklivros="https://i.imgur.com/TwENnNe.gif"
-linkdaescrivaninha="https://i.imgur.com/TwENnNe.gif"
+linkdaescrivaninha="https://i.imgur.com/Rw3pEJu.jpg"
 def Jogo():
 	quartodatalita=Cena(img="https://i.imgur.com/DEC5m3T.jpg")
 	talita= Elemento (img= linkdatalita,
