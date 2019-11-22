@@ -2,7 +2,7 @@
 from _spy.vitollino.main import Cena,Elemento,Texto,STYLE
 STYLE["width"]= 500
 STYLE["heigh"]="200px"
-linkdatalita=" https://i.imgur.com/BpSSVSi.png"
+linkdatalita="https://i.imgur.com/BpSSVSi.png"
 linkquartodatalita="https://i.imgur.com/y9mhS0G.jpg"
 linkcoletedatalita="https://i.imgur.com/MhoUxzF.jpg"
 linkursodatalita="https://i.imgur.com/Vbcx4Bf.jpg"
