@@ -330,3 +330,10 @@ NameError: name 'quartotalita' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Fri Nov 22 2019 06:11:27.161 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  livros = Elemento (img= linklivros,
+                                                                                                      ^
+SyntaxError: invalid syntax
+'''},
