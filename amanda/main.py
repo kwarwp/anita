@@ -8,6 +8,7 @@ linkcoletedatalita="https://i.imgur.com/MhoUxzF.jpg"
 linkursodatalita="https://i.imgur.com/Vbcx4Bf.jpg"
 linkescoladatalita="
 linkdosubmarinodatalita=" https://i.imgur.com/x0K3VTh.png"
+linkdosotaodatalita="https://i.imgur.com/WIA1F7a.jpg"
 def Jogo():
 
 	quartodatalita=Cena (img = "https://i.imgur.com/MXoIGJR.jpg")
