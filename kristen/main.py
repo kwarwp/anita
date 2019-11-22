@@ -15,12 +15,18 @@ def Jogo():
 	colete= Elemento(img=linkcolete,
 	tit="colete",
 	style=dict(left=300, top=140, width=50, heigth=80))
+    
+    jogos = Elemento (img = linkjogos,
+    	tit = "jogos",
+     	style = dict(left=50, top=250, width=50, height=200))
       
    	talita.entra(quartodatalita)
    	colete.entra(quartodatalita)
+   	jogos.entra(quartodatalita)
    	textotalita=Texto(quartodatalita,"hey,encontre o objeto criado por stephanie kwolek e ganhe moedas") 
    	textocolete=Texto(quartodatalita,"parabéns! vista o colete e passe para a proxima fase")
    	talita.vai=textotalita.vai
    	colete.vai=textocolete.vai
+  
    	quartodatalita.vai()
 Jogo()
