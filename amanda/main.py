@@ -19,7 +19,7 @@ def Jogo():
 	talita.entra(quartodatalita)
 	colete.entra(quartodatalita)
     
-	quartodatalita.vai ()
+	quartodatalita.vai()
     
 Jogo()
     
