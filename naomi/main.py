@@ -4,6 +4,7 @@ STYLE["width"]= 600
 STYLE["heigth"]= "200px"
 linkdatalita="https://i.imgur.com/2LZFFjU.png"
 linkcolete="https://i.imgur.com/lWiNq2H.png"
+linkmochila="https://i.imgur.com/7kOdKxq.jpg"
 linkjogos="https://i.imgur.com/3FXCWmB.jpg"
 def Jogo():
 	quartodatalita=Cena(img="https://i.imgur.com/DEC5m3T.jpg")
@@ -14,6 +15,10 @@ def Jogo():
 	colete= Elemento(img=linkcolete,
 	tit="colete",
 	style=dict(left=90, top=240, width=30, heith=25))
+    
+	mochila= Elemento(img=linkmochila,
+	tit="mochila",
+	style=dict(left=90, top=240, width=50, heith=30))
       
    	talita.entra(quartodatalita)
    	colete.entra(quartodatalita)
