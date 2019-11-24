@@ -17,6 +17,9 @@ class Quarto:
 	def _travesseiro(self, _=0):
        	 Texto(self.quarto, "Não era bem o travesseiro que eu estava procurando...").vai()
         
+     def vai(self, _=0):
+      self.quartotalita.vai()
+        
 if __name__ == "__main__":
-	Quarto()
+	Quarto.vai()
     
