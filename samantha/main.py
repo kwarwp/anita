@@ -21,9 +21,7 @@ def Historia():
 	textotravesseiro = Texto (quartotalita, "Não era bem isso que eu estava procurando..")  
 	travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.5}, vai=textotravesseiro.vai)
 	
-    	moeda = Elemento (img = img_moeda,
-    				tit = "moeda",
-                    style=dict(left=180,top=120,Width=60,height=50))
+    	
 
 	   
     	colete = Elemento (img = linkcolete,
@@ -81,11 +79,20 @@ quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=submarino, style
 textoquadroportinari = Texto (submarino, "Este quadro é de Portinari, de 1935 e chama-se café. Foi pintado com tinta a óleo.")  
 quadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=submarino, style={"opacity": 0.0}, vai=textoquadroportinari.vai)
 
-textoquadrotarsila = Texto (submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.", vai=ganhamoeda.vai)  
+textoquadrotarsila = Texto (submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")  
+quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=cenatarsilamoeda.vai)
 
-quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=textoquadrotarsila.vai)
+cenatarsilamoeda = Cena (img = "https://i.imgur.com/GOH738j.jpg")
+talita = Elemento (img = linkdatalita, 
+				tit="talita",
+                       style=dict(left=250, top=400, width=120, heigth=1500))
+talita.entra(cenatarsilamoeda)
 
-
+moeda = Elemento (img = "https://i.imgur.com/cT92YHg.png", 
+				tit="talita",
+                       style=dict(left=260, top=400, width=40, heigth=40))
+talita.entra(cenatarsilamoeda)
+Texto(cenatarsilamoeda, "Parabens, você ganhou uma moeda").vai()
 
 Historia()
 
