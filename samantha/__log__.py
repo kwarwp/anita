@@ -2055,3 +2055,10 @@ NameError: name 'cenaquadrotarsila' is not defined
     quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=cenaquadrotarsila)
 NameError: name 'cenaquadrotarsila' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 19:07:05.231 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 87
+  cenaquadrotarsila = Cena (img = "https://i.imgur.com/GOH738j.jpg")
+  ^
+IndentationError: expected an indented block
+'''},
