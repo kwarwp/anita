@@ -1463,3 +1463,10 @@ UnboundLocalError: local variable 'submarino' referenced before assignment
     	sala.direita = submarino.va9()
 UnboundLocalError: local variable 'submarino' referenced before assignment
 '''},
+{'date': 'Sun Nov 24 2019 15:30:01.10 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 72
+  submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
+  ^
+IndentationError: expected an indented block
+'''},
