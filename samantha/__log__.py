@@ -925,3 +925,10 @@ SyntaxError: invalid syntax
                         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Nov 24 2019 14:29:21.152 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 54
+  moeda.entra(quartotalita)
+  ^
+IndentationError: expected an indented block
+'''},
