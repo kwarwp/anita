@@ -151,3 +151,10 @@ AttributeError: 'GUI' object has no attribute 'quartotalita'
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 13:37:45.113 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  botao.vai=Quarto()
+  ^
+IndentationError: unexpected indent
+'''},
