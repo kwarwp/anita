@@ -14,9 +14,9 @@ def Historia():
 	travesseiro = Texto (quartotalita, "Não era bem o travesseiro que eu estava procurando..")
 	talita = Elemento (img = linkdatalita, 
 				tit="talita",
-                       style=dict(left=180, top=50,  Width=60, height=50))
+                       style=dict(left=180, top=80,  Width=60, height=50))
      
-	travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=travesseiro)
+	travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=travesseiro.vai())
 	
     	
     
