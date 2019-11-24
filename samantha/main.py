@@ -68,7 +68,7 @@ def Historia():
 	sala.esquerda = quartotalita
 	sala.direita = submarino
     
-     submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
+	submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
 	talita.entra(submarino)
     
     
