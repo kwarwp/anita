@@ -9,7 +9,8 @@ linkdosotao="https://i.imgur.com/3m06S7w.jpg"
 linkdaescola=
 linkdosubmarino="https://i.imgur.com/Blcj8Gu.png"
 linkquadro1="https://i.imgur.com/lblF8hl.jpg"
-linkquadro2="https://i.imgur.com/LeDop8y.jpg"
+linkquadro2="https://i.imgur.com/LeDop8y.jpg"  
+linkquadro3=gg
 def Jogo():
 	quartodatalita=Cena(img="https://i.imgur.com/DEC5m3T.jpg")
 	talita= Elemento (img= linkdatalita,
@@ -42,4 +43,8 @@ Jogo()
 	quadro2= Elemento (img= linkquadro2,
 	tit="quadro2",
 	style=dict(left=30, top=100, width=30 heith=50))
+
+	quadro3= Elemento (img = linkquadro3,
+	tit="quadro3",
+	style=dict(left=30, top=100, width=30, heith=50))
     
