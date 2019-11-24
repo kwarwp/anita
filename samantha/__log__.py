@@ -493,3 +493,10 @@ AttributeError: 'GUI' object has no attribute 'Quarto'
     	self.quarto.vai()
 AttributeError: 'GUI' object has no attribute 'quarto'
 '''},
+{'date': 'Sun Nov 24 2019 13:56:14.653 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  fc.inicia 
+  ^
+IndentationError: unexpected indent
+'''},
