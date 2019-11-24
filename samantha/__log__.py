@@ -1047,3 +1047,10 @@ NameError: name 'ganharmoeda' is not defined
     	ganharmoeda()
 NameError: name 'ganharmoeda' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 14:34:14.667 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 47
+  textomoeda = Texto (quartotalita, "Parabens! Você ganhou uma moeda!)
+                                                                      ^
+SyntaxError: EOL while scanning string literal
+'''},
