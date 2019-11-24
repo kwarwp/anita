@@ -85,7 +85,7 @@ textoquadrotarsila = Texto (submarino, "Este quadro se chama Abaporu. É de Tars
 textoquadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=textoquadrotarsila.vai)
 
 if textroquadrotarsila.vai:
-Texto(submarino, "parabens, voce ganhou uma moeda")
+	Texto(submarino, "parabens, voce ganhou uma moeda").vai()
 
 Historia()
 
