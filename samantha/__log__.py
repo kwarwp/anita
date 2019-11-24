@@ -1420,3 +1420,10 @@ UnboundLocalError: local variable 'submarino' referenced before assignment
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Sun Nov 24 2019 15:29:09.888 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 72
+  submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
+  ^
+IndentationError: expected an indented block
+'''},
