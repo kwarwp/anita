@@ -1244,3 +1244,10 @@ AttributeError: 'Texto' object has no attribute 'close'
     textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais").moeda,entra(quartotalita)
 AttributeError: 'Texto' object has no attribute 'moeda'
 '''},
+{'date': 'Sun Nov 24 2019 15:04:10.445 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 51
+  def ganharmoeda():
+  ^
+IndentationError: unexpected indent
+'''},
