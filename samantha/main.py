@@ -11,14 +11,15 @@ def Historia():
 	introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
 	quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
-	travesseiro = Texto (quartotalita, "Não era bem o travesseiro que eu estava procurando..")
+
 	talita = Elemento (img = linkdatalita, 
 				tit="talita",
                        style=dict(left=180, top=80,  Width=60, height=50))
      
-	travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=travesseiro.vai())
+	travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=self._travesseiro)
 	
-    	
+	def _travesseiro(self, _=0):
+               Texto(self.quartotalita, "Não era bem isso que eu estava procurando...").vai()
     
     
     	colete = Elemento (img = linkcolete,
