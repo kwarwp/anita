@@ -2364,3 +2364,10 @@ NameError: name 'quartotalita' is not defined
     cenamoeda.esquerda= quartotalita.vai()
 NameError: name 'quartotalita' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 20:07:07.801 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  costabarros = Elemento (FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.5}, vai=quartotalita.vai)
+  ^
+IndentationError: unexpected indent
+'''},
