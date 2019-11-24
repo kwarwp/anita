@@ -2000,3 +2000,10 @@ NameError: name 'cenatarsilamoeda' is not defined
     quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=cenatarsilamoeda.vai)
 NameError: name 'cenatarsilamoeda' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 19:03:09.486 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 86
+  textoquadrotarsila2 = Texto (submarino, "parabens vc ganhou uma moeda')
+                                                                         ^
+SyntaxError: EOL while scanning string literal
+'''},
