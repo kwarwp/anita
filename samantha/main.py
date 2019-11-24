@@ -18,5 +18,5 @@ class Quarto:
        	 Texto(self.quarto, "Não era bem o travesseiro que eu estava procurando...").vai()
         
 if __name__ == "__main__":
-	fc = Quarto()
-     fc.inicia()
+	Quarto()
+    
