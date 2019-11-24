@@ -7,7 +7,7 @@ linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
 linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
 FOCO = "https://i.imgur.com/6e096Va.png"
-moeda = "https://i.imgur.com/tOep9V9.gif"
+img_moeda = "https://i.imgur.com/tOep9V9.gif"
 def Historia():
 	introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
 	quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
@@ -20,9 +20,10 @@ def Historia():
 	textotravesseiro = Texto (quartotalita, "Não era bem isso que eu estava procurando..")  
 	travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.5}, vai=textotravesseiro.vai)
 	
-    moeda = Elemento (img = moeda,
+    	moeda = Elemento (img = img_moeda,
     				tit = "moeda",
-                    style=dict(left=180,top=120,Width=60.height=50))
+                    style=dict(left=180,top=120,Width=60,height=50))
+
 	   
     	colete = Elemento (img = linkcolete,
 		tit = "colete",
@@ -45,10 +46,12 @@ def Historia():
         textoprotetor = Texto (quartotalita,"O protetor solar é muito importante, mas não é o que estou procurando.")
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
+        colete.vai = moeda.vai
   
         protetorsolar.vai = textoprotetor.vai
     
-    
+	
+   	 
     
     
 	botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
@@ -58,6 +61,7 @@ def Historia():
 	botao.entra(introd)
 	introd.vai()
 	botao.vai=quartotalita.vai
+     	ganharmoeda()
 	quartotalita.direita = sala
 	sala.esquerda = quartotalita
 	
