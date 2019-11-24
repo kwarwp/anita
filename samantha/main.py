@@ -46,9 +46,8 @@ def Historia():
         textoprotetor = Texto (quartotalita,"O protetor solar é muito importante, mas não é o que estou procurando.")
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
+        protetorsolar.vai = textoprotetor.vai
         
-        if textocolete.vai:
-        	moeda.entra(quartotalita)
         
         
       
