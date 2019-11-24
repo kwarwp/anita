@@ -2575,3 +2575,10 @@ NameError: name 'escola' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 20:39:24.451 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 15
+  sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
+  ^
+IndentationError: unexpected indent
+'''},
