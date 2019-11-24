@@ -15,7 +15,7 @@ def Historia():
 	Texto(sala, "Está na hora de ir pra escola").vai()
 	
 	maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
-	escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=maparegiao, style={"opacity": 0}, vai=submarino.vai)
+	escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=maparegiao, style={"opacity": 0}, vai=escola.vai)
     
 	talita = Elemento (img = linkdatalita, 
 				tit="talita",
@@ -24,7 +24,7 @@ def Historia():
 	textotravesseiro = Texto (quartotalita, "Não era bem isso que eu estava procurando..")  
 	travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.0}, vai=textotravesseiro.vai)
 	
-    	
+	escola = Cena (img="https://i.imgur.com/hpHBRz7.jpg")
 
 	   
     	colete = Elemento (img = linkcolete,
