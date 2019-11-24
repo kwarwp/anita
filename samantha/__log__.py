@@ -50,3 +50,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 13:28:38.391 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  def _travesseiro(self, _=0):
+  ^
+IndentationError: unexpected indent
+'''},
