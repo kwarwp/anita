@@ -48,11 +48,11 @@ def Historia():
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         
-    	
-       
-	
-   	 
-    
+        
+        
+        
+     
+   
     
 	botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
 	tit="Jogar",
