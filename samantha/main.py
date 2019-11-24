@@ -14,7 +14,7 @@ def Historia():
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
 	Texto(sala, "Está na hora de ir pra escola").vai()
 	
-	maparegiao = Cena(img="https://i.imgur.com/O4pnkG3.png")
+	maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
 	escolatalita = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=maparegiao, style={"opacity": 1.5}, vai=submarino.vai)
     
 	talita = Elemento (img = linkdatalita, 
