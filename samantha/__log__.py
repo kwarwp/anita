@@ -165,3 +165,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Sun Nov 24 2019 13:37:54.937 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 27
+  Texto(self.quarto, "Não era bem o travesseiro que eu estava procurando...").vai()
+  ^
+IndentationError: expected an indented block
+'''},
