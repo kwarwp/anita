@@ -16,10 +16,9 @@ def Historia():
 				tit="talita",
                        style=dict(left=180, top=80,  Width=60, height=50))
      
-	travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=self._travesseiro)
+	travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=travesseiro)
 	
-	def _travesseiro(self, _=0):
-               Texto(self.quartotalita, "Não era bem isso que eu estava procurando...").vai()
+	
     
     
     	colete = Elemento (img = linkcolete,
@@ -33,11 +32,14 @@ def Historia():
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
         protetorsolar.entra(quartotalita)
-     	textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
+        travesseito.entra(quartotalita)
+        textotravesseiro = Texto (quartotalita, "Não era bem isso que eu estava procurando..")    
+        textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
     	textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
         textoprotetor = Texto (quartotalita,"O protetor solar é muito importante, mas não é o que estou procurando.")
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
+        travesseiro.vai = textotravesseiro.vai
         protetorsolar.vai = textoprotetor.vai
     
     
