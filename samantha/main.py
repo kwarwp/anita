@@ -75,7 +75,6 @@ talita = Elemento (img = linkdatalita,
 				tit="talita",
                        style=dict(left=250, top=400, width=120, heigth=1500))
 talita.entra(submarino)
-moedas=0
 textoquadropicasso = Texto (submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau")  
 textoquadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=submarino, style={"opacity": 0.0}, vai=textoquadropicasso.vai)
 
@@ -85,8 +84,6 @@ textoquadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=submarino
 textoquadrotarsila = Texto (submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")  
 textoquadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=textoquadrotarsila.vai)
 
-if textoquadrotarsila.vai:
-	moedas = moedas+1
 Texto(submarino, "Parabéns, você ganhou uma moeda!")
 
 
