@@ -16,7 +16,7 @@ def Introducao():
      
 	botao.entra(introd)
 	introd.vai()
-     	botao.vai=Quarto()
+     	botao.vai(Quarto)
     
 class Quarto:
 	def __init__(self):
@@ -28,5 +28,5 @@ class Quarto:
         
 if __name__ == "__main__":
 	Introducao()
-    fc = Quarto()
-    fc.inicia()
+     fc = Quarto()
+     fc.inicia()
