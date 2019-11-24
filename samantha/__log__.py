@@ -681,3 +681,10 @@ UnboundLocalError: local variable 'travesseiro' referenced before assignment
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 14:03:34.772 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  travesseiro = Texto (quartotalita, "Não era bem o travesseiro que eu estava procurando..")
+  ^
+IndentationError: unexpected indent
+'''},
