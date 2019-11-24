@@ -12,15 +12,17 @@ def Historia():
 	introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
 	quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
-	mapacostabarros = Cena(img = "https://i.imgur.com/DiEkbc9.png")
+	Texto(sala, "Está na hora de ir pra escola").vai()
 	
-	costabarros = Elemento (FOCO, x=230, y=120, w=120, h=150, cena=mapacostabarros, style={"opacity": 0}, vai=quartotalita.vai)
+	maparegiao = Cena(img="https://i.imgur.com/BsoqpEQ.png")
+	escolatalita = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 1.5}, vai=submarino.vai)
+    
 	talita = Elemento (img = linkdatalita, 
 				tit="talita",
                        style=dict(left=180, top=120,  Width=60, height=50))
      
 	textotravesseiro = Texto (quartotalita, "Não era bem isso que eu estava procurando..")  
-	travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=textotravesseiro.vai)
+	travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.5}, vai=textotravesseiro.vai)
 	
     	
 
@@ -62,13 +64,13 @@ def Historia():
      
 	botao.entra(introd)
 	introd.vai()
-	botao.vai=mapacostabarros.vai
+	botao.vai=quartotalita.vai
     
     
     
 	quartotalita.direita = sala
 	sala.esquerda = quartotalita
-	sala.direita = submarino
+	sala.direita = maparegiao
     
   
 submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
