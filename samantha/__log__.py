@@ -617,3 +617,10 @@ AttributeError: 'GUI' object has no attribute 'Quarto'
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 14:02:03.880 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=travesseiro)
+  ^
+IndentationError: unexpected indent
+'''},
