@@ -1350,3 +1350,9 @@ Exception: $locals.submarino is not a function
   module '$exec_3781' line 74
 Historia()
 '''},
+{'date': 'Sun Nov 24 2019 15:26:41.6 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: $locals.submarino is not a function
+  module '$exec_3811' line 74
+Historia()
+'''},
