@@ -11,7 +11,6 @@ img_moeda = "https://i.imgur.com/tOep9V9.gif"
 def Historia():
 	introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
 	quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
-	submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
 
 	
@@ -71,6 +70,7 @@ def Historia():
     
   
 class submarino:
+	submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
 	submarino.vai()
 Historia()
 
