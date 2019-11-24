@@ -792,3 +792,10 @@ IndentationError: unexpected indent
     travesseito.entra(quartotalita)
 NameError: name 'travesseito' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 14:22:21.918 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 23
+  moeda = Elemento (img = moeda,
+  ^
+IndentationError: unexpected indent
+'''},
