@@ -2428,3 +2428,10 @@ UnboundLocalError: local variable 'escola' referenced before assignment
     	escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=maparegiao, style={"opacity": 0}, vai=escola.vai)
 UnboundLocalError: local variable 'escola' referenced before assignment
 '''},
+{'date': 'Sun Nov 24 2019 20:29:21.990 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  escola = Cena (img="https://i.imgur.com/hpHBRz7.jpg")
+  ^
+IndentationError: unexpected indent
+'''},
