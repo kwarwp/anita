@@ -13,6 +13,7 @@ def Historia():
 	quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
 
+	submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
 	talita = Elemento (img = linkdatalita, 
 				tit="talita",
                        style=dict(left=180, top=120,  Width=60, height=50))
@@ -33,8 +34,7 @@ def Historia():
     	tit = "protetorsolar",
      	style = dict(left=50, top=250, width=50, height=200))
         
-        
-        
+      
                                            
 	talita.entra(quartotalita)
      	colete.entra(quartotalita)
@@ -48,6 +48,8 @@ def Historia():
         colete.vai = textocolete.vai
         protetorsolar.vai = textoprotetor.vai
         
+    
+    	
         
         
       
@@ -64,7 +66,11 @@ def Historia():
 	botao.vai=quartotalita.vai
 	quartotalita.direita = sala
 	sala.esquerda = quartotalita
-	
+	sala.direita = submarino()
+    
+	def submarino():
+    talita.entra(submarino)
+    
 Historia()
 Historia()
 
