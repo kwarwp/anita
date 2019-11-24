@@ -1330,3 +1330,10 @@ AttributeError: 'function' object has no attribute 'vai'
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Sun Nov 24 2019 15:26:03.95 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 72
+  talita.entra(submarino)
+  ^
+IndentationError: expected an indented block
+'''},
