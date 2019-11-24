@@ -43,3 +43,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Sun Nov 24 2019 13:28:34.257 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  self.travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=self.quartotalita, style={"opacity": 0.3}, vai=self._travesseiro)
+  ^
+IndentationError: unexpected indent
+'''},
