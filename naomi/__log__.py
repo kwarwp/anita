@@ -437,3 +437,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 13:06:34.663 GMt-0200 (Hora de verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  linkdaescola=
+                ^
+SyntaxError: invalid syntax
+'''},
