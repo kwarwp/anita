@@ -1725,3 +1725,10 @@ UnboundLocalError: local variable 'cenasubmarino' referenced before assignment
     	sala.direita = submarino.entra(submarino)
 AttributeError: 'Cena' object has no attribute 'entra'
 '''},
+{'date': 'Sun Nov 24 2019 15:46:33.115 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 71
+  submarino.vai()
+  ^
+IndentationError: unexpected indent
+'''},
