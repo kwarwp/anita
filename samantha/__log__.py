@@ -1849,3 +1849,10 @@ NameError: name 'talita' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 16:21:46.7 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 78
+  textoquadropicasso = Texto (submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau")  
+  ^
+IndentationError: unexpected indent
+'''},
