@@ -69,9 +69,7 @@ def Historia():
 	sala.direita = submarino
     
   
-class submarino:
-	submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
-	submarino.vai()
+submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
     
 Historia()
 
