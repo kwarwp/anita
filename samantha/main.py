@@ -90,7 +90,7 @@ cenamoeda = Cena (img = "https://i.imgur.com/GOH738j.jpg")
 
 moeda = Elemento (img = "https://i.imgur.com/wqxYJKv.png", 
 				tit="moeda",
-                       style=dict(left=300, top=100,  Width=50, height=50))
+                       style=dict(left=300, top=100,  Width=100, height=50))
 
 moeda.entra(cenamoeda)
 talita.vai = cenamoeda.vai
