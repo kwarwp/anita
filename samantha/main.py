@@ -5,58 +5,27 @@ STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
 linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
+FOCO = "https://i.imgur.com/6e096Va.png"
 
-class Jogo:
-
-def __init__(self):
+class Introducao:
 	introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
-	self.quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
-	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
-	talita = Elemento (img = linkdatalita, 
-				tit="talita",
-                       style=dict(left=180, top=50,  Width=60, height=50))
-                       
-     self.travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=self.quartotalita, style={"opacity": 0.3}, vai=self._travesseiro)
-    
-	 def _travesseiro(self, _=0):
-      	Texto(self.travesseiro, "Não era o travesseiro que eu estava procurando.").vai()
-    
-    
-    colete = Elemento (img = linkcolete,
-	tit = "colete",
-	style=dict(left=300, top=140, width=50, heigth=80))
-    
-     	protetorsolar = Elemento (img = linkprotetorsolar,
-    	tit = "protetorsolar",
-     	style = dict(left=50, top=250, width=50, height=200))
-                                           
-	talita.entra(quartotalita)
-     	colete.entra(quartotalita)
-        protetorsolar.entra(quartotalita)
-     	textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
-    	textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
-        textoprotetor = Texto (quartotalita,"O protetor solar é muito importante, mas não é o que estou procurando.")
-        talita.vai = textotalita.vai
-        colete.vai = textocolete.vai
-        protetorsolar.vai = textoprotetor.vai
-   
-    
+
 	botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
 	tit="Jogar",
 	style=dict(left=240, top=400, width=120, heigth=120))
      
 	botao.entra(introd)
 	introd.vai()
-	botao.vai=quartotalita.vai
-	quartotalita.direita = sala
-	sala.esquerda = quartotalita
-	
-  
+     	botao.vai=Quarto()
+    
+class Quarto:
+	def __init__(self):
+        	self.quarto = Cena(img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
+        	self.travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=self.quarto, style={"opacity": 0.3}, vai=self._travesseiro)
 
-
-Historia()
-Historia()
-
-
+	def _travesseiro(self, _=0):
+       	 Texto(self.quarto, "Não era bem o travesseiro que eu estava procurando...").vai()
         
-     
+if __name__ == "__main__":
+    fc = Quarto()
+    fc.inicia()
