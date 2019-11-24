@@ -767,3 +767,10 @@ NameError: name 'travesseiro' is not defined
     	travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=textotravesseiro.vai)
 UnboundLocalError: local variable 'textotravesseiro' referenced before assignment
 '''},
+{'date': 'Sun Nov 24 2019 14:09:43.602 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  textotravesseiro = Texto (quartotalita, "Não era bem isso que eu estava procurando..")  
+  ^
+IndentationError: unexpected indent
+'''},
