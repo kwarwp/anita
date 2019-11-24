@@ -172,3 +172,9 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Sun Nov 24 2019 13:38:00.310 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: $locals_$exec_1987.Quarto is not a function
+  module '$exec_1987' line 10
+class Introducao:
+'''},
