@@ -80,8 +80,8 @@ quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=submarino, style
 textoquadroportinari = Texto (submarino, "Este quadro é de Portinari, de 1935 e chama-se café. Foi pintado com tinta a óleo.")  
 quadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=submarino, style={"opacity": 0.0}, vai=textoquadroportinari.vai)
 
-quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=cenaquadrotarsila.vai)
-textoquadrotarsila = Texto (submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
+textroquadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=textoquadrotarsila.vai)
+quadrotarsila = Texto (submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
 
 
 
