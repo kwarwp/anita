@@ -67,7 +67,7 @@ def Historia():
 	botao.vai=quartotalita.vai
 	quartotalita.direita = sala
 	sala.esquerda = quartotalita
-	sala.direita = cenasubmarino.vai()
+	sala.direita = cenasubmarino()
     
 	def cenasubmarino():
 		submarino.vai()
