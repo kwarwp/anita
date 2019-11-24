@@ -1094,3 +1094,10 @@ AttributeError: 'method' object has no attribute 'nome'
     self.scorer.update(valor=cena.nome, move=self.xy,
 AttributeError: 'method' object has no attribute 'nome'
 '''},
+{'date': 'Sun Nov 24 2019 14:44:32.967 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 46
+  textocolete = Texto (quartotalita, "Parabens! Voce ganhou uma moeda!)
+                                                                       ^
+SyntaxError: EOL while scanning string literal
+'''},
