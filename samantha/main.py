@@ -17,7 +17,7 @@ def Historia():
                        style=dict(left=180, top=120,  Width=60, height=50))
      
 	textotravesseiro = Texto (quartotalita, "Não era bem isso que eu estava procurando..")  
-	travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=textotravesseiro.vai)
+	travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.5}, vai=textotravesseiro.vai)
 	
 	
     
