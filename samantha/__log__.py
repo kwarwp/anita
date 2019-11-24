@@ -431,3 +431,10 @@ AttributeError: 'Quarto' object has no attribute 'vai'
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 13:52:56.259 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 20
+  def vai(self, _=0):
+  ^
+IndentationError: unexpected indent
+'''},
