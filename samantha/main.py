@@ -80,6 +80,12 @@ quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=submarino, style
 textoquadroportinari = Texto (submarino, "Este quadro é de Portinari, de 1935 e chama-se café. Foi pintado com tinta a óleo.")  
 quadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=submarino, style={"opacity": 0.0}, vai=textoquadroportinari.vai)
 
+
+
+textoquadrotarsila = Texto (cenamoeda, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
+quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=textoquadrotarsila.vai)
+
+
 cenamoeda = Cena (img = "https://i.imgur.com/GOH738j.jpg")
 talita = Elemento (img = linkdatalita, 
 				tit="talita",
@@ -91,12 +97,6 @@ moeda = Elemento (img ="https://i.imgur.com/cT92YHg.png",
                        style=dict(left=250, top=400, width=120, heigth=1500))
 moeda.entra(cenamoeda)
 Texto(cenamoeda, "parabens, vc ganhou uma moeda!").vai()
-
-textoquadrotarsila = Texto (cenamoeda, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
-quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=textoquadrotarsila.vai)
-
-
-
 
 
 
