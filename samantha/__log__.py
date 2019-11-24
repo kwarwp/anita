@@ -362,3 +362,10 @@ AttributeError: 'Quarto' object has no attribute 'inicia'
     	fc.inicia()
 AttributeError: 'Quarto' object has no attribute 'inicia'
 '''},
+{'date': 'Sun Nov 24 2019 13:46:35.121 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 22
+  fc.inicia()
+  ^
+IndentationError: unexpected indent
+'''},
