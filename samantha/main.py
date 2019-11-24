@@ -7,16 +7,7 @@ linkcolete = "https://i.imgur.com/SRaVHBw.png"
 linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
 FOCO = "https://i.imgur.com/6e096Va.png"
 
-def Introducao():
-	introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
 
-	botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
-	tit="Jogar",
-	style=dict(left=240, top=400, width=120, heigth=120))
-     
-	botao.entra(introd)
-	introd.vai()
-     	botao.vai(Quarto)
     
 class Quarto:
 	def __init__(self):
@@ -27,6 +18,5 @@ class Quarto:
        	 Texto(self.quarto, "Não era bem o travesseiro que eu estava procurando...").vai()
         
 if __name__ == "__main__":
-	Introducao()
-     	fc = Quarto()
-     	fc.inicia()
+	fc = Quarto()
+     fc.inicia()
