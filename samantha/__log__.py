@@ -2804,3 +2804,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 20:54:27.522 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 65
+  botao.entra(introd)
+  ^
+IndentationError: unexpected indent
+'''},
