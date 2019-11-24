@@ -99,6 +99,9 @@ textomoeda = Texto (cenamoeda, "Parabéns, você ganhou uma moeda!")
 moeda = Elemento(FOCO, x=280, y=200, w=100, h=100, cena=cenamoeda, style={"opacity": 0.0}, vai=textomoeda.vai)
 
 
+cenasotao = Cena (img="https://i.imgur.com/5wYPsAJ.jpg")
+cenamoeda.direita = cenasotao.vai()
+
 
 
 Historia()
