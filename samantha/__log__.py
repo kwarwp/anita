@@ -932,3 +932,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Sun Nov 24 2019 14:29:32.170 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 67
+  ganharmoeda()
+  ^
+IndentationError: unexpected indent
+'''},
