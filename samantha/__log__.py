@@ -2568,3 +2568,10 @@ NameError: name 'escola' is not defined
     	escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=maparegiao, style={"opacity": 0}, vai=escola.vai)
 NameError: name 'escola' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 20:39:18.963 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 15
+  sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
+  ^
+IndentationError: unexpected indent
+'''},
