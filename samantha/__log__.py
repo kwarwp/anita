@@ -29,3 +29,10 @@ IndentationError: expected an indented block
     pegamoeda 
 NameError: name 'pegamoeda' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 13:28:18.846 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  def __init__(self):
+  ^
+IndentationError: expected an indented block
+'''},
