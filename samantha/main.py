@@ -22,5 +22,5 @@ class Quarto:
         
 if __name__ == "__main__":
 	fc = Quarto()
-    fc.inicia 
+     	fc.inicia 
     
