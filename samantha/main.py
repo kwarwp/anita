@@ -77,6 +77,9 @@ talita.entra(submarino)
 textoquadropicasso = Texto (submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau")  
 textoquadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=submarino, style={"opacity": 0.0}, vai=textoquadropicasso.vai)
 
+textoquadroportinari = Texto (submarino, "Este quadro é de Portinari, de 1935 e chama-se café. Foi pintado com tinta a óleo.")  
+textoquadroportinari = Elemento(FOCO, x=140, y=200, w=100, h=100, cena=submarino, style={"opacity": 0.5}, vai=textoquadroportinari.vai)
+
     
 Historia()
 
