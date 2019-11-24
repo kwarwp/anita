@@ -2238,3 +2238,10 @@ SyntaxError: invalid syntax
                                                                                                                                                            ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Nov 24 2019 19:21:51.366 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 86
+  quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=textoquadrotarsila.vai, moeda.entra(submarino))
+                                                                                                                                                     ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
