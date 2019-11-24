@@ -75,7 +75,7 @@ talita = Elemento (img = linkdatalita,
                        style=dict(left=250, top=400, width=120, heigth=1500))
 talita.entra(submarino)
 textoquadropicasso = Texto (submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau")  
-textoquadropicasso = Elemento(FOCO, x=120, y=180, w=100, h=100, cena=submarino, style={"opacity": 0.5}, vai=textoquadropicasso.vai)
+textoquadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=submarino, style={"opacity": 0.0}, vai=textoquadropicasso.vai)
 
     
 Historia()
