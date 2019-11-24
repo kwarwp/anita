@@ -66,11 +66,11 @@ def Historia():
 	botao.vai=quartotalita.vai
 	quartotalita.direita = sala
 	sala.esquerda = quartotalita
-	sala.direita = submarino.va9()
+	sala.direita = submarino.vai()
     
 	def submarino():
-    submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
-    talita.entra(submarino)
+		submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
+		talita.entra(submarino)
     
     
 Historia()
