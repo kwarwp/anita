@@ -2435,3 +2435,10 @@ UnboundLocalError: local variable 'escola' referenced before assignment
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 20:29:35.862 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  escola = Cena (img="https://i.imgur.com/hpHBRz7.jpg")
+  ^
+IndentationError: unexpected indent
+'''},
