@@ -1356,3 +1356,10 @@ Exception: $locals.submarino is not a function
   module '$exec_3811' line 74
 Historia()
 '''},
+{'date': 'Sun Nov 24 2019 15:27:18.744 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 72
+  submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
+  ^
+IndentationError: expected an indented block
+'''},
