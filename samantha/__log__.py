@@ -2685,3 +2685,10 @@ SyntaxError: can't assign to function call
     submarino.vai=textosubmarino.vai()
 AttributeError: 'bool' object has no attribute 'vai'
 '''},
+{'date': 'Sun Nov 24 2019 20:50:32.987 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  escola = Cena (img="https://i.imgur.com/hpHBRz7.jpg")
+  ^
+IndentationError: unexpected indent
+'''},
