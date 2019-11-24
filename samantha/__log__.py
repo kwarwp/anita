@@ -1133,3 +1133,10 @@ AttributeError: 'NoneType' object has no attribute 'vai'
                   ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Nov 24 2019 14:48:47.576 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 51
+  def ganhamoeda:
+  ^
+IndentationError: unexpected indent
+'''},
