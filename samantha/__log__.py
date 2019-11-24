@@ -2713,3 +2713,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 20:52:47.296 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=maparegiao, style={"opacity": 0}, vai=escola.vai)
+  ^
+IndentationError: unexpected indent
+'''},
