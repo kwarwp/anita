@@ -1842,3 +1842,10 @@ UnboundLocalError: local variable 'submarino' referenced before assignment
     talita.entra(submarino)
 NameError: name 'talita' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 16:21:38.609 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 79
+  textoquadropicasso = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=submarino, style={"opacity": 0.5}, vai=textoquadropicasso.vai)
+  ^
+IndentationError: unexpected indent
+'''},
