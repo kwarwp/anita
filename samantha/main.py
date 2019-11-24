@@ -12,14 +12,15 @@ def Historia():
 	introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
 	quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
-
+	mapacostabarros = Cena(img = "https://i.imgur.com/DiEkbc9.png")
 	
+	costabarros = Elemento (FOCO, x=230, y=120, w=120, h=150, cena=mapacostabarros, style={"opacity": 0}, vai=quartotalita.vai)
 	talita = Elemento (img = linkdatalita, 
 				tit="talita",
                        style=dict(left=180, top=120,  Width=60, height=50))
      
 	textotravesseiro = Texto (quartotalita, "Não era bem isso que eu estava procurando..")  
-	travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.5}, vai=textotravesseiro.vai)
+	travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=textotravesseiro.vai)
 	
     	
 
@@ -61,7 +62,10 @@ def Historia():
      
 	botao.entra(introd)
 	introd.vai()
-	botao.vai=quartotalita.vai
+	botao.vai=mapacostabarros.vai
+    
+    
+    
 	quartotalita.direita = sala
 	sala.esquerda = quartotalita
 	sala.direita = submarino
@@ -102,8 +106,6 @@ moeda = Elemento(FOCO, x=280, y=200, w=100, h=100, cena=cenamoeda, style={"opaci
 cenasotao = Cena (img="https://i.imgur.com/5wYPsAJ.jpg")
 cenamoeda.direita= cenasotao.vai()
 cenamoeda.esquerda = submarino
-
-
 
 Historia()
 
