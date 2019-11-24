@@ -36,3 +36,10 @@ NameError: name 'pegamoeda' is not defined
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Sun Nov 24 2019 13:28:25.8 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
+  ^
+IndentationError: expected an indented block
+'''},
