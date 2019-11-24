@@ -897,3 +897,10 @@ SyntaxError: invalid syntax
                 ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Nov 24 2019 14:28:11.935 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 53
+  if colete.vai
+                ^
+SyntaxError: invalid syntax
+'''},
