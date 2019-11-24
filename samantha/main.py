@@ -18,8 +18,8 @@ class Quarto:
        	 Texto(self.quarto, "Não era bem o travesseiro que eu estava procurando...").vai()
         
 	def vai(self, _=0):
-		self.quartotalita.vai()
+		self.quarto.vai()
         
 if __name__ == "__main__":
-	Quarto.vai()
+	self.quarto.vai()
     
