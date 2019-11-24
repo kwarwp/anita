@@ -799,3 +799,10 @@ NameError: name 'travesseito' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 14:22:29.589 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 23
+  moeda = Elemento (img = moeda,
+                                                                                                                  ^
+SyntaxError: invalid syntax
+'''},
