@@ -1126,3 +1126,10 @@ IndentationError: unexpected indent
     colete.vai = textocolete.vai
 AttributeError: 'NoneType' object has no attribute 'vai'
 '''},
+{'date': 'Sun Nov 24 2019 14:46:13.154 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 50
+  if colete.vai()
+                  ^
+SyntaxError: invalid syntax
+'''},
