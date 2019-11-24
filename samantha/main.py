@@ -47,9 +47,7 @@ def Historia():
         textomoeda = Texto (quartotalita, "Parabens! Você ganhou uma moeda!")
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
-        colete.vai = moeda.entra(textomoeda.vai)
-  
-        protetorsolar.vai = textoprotetor.vai
+        
     	
        
 	
