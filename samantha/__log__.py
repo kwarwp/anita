@@ -190,3 +190,10 @@ Exception: $locals_$exec_445.Quarto is not a function
   module '$exec_445' line 10
 class Introducao:
 '''},
+{'date': 'Sun Nov 24 2019 13:41:12.954 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 31
+  fc = Quarto()
+  ^
+IndentationError: unexpected indent
+'''},
