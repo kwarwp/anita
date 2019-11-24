@@ -2912,3 +2912,10 @@ NameError: name 'introd' is not defined
     quartotalita.direita = sala
 NameError: name 'sala' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 20:57:24.246 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 67
+  quartotalita.direita = sala
+  ^
+IndentationError: unexpected indent
+'''},
