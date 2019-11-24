@@ -2224,3 +2224,10 @@ NameError: name 'cenamoeda' is not defined
     textoquadrotarsila = Texto (cenamoeda, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
 NameError: name 'cenamoeda' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 19:21:23.301 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 86
+  quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={"opacity": 0.0}, vai=textoquadrotarsila.vai and moeda.entra(submarino)
+                                                                                                                                                             ^
+SyntaxError: invalid syntax
+'''},
