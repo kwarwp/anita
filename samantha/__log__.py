@@ -869,3 +869,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Sun Nov 24 2019 14:24:18.697 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 53
+  if colete.vai = textocolete.vai
+                 ^
+SyntaxError: invalid syntax
+'''},
