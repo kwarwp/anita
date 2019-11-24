@@ -81,7 +81,7 @@ textoquadroportinari = Texto (submarino, "Este quadro é de Portinari, de 1935 e
 textoquadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=submarino, style={"opacity": 0.0}, vai=textoquadroportinari.vai)
 
 textoquadrotarsila = Texto (submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")  
-textoquadrotarsila = Elemento(FOCO, x=300, y=250, w=100, h=100, cena=submarino, style={"opacity": 0.5}, vai=textoquadroportinari.vai)
+textoquadrotarsila = Elemento(FOCO, x=300, y=150, w=50, h=50, cena=submarino, style={"opacity": 0.5}, vai=textoquadroportinari.vai)
 
 
 
