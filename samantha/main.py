@@ -6,22 +6,24 @@ STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
 linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
+FOCO = "https://i.imgur.com/6e096Va.png"
 def Historia():
 	introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
 	quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
+	travesseiro = Texto (quartotalita, "Não era bem o travesseiro que eu estava procurando..")
 	talita = Elemento (img = linkdatalita, 
 				tit="talita",
                        style=dict(left=180, top=50,  Width=60, height=50))
      
-    	travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=travesseiro)
+	travesseiro = Elemento(FOCO, x=70, y=400, w=50, h=50, cena=quartotalita, style={"opacity": 0.3}, vai=travesseiro)
 	
-    	travesseiro = Texto (quartotalita, "Não era bem o travesseiro que eu estava procurando..")
+    	
     
     
-    colete = Elemento (img = linkcolete,
-	tit = "colete",
-	style=dict(left=300, top=140, width=50, heigth=80))
+    	colete = Elemento (img = linkcolete,
+		tit = "colete",
+		style=dict(left=300, top=140, width=50, heigth=80))
     
      	protetorsolar = Elemento (img = linkprotetorsolar,
     	tit = "protetorsolar",
