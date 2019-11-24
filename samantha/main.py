@@ -80,9 +80,7 @@ quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=submarino, style
 textoquadroportinari = Texto (submarino, "Este quadro é de Portinari, de 1935 e chama-se café. Foi pintado com tinta a óleo.")  
 quadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=submarino, style={"opacity": 0.0}, vai=textoquadroportinari.vai)
 
-moeda = Elemento (img = "https://i.imgur.com/cT92YHg.png", 
-				tit="moeda",
-                       style=dict(left=180, top=120,  Width=60, height=50))
+
 
 
 textoquadrotarsila = Texto (submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
@@ -90,13 +88,13 @@ quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=submarino, style={
 
 cenamoeda = Cena (img = "https://i.imgur.com/GOH738j.jpg")
 
-
-
-talita.vai = cenamoeda.vai()
-
 moeda = Elemento (img = "https://i.imgur.com/wqxYJKv.png", 
 				tit="moeda",
-                       style=dict(left=180, top=120,  Width=60, height=50))
+                       style=dict(left=100, top=50,  Width=20, height=20))
+
+moeda.entra(cenamoeda)
+talita.vai = cenamoeda.vai
+
 
 
 
