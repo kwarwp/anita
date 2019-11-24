@@ -2607,3 +2607,10 @@ IndentationError: unexpected indent
     	Texto(sala, "Está na hora de ir pra escola").vai()
 NameError: name 'sala' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 20:45:02.795 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 66
+  maparegiao.esquerda=sala
+  ^
+IndentationError: unexpected indent
+'''},
