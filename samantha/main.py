@@ -12,7 +12,7 @@ def Historia():
 	introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
 	quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
 	submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
-    sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
+	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
 
 	
 	talita = Elemento (img = linkdatalita, 
