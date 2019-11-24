@@ -72,7 +72,7 @@ def Historia():
 submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
 talita = Elemento (img = linkdatalita, 
 				tit="talita",
-                       style=dict(left=180, top=120,  Width=60, height=50))
+                       style=dict(left=180, top=120,  Width=60, height=100))
 talita.entra(submarino)
     
 Historia()
