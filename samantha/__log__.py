@@ -2692,3 +2692,10 @@ AttributeError: 'bool' object has no attribute 'vai'
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Nov 24 2019 20:51:03.512 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 67
+  escola.direita = submarino
+  ^
+IndentationError: unexpected indent
+'''},
