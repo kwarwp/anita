@@ -1750,3 +1750,10 @@ IndentationError: unexpected indent
     	submarino.vai()
 NameError: name 'submarino' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 15:52:40.734 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 74
+  self.submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
+  ^
+IndentationError: expected an indented block
+'''},
