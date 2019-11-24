@@ -70,9 +70,8 @@ def Historia():
     
   
 class submarino:
-	def __init__(self):
-		self.submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
-		self.submarino.vai()
+	submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
+	submarino.vai()
     
 Historia()
 
