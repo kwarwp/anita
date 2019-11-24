@@ -184,3 +184,9 @@ Exception: $locals_$exec_1999.Quarto is not a function
   module '$exec_1999' line 10
 class Introducao:
 '''},
+{'date': 'Sun Nov 24 2019 13:40:15.389 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: $locals_$exec_445.Quarto is not a function
+  module '$exec_445' line 10
+class Introducao:
+'''},
