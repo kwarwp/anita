@@ -43,9 +43,9 @@ def Historia():
         textotravesseiro = Texto (quartotalita, "Não era bem isso que eu estava procurando..")    
         textotalita = Texto (quartotalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
     	textocolete = Texto (quartotalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
+        textocolete = Texto (quartotalita, "Parabens! Voce ganhou uma moeda!)
         textoprotetor = Texto (quartotalita,"O protetor solar é muito importante, mas não é o que estou procurando.")
-        textomoeda = Texto (quartotalita, "Parabens! Você ganhou uma moeda!")
-        talita.vai = textotalita.vai
+          talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         
         
