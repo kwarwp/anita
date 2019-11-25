@@ -413,3 +413,10 @@ AttributeError: 'GUI' object has no attribute 'introd'
     			self.travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=self.introd, style={"opacity": 0.0}, vai=textotravesseiro.vai)
 NameError: name 'textotravesseiro' is not defined
 '''},
+{'date': 'Mon Nov 25 2019 03:40:51.34 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 34
+  self.introd.vai().
+                     ^
+SyntaxError: invalid syntax
+'''},
