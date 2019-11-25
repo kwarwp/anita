@@ -2,6 +2,8 @@
 from _spy.vitollimo.main import Cena, Elemento,Texto,STYLE
 STYLE[wilth]=600
 STYLE[heigh]="200px"
+linkcapajogo="https://i.imgur.com/ZeMv9wO.jpg"
+linkdobotao="https://i.imgur.com/jd6xmTu.png"
 linkdatalita="https://img.elo7.com.br/product/original/222F529/desenho-boneca-lol-para-festa-de-crianca-menina.jpg"
 linkquartodatalita="https://cdna.artstation.com/p/assets/images/images/008/176/322/large/ian-barreto-anymalu-quarto-ianbarreto.jpg?1510953832""
 linkcoletedatalita="https://i.imgur.com/IZkZR1d.jpg"
@@ -22,3 +24,17 @@ talita.entra(quartodatalita)
 colete.entra(quartodatalita)
 quartodatalita.vai
 jogo():
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
