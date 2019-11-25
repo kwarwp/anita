@@ -49,6 +49,7 @@ def Historia():
         colete.vai = textocolete.vai
         protetorsolar.vai = textoprotetor.vai
         escola.direita = submarino.vai()
+        
     
     	
         
@@ -111,6 +112,7 @@ cenamoeda.esquerda = submarino
 
 fimdojogo = Cena (img="https://i.imgur.com/adpFtuN.png")
 cenasotao.direita = fimdojogo.vai()
+cenasotao.esquerda = submarino.vai()
 Historia()
 
 
