@@ -184,3 +184,10 @@ NameError: name 'quartotalita' is not defined
     			self.introd.vai=quarto.vai()
 AttributeError: 'quarto' object has no attribute 'vai'
 '''},
+{'date': 'Mon Nov 25 2019 02:46:23.89 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 28
+  self.quartotalita.vai()
+  ^
+IndentationError: expected an indented block
+'''},
