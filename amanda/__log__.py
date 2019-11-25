@@ -597,3 +597,10 @@ SyntaxError: EOL while scanning string literal
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Nov 25 2019 08:44:08.183 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  talita.entra(quartodatalita)
+  ^
+IndentationError: unexpected indent
+'''},
