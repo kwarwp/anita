@@ -2935,3 +2935,10 @@ IndentationError: unexpected indent
     senasotao.direita = fimdojogo.vai()
 NameError: name 'senasotao' is not defined
 '''},
+{'date': 'Sun Nov 24 2019 21:17:35.687 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  escola = Cena (img="https://i.imgur.com/hpHBRz7.jpg")
+  ^
+IndentationError: unexpected indent
+'''},
