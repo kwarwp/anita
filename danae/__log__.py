@@ -420,3 +420,10 @@ NameError: name 'textotravesseiro' is not defined
                      ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 25 2019 03:47:35.267 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  self.colete = Elemento (img = linkcolete, vai=self.habilita
+                                                                  ^
+SyntaxError: invalid syntax
+'''},
