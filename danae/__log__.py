@@ -484,3 +484,10 @@ AttributeError: 'Jogo' object has no attribute 'habilita'
     			self.colete = Elemento (vai=self.habilita)
 AttributeError: 'Jogo' object has no attribute 'habilita'
 '''},
+{'date': 'Mon Nov 25 2019 03:51:13.307 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  def __init__(self):
+  ^
+IndentationError: unexpected indent
+'''},
