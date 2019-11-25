@@ -11,17 +11,20 @@ def Historia():
 	introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
 	quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
-
+	Texto(sala, "Está na hora de ir pra escola").vai()
 	
+	escola = Cena (img="https://i.imgur.com/hpHBRz7.jpg")
+	maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
+	escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=maparegiao, style={"opacity": 0}, vai=escola.vai)
+    
 	talita = Elemento (img = linkdatalita, 
 				tit="talita",
                        style=dict(left=180, top=120,  Width=60, height=50))
      
 	textotravesseiro = Texto (quartotalita, "Não era bem isso que eu estava procurando..")  
-	travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.5}, vai=textotravesseiro.vai)
+	travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.0}, vai=textotravesseiro.vai)
 	
-    	
-
+	
 	   
     	colete = Elemento (img = linkcolete,
 		tit = "colete",
@@ -44,6 +47,7 @@ def Historia():
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         protetorsolar.vai = textoprotetor.vai
+        escola.direita = submarino.vai()
         
     
     	
@@ -61,9 +65,12 @@ def Historia():
 	botao.entra(introd)
 	introd.vai()
 	botao.vai=quartotalita.vai
+    
+    
+    
 	quartotalita.direita = sala
 	sala.esquerda = quartotalita
-	sala.direita = submarino
+	sala.direita = maparegiao
     
   
 submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
@@ -102,6 +109,9 @@ cenasotao = Cena (img="https://i.imgur.com/5wYPsAJ.jpg")
 cenamoeda.direita= cenasotao.vai()
 cenamoeda.esquerda = submarino
 
+fimdojogo = Cena (img="https://i.imgur.com/adpFtuN.png")
+cenasotao.direita = fimdojogo.vai()
+cenasotao.esquerda = submarino.vai()
 Historia()
 
 
