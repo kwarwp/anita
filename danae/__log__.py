@@ -723,3 +723,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Nov 25 2019 06:07:04.713 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  def habilita(self,evento):
+  ^
+IndentationError: unexpected indent
+'''},
