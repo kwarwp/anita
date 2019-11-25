@@ -3008,3 +3008,10 @@ IndentationError: expected an indented block
     	colete = Elemento (img = linkcolete,
 AttributeError: 'GUI' object has no attribute 'habilita'
 '''},
+{'date': 'Mon Nov 25 2019 03:33:38.135 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 30
+  colete = Elemento (img = linkcolete, vai=habilita()
+                                                         ^
+SyntaxError: invalid syntax
+'''},
