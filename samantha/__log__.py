@@ -3015,3 +3015,10 @@ AttributeError: 'GUI' object has no attribute 'habilita'
                                                          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 25 2019 03:36:02.837 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 38
+  def habilita()
+                 ^
+SyntaxError: invalid syntax
+'''},
