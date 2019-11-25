@@ -1075,3 +1075,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Nov 25 2019 07:34:12.326 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 20
+  self.introd.direita=self.sala        
+  ^
+IndentationError: expected an indented block
+'''},
