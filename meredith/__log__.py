@@ -48,3 +48,10 @@ IndentationError: unexpected indent
                            ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 25 2019 14:47:22.447 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 13
+  tit("coletedaTalita"
+  ^
+IndentationError: unexpected indent
+'''},
