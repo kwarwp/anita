@@ -41,3 +41,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Nov 25 2019 02:00:24.803 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 15
+  def quarto(self):
+  ^
+IndentationError: expected an indented block
+'''},
