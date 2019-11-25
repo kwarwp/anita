@@ -48,7 +48,7 @@ def Historia():
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         protetorsolar.vai = textoprotetor.vai
-        escola.vai = submarino.vai()
+        escola.direita = submarino.vai()
     
     	
         
