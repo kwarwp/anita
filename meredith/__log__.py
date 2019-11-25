@@ -472,3 +472,10 @@ NameError: name 'linkdatalita' is not defined
     	travesseiro.entra(quartodaTalita)
 NameError: name 'travesseiro' is not defined
 '''},
+{'date': 'Mon Nov 25 2019 15:24:55.212 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  textotalita = Texto (quartodaTalita, "Olá. Hoje vai ser um dia l
+                                                                  ^
+SyntaxError: EOL while scanning string literal
+'''},
