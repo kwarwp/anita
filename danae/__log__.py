@@ -1068,3 +1068,10 @@ AttributeError: 'Jogo' object has no attribute 'habilita'
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Nov 25 2019 07:33:56.714 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  def habilita(self,evento):
+  ^
+IndentationError: unexpected indent
+'''},
