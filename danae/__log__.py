@@ -434,3 +434,10 @@ SyntaxError: invalid syntax
                                                                                                                                                   ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 25 2019 03:49:36.457 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  self.colete = Elemento (vai=self.habilita)
+  ^
+IndentationError: unexpected indent
+'''},
