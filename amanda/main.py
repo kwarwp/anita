@@ -6,6 +6,10 @@ linkdatalita="https://i.imgur.com/BpSSVSi.png"
 linkquartodatalita="https://i.imgur.com/y9mhS0G.jpg"
 linkcoletedatalita="https://i.imgur.com/MhoUxzF.jpg"
 linkursodatalita="https://i.imgur.com/Vbcx4Bf.jpg"
+linkcapadojogo=" module <string> line 26
+  talita.entra(quartodatalita)
+  ^
+IndentationError: unexpected indent
 
 linkdosubmarinodatalita=" https://i.imgur.com3VTh.png"
 linkdosotaodatalita="https://i.imgur.com/WIA1F7a.jpg"
