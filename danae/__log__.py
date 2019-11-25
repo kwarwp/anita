@@ -48,3 +48,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Nov 25 2019 02:00:39.512 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  self.introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
+  ^
+IndentationError: expected an indented block
+'''},
