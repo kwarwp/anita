@@ -541,3 +541,10 @@ AttributeError: 'GUI' object has no attribute 'introd'
     			self.colete = Elemento (vai=self.habilita)
 AttributeError: 'Jogo' object has no attribute 'habilita'
 '''},
+{'date': 'Mon Nov 25 2019 03:55:20.18 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  self.colete(vai=self.habilita)
+  ^
+IndentationError: unexpected indent
+'''},
