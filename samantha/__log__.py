@@ -3022,3 +3022,10 @@ SyntaxError: invalid syntax
                  ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Nov 25 2019 03:36:11.583 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 39
+  quartotalita.direita = sala
+  ^
+IndentationError: expected an indented block
+'''},
