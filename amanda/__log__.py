@@ -590,3 +590,10 @@ NameError: name 'linkdaescoladatalita' is not defined
                       ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Nov 25 2019 08:44:03.833 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  talita.entra(quartodatalita)
+  ^
+IndentationError: unexpected indent
+'''},
