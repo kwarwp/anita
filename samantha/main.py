@@ -108,6 +108,7 @@ cenasotao = Cena (img="https://i.imgur.com/5wYPsAJ.jpg")
 cenamoeda.direita= cenasotao.vai()
 cenamoeda.esquerda = submarino
 
+fimdojogo = Cena (img="https://i.imgur.com/adpFtuN.png")
 Historia()
 
 
