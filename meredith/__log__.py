@@ -62,3 +62,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Nov 25 2019 14:50:44.297 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  colete.entra(quartotalita)
+  ^
+IndentationError: unexpected indent
+'''},
