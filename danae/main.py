@@ -8,7 +8,7 @@ linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
 FOCO = "https://i.imgur.com/6e096Va.png"
 img_moeda = "https://i.imgur.com/tOep9V9.gif"
 
-class Jogo:
+class Jogo():
 
 	def quarto():
 		introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
@@ -35,3 +35,5 @@ class Jogo:
 	colete.entra(quartotalita)
 	protetorsolar.entra(quartotalita)
 	travesseiro.entra(quartotalita)
+
+Jogo()
