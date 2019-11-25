@@ -1117,3 +1117,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Nov 25 2019 08:14:56.715 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
+  ^
+IndentationError: unexpected indent
+'''},
