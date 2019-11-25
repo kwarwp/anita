@@ -14,8 +14,15 @@ class Jogo:
 
 
 			self.introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
-			self.introd.vai= quarto()
- 		
+
+ 			self.botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
+	tit="Jogar",
+	style=dict(left=240, top=400, width=120, heigth=120))
+     
+			self.botao.entra(introd)
+			self.introd.vai()
+			self.botao.vai=quarto()
+
         
 class quarto:
 
@@ -28,5 +35,6 @@ class quarto:
 		self.quartotalita.vai()
 
 if __name__ == "__main__":
-    Jogo()
+    comecar = quarto()
+    quarto.inicia 
     
