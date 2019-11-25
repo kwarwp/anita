@@ -12,10 +12,21 @@ class Jogo:
 
 	 def __init__(self):
 
-		def quarto(self):
+
 			self.introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
-			self.intrdo.vai()
+			self.introd.vai= quarto()
  		
         
+class quarto:
 
-Jogo()
+	def inicia(self):
+		
+		self.quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
+		self.quartotalita.vai()
+        
+	def vai(self):
+		self.quartotalita.vai()
+
+if __name__ == "__main__":
+    Jogo()
+    
