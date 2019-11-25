@@ -14,6 +14,11 @@ class Jogo:
 
 			self.introd = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
 
+
+			def habilita(self):
+				self.introd.direita=self.sala.vai()            
+			sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
+            
  			self.talita = Elemento (img = linkdatalita, 
 				tit="talita",
                        style=dict(left=180, top=120,  Width=60, height=50))
@@ -21,7 +26,7 @@ class Jogo:
 			self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
 			self.travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
 
-			self.colete = Elemento (img = linkcolete,
+			self.colete = Elemento (img = linkcolete, vai=habilita,
 			tit = "colete",
 			style=dict(left=300, top=140, width=50, heigth=80))
     
@@ -42,9 +47,6 @@ class Jogo:
 			self.colete.vai = self.textocolete.vai
 			self.protetorsolar.vai = self.textoprotetor.vai
 
-			def habilita(self):
-				self.introd.direita=self.sala.vai()            
-			sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
-       
+
 if __name__ == "__main__":
 	Jogo()    
