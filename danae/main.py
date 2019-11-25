@@ -10,18 +10,14 @@ img_moeda = "https://i.imgur.com/tOep9V9.gif"
 
 class Jogo:
 
-	def habilita(self):
-		self.introd.direita=self.sala.vai()     
-                
 	 def __init__(self):
 
 			self.introd = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
-			self.sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
 
-			       
+			def habilita(self,evento):
+				self.introd.direita=sala()         
 
-            
- 			self.talita = Elemento (img = linkdatalita, 
+			self.talita = Elemento (img = linkdatalita, 
 				tit="talita",
                        style=dict(left=180, top=120,  Width=60, height=50))
      
@@ -48,6 +44,11 @@ class Jogo:
 			self.talita.vai = self.textotalita.vai
 			self.colete.vai = self.textocolete.vai
 			self.protetorsolar.vai = self.textoprotetor.vai
+
+			def sala(self, evento, cena):
+				self.sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
+				self.sala.vai()
+            
 
 
 if __name__ == "__main__":
