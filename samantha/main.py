@@ -14,8 +14,9 @@ def Historia():
 	sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
 	Texto(sala, "Está na hora de ir pra escola").vai()
 	
+	escola = Cena (img="https://i.imgur.com/hpHBRz7.jpg")
 	maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
-	escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=maparegiao, style={"opacity": 0}, vai=submarino.vai)
+	escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=maparegiao, style={"opacity": 0}, vai=escola.vai)
     
 	talita = Elemento (img = linkdatalita, 
 				tit="talita",
@@ -47,7 +48,7 @@ def Historia():
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         protetorsolar.vai = textoprotetor.vai
-        
+        escola.vai = submarino.vai()
     
     	
         
@@ -109,6 +110,7 @@ cenamoeda.direita= cenasotao.vai()
 cenamoeda.esquerda = submarino
 
 fimdojogo = Cena (img="https://i.imgur.com/adpFtuN.png")
+cenasotao.direita = fimdojogo.vai()
 Historia()
 
 
