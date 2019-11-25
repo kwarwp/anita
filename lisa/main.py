@@ -20,14 +20,13 @@ def Jogo ():
 				colete = Elemento (img= linkdocolete ,
 				tit="colete",
 				style=dict (left=50,top=250,width=50,height=200))
-
 			       barbie = Elemento (img= linkdabarbie,
                         tit="barbie",
                         style=dict (left=50,top=250,width=50,height=200))
                     
     talita.entra(quartodatalita)
     colete.entra(quartodatalita)
-    textotalita=Texto(quartodatalita,"Para eu sair do quarto preciso que vc ache para mim o objeto que stephanie kudlek criou")
+    textotalita=Texto(quartodatalita,"Para eu sair do quarto preciso que vc ache para mim o objeto que stephanie kudlek criou"/
     textocolete=Texto (quartodatalita, "parabéns,vc encontou o colete!tenho um presente pra vc")
     talita.vai=textotalita.vai
     colete.vai=textocolete.vai
@@ -39,8 +38,6 @@ def Jogo ():
    style= dict(left=120, top=40, heigth=60)
  
    quadro2=Elemento(img= "linkquadro2",
-
-
                     
                    
     
