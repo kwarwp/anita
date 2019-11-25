@@ -42,7 +42,8 @@ class Jogo:
 			self.colete.vai = self.textocolete.vai
 			self.protetorsolar.vai = self.textoprotetor.vai
 
-            
+			def habilita(self):
+				self.introd.direita=self.sala.vai()            
 			sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
        
 if __name__ == "__main__":
