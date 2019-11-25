@@ -20,7 +20,7 @@ class Jogo:
 				tit="talita",
                        style=dict(left=180, top=120,  Width=60, height=50))
      
-		textotravesseiro = Texto (quartotalita, "Não era bem isso que eu estava procurando..")  
+		textotravesseiro = Texto (self.quartotalita, "Não era bem isso que eu estava procurando..")  
 		travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=quartotalita, style={"opacity": 0.0}, vai=textotravesseiro.vai)
 	
 	
@@ -33,9 +33,9 @@ class Jogo:
 		tit = "protetorsolar",
 		style = dict(left=50, top=250, width=50, height=200))
     
-		talita.entra(quartotalita)
-		colete.entra(quartotalita)
-		protetorsolar.entra(quartotalita)
-		travesseiro.entra(quartotalita)
+		talita.entra(self.quartotalita)
+		colete.entra(self.quartotalita)
+		protetorsolar.entra(self.quartotalita)
+		travesseiro.entra(self.quartotalita)
 
 Jogo()
