@@ -44,8 +44,10 @@ class Jogo:
         self.talita.vai = self.textotalita.vai
         self.colete.vai = self.textocolete.vai
         self.protetorsolar.vai = self.textoprotetor.vai
+        # para habilitar a partir do texto use a propriedade foi do texto, neste caso, habilita não tem evento
+        self.textocolete.foi = self.habilita
 
-    def habilita(self, evento):
+    def habilita(self):  # não tem evento, pos foi chamado pelo foi: evento):
         self.introd.direita=self.sala        
                        
         """ tudo isso tinha que estar no __init__
