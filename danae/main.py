@@ -13,28 +13,43 @@ class Jogo:
 	 def __init__(self):
 
 
-			self.introd = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
+                
+			self.introd = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
 
- 			self.botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
-	tit="Jogar",
-	style=dict(left=240, top=400, width=120, heigth=120))
+ 			self.talita = Elemento (img = linkdatalita, 
+				tit="talita",
+                       style=dict(left=180, top=120,  Width=60, height=50))
      
-			self.botao.entra(introd)
-			self.introd.vai()
-			self.botao.vai=quarto()
+			self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
+			self.travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
+	
+			 
 
-        
-class quarto:
-
-	def inicia(self):
-		
-		self.quartotalita = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
-		self.quartotalita.vai()
-        
-	def vai(self):
-		self.quartotalita.vai()
-
-if __name__ == "__main__":
-    comecar = quarto()
-    quarto.inicia 
+            
+			self.colete = Elemento (img = linkcolete,
+			tit = "colete",
+			style=dict(left=300, top=140, width=50, heigth=80))
     
+			self.protetorsolar = Elemento (img = linkprotetorsolar,
+			tit = "protetorsolar",
+			style = dict(left=50, top=250, width=50, height=200))
+        
+			self.introd.vai()
+			self.talita.entra(self.introd)
+			self.colete.entra(self.introd)
+			self.protetorsolar.entra(self.introd)
+			
+			self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")    
+			self.textotalita = Texto (self.introd, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
+			self.textocolete = Texto (self.introd, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
+			self.textoprotetor = Texto (self.introd,"O protetor solar é muito importante, mas não é o que estou procurando.")
+			self.talita.vai = self.textotalita.vai
+			self.colete.vai = self.textocolete.vai
+			self.protetorsolar.vai = self.textoprotetor.vai
+            
+			
+            
+			sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
+       
+if __name__ == "__main__":
+	Jogo()    
