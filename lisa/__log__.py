@@ -574,3 +574,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Nov 25 2019 13:25:30.579 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 36
+  Sumbmarino=cena(img= "https://i.imgur.com/7bsWL02.jpg
+  ^
+IndentationError: unexpected indent
+'''},
