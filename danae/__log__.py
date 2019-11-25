@@ -946,3 +946,10 @@ AttributeError: 'Jogo' object has no attribute 'sala'
     			self.colete = Elemento (img = linkcolete, vai=self.habilita,
 AttributeError: 'Jogo' object has no attribute 'habilita'
 '''},
+{'date': 'Mon Nov 25 2019 07:02:18.253 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 50
+  self.sala.vai()
+  ^
+IndentationError: unexpected indent
+'''},
