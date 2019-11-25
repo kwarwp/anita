@@ -441,3 +441,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Nov 25 2019 03:49:46.499 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 49
+  self.introd.direita = sala
+  ^
+IndentationError: expected an indented block
+'''},
