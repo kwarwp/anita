@@ -899,3 +899,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Nov 26 2019 10:33:16.819 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 32
+  colete.entra(talita)
+  ^
+IndentationError: unexpected indent
+'''},
