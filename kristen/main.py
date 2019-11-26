@@ -15,7 +15,9 @@ linkquadro1="https://i.imgur.com/ly6mhuo.jpg"
 linkdoquadro2="https://i.imgur.com/tJlMNQA.jpg"
 linkdosotao="https://i.imgur.com/KrFFLIr.png"
 def Jogo():
-	quartodatalita=Cena(img="https://i.imgur.com/DEC5m3T.jpg")
+	introd = Cena(img= "https://i.imgur.com/PykSosS.jpg")
+	botaoiniciarjogo = Elemento(img="https://i.imgur.com/Q1nALyV.jpg")
+	quartodatalita = Cena(img="https://i.imgur.com/DEC5m3T.jpg")
 	talita= Elemento (img= linkdatalita,
                      tit="talita",
                      style=dict(left=180, top=50,  Width=30, height=50))
@@ -34,11 +36,11 @@ def Jogo():
      
 	escrivaninha = Elemento (img = linkdaescrivaninha,
       tit="escrivaninha",
-      style= dict(left=50, top=250, width=50, heigth=80)
+      style= dict(left=50, top=250, width=50, heigth=80))
       
 	bola = Elemento (img = linkdabola,
       tit="bola",
-      style= dict(left=150, top=90, widt=30, heigth=50)
+      style= dict(left=150, top=90, widt=30, heigth=50))
                          
                       
                         
@@ -61,6 +63,6 @@ Jogo()
       quadro1=
       tit="quarto1"
       style=dict(left=20, top=40, width=30, height=60,
-    quadro2=
-    tit="quadro2"
-    style=dict(left=10, top=20, width=30, heigth=60,
+      quadro2=
+      tit="quadro2"
+      style=dict(left=10, top=20, width=30, heigth=60,
