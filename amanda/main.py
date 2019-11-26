@@ -8,7 +8,7 @@ linkcoletedatalita="https://i.imgur.com/MhoUxzF.jpg"
 linkursodatalita="https://i.imgur.com/Vbcx4Bf.jpg"
 linkcapadojogo=" module <string> line 26
   talita.entra(quartodatalita)
-  ^
+    ^
 IndentationError: unexpected indent
 
 linkdosubmarinodatalita=" https://i.imgur.com3VTh.png"
