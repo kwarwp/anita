@@ -618,3 +618,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Nov 26 2019 13:46:26.802 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  linkcapadojogo=" module <string> line 26
+                                          ^
+SyntaxError: EOL while scanning string literal
+'''},
