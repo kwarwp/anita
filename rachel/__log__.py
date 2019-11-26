@@ -934,3 +934,10 @@ IndentationError: unexpected indent
                                                                                               ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Nov 26 2019 11:05:19.127 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 29
+  colete = Elemento (img = linkcolete,
+                                                                        ^
+SyntaxError: invalid syntax
+'''},
