@@ -211,3 +211,10 @@ AttributeError: 'Jogo' object has no attribute 'maparegiao'
                                                                                                                                                                                                                                    ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Wed Nov 27 2019 07:21:55.45 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 51
+  self.introd = Texto (self.introd, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso."").vai()
+                                                                                                                                                                                                                           ^
+SyntaxError: EOL while scanning string literal
+'''},
