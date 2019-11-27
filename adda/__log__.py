@@ -204,3 +204,10 @@ AttributeError: 'Jogo' object has no attribute 'texto'
     self.sala.direita = self.maparegiao
 AttributeError: 'Jogo' object has no attribute 'maparegiao'
 '''},
+{'date': 'Wed Nov 27 2019 07:20:53.189 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 52
+  self.textotravesseiro = Texto (self.introd, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso."")    
+                                                                                                                                                                                                                                   ^
+SyntaxError: EOL while scanning string literal
+'''},
