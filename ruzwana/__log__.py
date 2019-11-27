@@ -67,3 +67,10 @@ SyntaxError: invalid syntax
     self.sala.vai = self.habilitatextosala.vai
 AttributeError: 'method' object has no attribute 'vai'
 '''},
+{'date': 'Wed Nov 27 2019 08:35:43.316 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 28
+  self.sala.vai.vai() = self.habilitatextosala
+                      ^
+SyntaxError: can't assign to function call 
+'''},
