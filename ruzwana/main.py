@@ -113,7 +113,6 @@ class Jogo:
         self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
         
     def habilitaquadro(self):  # só passa pra sala depois que clicar no colete
-        self.submarino = Texto (self.submarino, "Neste submarino existem quadros de pintores importantes. Qual deles é de uma pintora?").vai()
         self.submarino.direita=self.ganhadiamante
         
         
