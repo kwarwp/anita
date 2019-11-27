@@ -906,3 +906,10 @@ NameError: <ReferenceError: no_set_attr is not defined>
 'error': '''
 NameError: <ReferenceError: no_set_attr is not defined>
 '''},
+{'date': 'Wed Nov 27 2019 11:27:58.654 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 106
+  self.submarino = Texto (self.submarino, "Neste submarino existem quadros de pintores importantes. Qual deles é de uma pintora?").vai()
+  ^
+IndentationError: unexpected indent
+'''},
