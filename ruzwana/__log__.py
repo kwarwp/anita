@@ -1133,3 +1133,10 @@ AttributeError: 'Jogo' object has no attribute 'textositiodopicapauamarelo'
     self.sitiodopicapauamarelo = Elemento(FOCO, x=90, y=120, w=20, h=20, cena=self.saladeaula, style={"opacity": 0.5}, vai=self.textositiodopicapauamarelo.vai)
 AttributeError: 'Jogo' object has no attribute 'textositiodopicapauamarelo'
 '''},
+{'date': 'Wed Nov 27 2019 12:59:42.344 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 50
+  self.textoahoradaestrela = Texto (self.saladeaula, "Esta é uma importante obra de Clarice Lispector, grande escritora da Literatura brasileira")
+  ^
+IndentationError: unexpected indent
+'''},
