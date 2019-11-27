@@ -512,3 +512,10 @@ SyntaxError: invalid syntax
     self.scorer.update(valor=cena.nome, move=self.xy,
 AttributeError: 'bool' object has no attribute 'nome'
 '''},
+{'date': 'Wed Nov 27 2019 09:59:12.186 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 77
+  self.quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=self.submarino, style={"opacity": 0.0}), vai=self.habilitaquadro)
+                                                                                                                        ^
+SyntaxError: invalid syntax
+'''},
