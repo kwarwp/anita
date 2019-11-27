@@ -485,3 +485,10 @@ AttributeError: 'Jogo' object has no attribute 'textoquadrotarsila'
     self.textoquadrotarsila.foi = self.habilitaquadro
 AttributeError: 'Jogo' object has no attribute 'textoquadrotarsila'
 '''},
+{'date': 'Wed Nov 27 2019 09:53:49.701 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 77
+  self.quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=self.submarino, style={"opacity": 0.0}), vai=self.habilitaquadro)
+                                                                                                                        ^
+SyntaxError: invalid syntax
+'''},
