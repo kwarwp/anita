@@ -34,7 +34,7 @@ class Jogo:
         self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
         
 #cenaescola
-
+        
         self.textositiodopicapauamarelo = Texto (self.saladeaula, "O sitio do pica-pau amarelo é uma importante obra de Monteiro Lobato!")
         self.sitiodopicapauamarelo = Elemento(FOCO, x=220, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textositiodopicapauamarelo.vai)
        
@@ -45,14 +45,22 @@ class Jogo:
         self.memoriaspostumas = Elemento(FOCO, x=370, y=330, w=70, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textomemoriaspostumas.vai)
        
         self.textooguarani = Texto (self.saladeaula, "Este é um romance histórico de José de Alencar")
-        self.oguarani = Elemento(FOCO, x=90, y=180, w=20, h=20, cena=self.saladeaula, style={"opacity": 0.5}, vai=self.textooguarani.vai)
+        self.oguarani = Elemento(FOCO, x=110, y=120, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textooguarani.vai)
        
-        self.textoahoradaestrela = Texto (self.saladeaula, "Esta é uma importante obra de Clarice Lispector, grande escritora da Literatura brasileira")
-        self.ahoradaestrela = Elemento(FOCO, x=90, y=200, w=20, h=20, cena=self.saladeaula, style={"opacity": 0.5}, vai=self.textoahoradaestrela)
+        self.textoahoradaestrela = Texto (self.saladeaula, "A hora da estrela é uma importante obra de Clarice Lispector, grande escritora da Literatura brasileira.")
+        self.ahoradaestrela = Elemento(FOCO, x=360, y=180, w=80, h=80, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textoahoradaestrela.vai)
        
+        self.talita3 = Elemento (img = "https://i.imgur.com/N5HXcxK.png", 
+        tit="Talita",
+        style=dict(left=220, top=190, width=100, heigth=1500))
+        self.talita3.entra(self.saladeaula)
+        self.textotalita3 = Texto (self.saladeaula, "Hoje a aula vai ser sobre uma importante escritora de literatura brasileira. Me ajude a encontrar o livro")
+        self.talita3.vai = self.textotalita3.vai
+        
+        
 # cena quarto        
         self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
-        self.travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
+        self.travesseiro = Elemento(FOCO, x=90, y=180, w=80, h=80, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
 
         self.capa = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
         self.talita = Elemento (img = linkdatalita, 
@@ -69,7 +77,7 @@ class Jogo:
         
         self.botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
         tit="Jogar",
-        style=dict(left=240, top=400, width=120, heigth=120))
+        style=dict(left=220, top=400, width=120, heigth=120))
         
         self.botao.entra(self.capa)
         self.capa.vai()
