@@ -815,3 +815,10 @@ NameError: name 'submarino' is not defined
     self.ganhadiamante.esquerda = submarino
 NameError: name 'submarino' is not defined
 '''},
+{'date': 'Wed Nov 27 2019 10:39:28.426 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 79
+  self.submarino = Texto (self.submarino, "Neste submarino existem quadros de pintores importantes. Qual deles é de uma pintora?").vai()      
+  ^
+IndentationError: unexpected indent
+'''},
