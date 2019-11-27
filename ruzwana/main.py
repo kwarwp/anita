@@ -31,6 +31,11 @@ class Jogo:
         self.rampaescola.esquerda = self.patioescola
         #self.patioescola.direita = self.submarino
         self.ganhadiamante.esquerda = self.submarino
+        self.painelsolar = Cena (img="https://i.imgur.com/5wYPsAJ.jpg")
+        self.ganhadiamante.vai = self.painelsolar
+        self.ganhadiamante.foi = self.painelsolardef
+        
+        
         
         
         
@@ -110,7 +115,11 @@ class Jogo:
         self.textotalita2 = Texto (self.submarino, "Neste submarino existe um quadro de uma pintora famosa. Me ajude a encontrar!")
         self.talita2.vai = self.textotalita2.vai
         
-          
+
+#cena painel solar 
+        
+
+
 
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
@@ -122,10 +131,10 @@ class Jogo:
         
         self.submarino.direita=self.ganhadiamante
         
-        
-        
-        
-       
+    def painelsolardef(self):
+    
+        self.painelsolar = Texto (self.painelsolar,"E agora qual o proximo desafio?").vai()
+             
         
 if __name__ == "__main__":
     Jogo() 
