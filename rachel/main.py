@@ -30,14 +30,12 @@ class Jogo:
         self.submarino = Cena (img="https://i.imgur.com/GOH738j.jpg")
         self.saladeaula.esquerda = self.rampaescola
         self.rampaescola.esquerda = self.patioescola
-        #self.ganhadiamante.esquerda = self.submarino
+        self.ganhadiamante.esquerda = self.submarino
         self.painelsolar = Cena (img="https://i.imgur.com/5wYPsAJ.jpg")
         self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
         self.saladeaula2 = Cena (img="https://i.imgur.com/y2WMlxb.jpg")
         self.sotao = Cena (img="https://i.imgur.com/D2KRRlS.jpg")
         self.voltasotao = Cena ("https://i.imgur.com/SpyaFmX.jpg")
-        self.dentrodomuseu = Cena ("https://i.imgur.com/flkncLY.jpg")
-        self.final = Cena ("https://i.imgur.com/WkuaGWp.png")
 #cenaescola
         
         self.textositiodopicapauamarelo = Texto (self.saladeaula, "O sitio do pica-pau amarelo é uma importante obra de Monteiro Lobato!")
@@ -135,38 +133,7 @@ class Jogo:
         self.textotalita2 = Texto (self.submarino, "A passagem secreta me trouxe até esse submarino e agora eu preciso encontrar o quadro de uma pintora brasileira famosa para conseguir sair!")
         self.talita2.vai = self.textotalita2.vai
         
-#cena museu
-        self.museu = Cena (img="https://i.imgur.com/aZPZEZo.png")
-        self.submarinomapa = Elemento(FOCO, x=290, y=150, w=180, h=50, cena=self.museu, style={"opacity": 0.0}, vai=self.dentrodomuseu.vai)
-        self.textosubmarinomapa = Texto (self.museu, "Já que o submarino me deixou aqui bem pertinho, vou entrar para conhecer o museu de Tecnologia.")
-        self.submarinomapa.direita = self.dentrodomuseu
-        
-        self.talitamuseu = Elemento (img = "https://i.imgur.com/QV5fuXJ.png", 
-        tit="Talita no museu da Computação",
-        style=dict(left=430, top=220, width=120, heigth=1500))
-        
-        
-                  
-        self.textocharles = Texto (self.dentrodomuseu, "Esse é Charles Babbage. Ele inventou a primeira máquina analítica")
-        self.textocharles= Elemento (FOCO, x=0, y=50, w=150, h=150, cena=self.dentrodomuseu, style={"opacity": 0.0}, vai=self.textocharles.vai)
-        
-        self.textostevejobs = Texto (self.dentrodomuseu, "Esse é Steve Jobs. Ele foi o fundador da Apple")
-        self.textostevejobs= Elemento (FOCO, x=170, y=50, w=150, h=150, cena=self.dentrodomuseu, style={"opacity": 0.0}, vai=self.textostevejobs.vai)
-        
-        self.textotim = Texto (self.dentrodomuseu, "Esse é Tim Berners-Lee. Ele inventou a World Wide Web e é conhecido como o pai da internet.")
-        self.textotim= Elemento (FOCO, x=320, y=50, w=100, h=100, cena=self.dentrodomuseu, style={"opacity": 0.0}, vai=self.textotim.vai)
-        
-        self.ada= Elemento (FOCO, x=430, y=100, w=50, h=80, cena=self.dentrodomuseu, style={"opacity": 0.0}, vai=self.habilitafinal)
-        self.textoada = Texto (self.dentrodomuseu, "Essa é a Ada Lovelace. Ela que criou o primeiro algoritmo. Que legal! Depois de toda essa aventura é hora de voltar pra casa")
-        self.ada.vai = self.textoada.vai
-        self.textoada.foi = self.habilitafinal
-        
-        self.talitamuseu.entra(self.dentrodomuseu)
-        self.textotalitamuseu = Texto (self.dentrodomuseu, "Antes de voltar para casa, vou descobrir quem foi que inventou o primeiro algoritmo!")
-        self.talitamuseu.vai = self.textotalitamuseu.vai
-        
-        
-        
+
 #cena sotao
         
         self.ganhamoeda2.direita = self.sotao
@@ -193,13 +160,9 @@ class Jogo:
        
 
 #cenasotaovolta
-        
-        self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.habilitasubmarino)
+        self.ganhamoeda3.direita = self.voltasotao
         self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
-        self.talitaencontrou.vai = self.textotalitaencontrou.vai
-        self.textotalitaencontrou.foi = self.habilitasubmarino
-        
-       
+        self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.textotalitaencontrou.vai)
 
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
@@ -208,7 +171,6 @@ class Jogo:
     def habilitaquadro(self):  # só passa pra sala depois que clicar no colete
         
         self.submarino.direita=self.ganhadiamante
-        self.ganhadiamante.direita = self.museu
         
     def habilitalivro(self):  # só passa pra sala depois que clicar no colete
         
@@ -216,15 +178,7 @@ class Jogo:
    
     def habilitavolta(self):
         self.painelsolar.direita=self.ganhamoeda3
-        self.ganhamoeda3.direita = self.voltasotao
-        
-    def habilitasubmarino(self):
-        self.voltasotao.direita = self.submarino
-        
-    def habilitafinal(self):
-        self.dentrodomuseu.direita = self.final
-        
-    
+        self.ganhamoeda3.direita = self.submarino
         
 if __name__ == "__main__":
     Jogo() 
