@@ -35,6 +35,7 @@ class Jogo:
         
         
         
+        
 # cena quarto        
         self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
         self.travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
@@ -82,8 +83,11 @@ class Jogo:
         patioescola = Elemento (FOCO, x=150, y=150, w=80, h=40, cena=self.patioescola, style={"opacity": 0.0}, vai=self.rampaescola.vai)
 
         rampaescola = Elemento (FOCO, x=240, y=250, w=100, h=200, cena=self.rampaescola, style={"opacity": 0.0}, vai=self.saladeaula.vai)
+
+        
+
 #cena submarino
-# cena submarino
+
        
 
        
@@ -103,16 +107,19 @@ class Jogo:
         self.textoquadrotarsila = Texto (self.submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
         self.quadrotarsila.vai = self.textoquadrotarsila.vai
         self.textoquadrotarsila.foi = self.habilitaquadro
-        
-        
+        self.textotalita2 = Texto (self.submarino, "Neste submarino existe um quadro de uma pintora famosa. Me ajude a encontrar!")
+        self.talita2.vai = self.textotalita2.vai
         
           
 
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
         self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+      
+        
         
     def habilitaquadro(self):  # só passa pra sala depois que clicar no colete
+        
         self.submarino.direita=self.ganhadiamante
         
         
