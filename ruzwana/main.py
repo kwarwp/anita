@@ -16,6 +16,7 @@ class Jogo:
         self.introd = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
         self.sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
         self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
+        self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.sala.direita = self.maparegiao
         self.sala.esquerda = self.introd
         self.escola = Cena (img="https://i.imgur.com/hpHBRz7.jpg")
@@ -58,7 +59,7 @@ class Jogo:
         self.textocolete.foi = self.habilita
 
     def habilita(self):  # só passa pra sala depois que clicar no colete
-        self.introd.direita=self.sala
+        self.introd.direita=self.ganhamoeda
         
 # cena sala
         
@@ -67,4 +68,11 @@ class Jogo:
 #cena mapa escola
 
         escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=self.maparegiao, style={"opacity": 0}, vai=self.escola.vai)
+
+
+
+        
+if __name__ == "__main__":
+    Jogo() 
+        
         
