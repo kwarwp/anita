@@ -17,13 +17,14 @@ class Jogo:
         self.sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
         self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
         self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
-        self.submarino = Cena (img="https://i.imgur.com/GOH738j.jpg")
         self.ganhamoeda.direita=self.sala
         self.ganhamoeda.esquerda=self.introd
         self.sala.direita = self.maparegiao
         self.sala.esquerda = self.introd
         self.escola = Cena (img="https://i.imgur.com/hpHBRz7.jpg")
+        self.submarino = Cena (img="https://i.imgur.com/GOH738j.jpg")
         self.escola.direita = self.submarino
+        self.ganhadiamante = Cena (img="https://i.imgur.com/M9Xx8ab.png")
         
         
 # cena quarto        
@@ -62,6 +63,18 @@ class Jogo:
         self.protetorsolar.vai = self.textoprotetor.vai
         self.textocolete.foi = self.habilita
 
+        self.talita2 = Elemento (img = "https://i.imgur.com/N5HXcxK.png", 
+        tit="talita",
+        style=dict(left=250, top=400, width=120, heigth=1500))
+        self.talita2.entra(self.submarino)
+        
+        self.textoquadropicasso = Texto (self.submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau")  
+        self.quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadropicasso.vai)
+        self.textoquadroportinari = Texto (self.submarino, "Este quadro é de Portinari, de 1935 e chama-se café. Foi pintado com tinta a óleo.")  
+        self.quadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadroportinari.vai)
+        self.textoquadrotarsila = Texto (self.submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
+        self.quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadrotarsila.vai), vai=self.habilitaquadro)
+
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
         
@@ -76,17 +89,9 @@ class Jogo:
 # cena submarino
 
         self.submarino = Texto (self.submarino, "Neste submarino existem quadros de pintores importantes. Qual deles é de uma pintora?").vai()
-        self.talita2 = Elemento (img = linkdatalita, 
-        tit="talita",
-        style=dict(left=250, top=400, width=120, heigth=1500))
-        self.talita2.entra(self.submarino)
-        self.textoquadropicasso = Texto (self.submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau")  
-        self.quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadropicasso.vai)
-        self.textoquadroportinari = Texto (self.submarino, "Este quadro é de Portinari, de 1935 e chama-se café. Foi pintado com tinta a óleo.")  
-        self.quadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadroportinari.vai)
-        self.textoquadrotarsila = Texto (self.submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
-        self.quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadrotarsila.vai)
-
+        
+    def habilitaquadro(self):  # só passa pra sala depois que clicar no colete
+        self.introd.direita=self.ganhamoeda2
         
 if __name__ == "__main__":
     Jogo() 
