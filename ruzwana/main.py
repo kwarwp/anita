@@ -34,6 +34,7 @@ class Jogo:
         
         
         
+        
 # cena quarto        
         self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
         self.travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
@@ -69,7 +70,7 @@ class Jogo:
         self.talita.vai = self.textotalita.vai
         self.colete.vai = self.textocolete.vai
         self.protetorsolar.vai = self.textoprotetor.vai
-        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+        
 
                
 #cena mapa escola
@@ -97,8 +98,7 @@ class Jogo:
         self.textoquadropicasso = Texto (self.submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau")  
         self.quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadropicasso.vai)
         self.textoquadroportinari = Texto (self.submarino, "Este quadro é de Portinari, de 1935 e chama-se café. Foi pintado com tinta a óleo.")  
-        self.quadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadroportinari.vai)
-        #self.submarino = Texto (self.submarino, "Neste submarino existem quadros de pintores importantes. Qual deles é de uma pintora?").vai()      
+        self.quadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadroportinari.vai)      
         self.quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=self.submarino, style={"opacity": 0.0}, vai=self.habilitaquadro)
         self.textoquadrotarsila = Texto (self.submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
         self.quadrotarsila.vai = self.textoquadrotarsila.vai
@@ -110,8 +110,10 @@ class Jogo:
 
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
+        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
         
     def habilitaquadro(self):  # só passa pra sala depois que clicar no colete
+        self.submarino = Texto (self.submarino, "Neste submarino existem quadros de pintores importantes. Qual deles é de uma pintora?").vai()
         self.submarino.direita=self.ganhadiamante
         
         
