@@ -1457,3 +1457,21 @@ AttributeError: 'Jogo' object has no attribute 'ganhamoeda3'
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Nov 27 2019 16:31:01.53 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''Traceback (most recent call last):
+  module _core.main line 160
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 306
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 278
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 295
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 220
+    Jogo() 
+  module <module> line 149
+    self.ada= Elemento (FOCO, x=430, y=100, w=50, h=80, cena=self.dentrodomuseu, style={"opacity": 0.0}, vai=self.habilitafinal)
+AttributeError: 'Jogo' object has no attribute 'habilitafinal'
+'''},
