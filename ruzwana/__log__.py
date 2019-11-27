@@ -1216,3 +1216,10 @@ AttributeError: 'bool' object has no attribute 'nome'
     self.scorer = dict(ponto=1, valor=cena.nome, carta=tit or img, casa=self.xy, move=None)
 AttributeError: 'bool' object has no attribute 'nome'
 '''},
+{'date': 'Wed Nov 27 2019 13:20:51.271 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 53
+  self.saladeaula = Texto (self.saladeaula, "Hoje a aula vai ser sobre a obra de uma importante escritora. Me ajude a encontrar").vai()
+  ^
+IndentationError: unexpected indent
+'''},
