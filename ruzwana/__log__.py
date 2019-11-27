@@ -136,3 +136,7 @@ AttributeError: 'method' object has no attribute 'x'
 'error': '''
 NameError: <ReferenceError: no_set_attr is not defined>
 '''},
+{'date': 'Wed Nov 27 2019 08:44:22.847 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: no_set_attr is not defined>
+'''},
