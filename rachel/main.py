@@ -1,5 +1,5 @@
 # anita.rachel.main.py
-from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
+from _spy.vitollino.main import Cena, Elemento, Texto, STYLE, Musica
 STYLE["width"] = 600
 STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/N5HXcxK.png"
@@ -7,8 +7,9 @@ linkcolete = "https://i.imgur.com/SRaVHBw.png"
 linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
 FOCO = "https://i.imgur.com/6e096Va.png"
 img_moeda = "https://i.imgur.com/tOep9V9.gif"
-MUSICA="https://soundcloud.com/trippie-hippie-2/6-kiss-feat-juicewrld-ynw-melly"
+MUSICA="https://soundcloud.com/kayra-esteves/dona-de-mim-iza"
 #Site = https://soundcloud.com/
+
 class Jogo:
 
 # definicoes de cenas ficam aqui 
