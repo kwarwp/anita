@@ -1097,3 +1097,21 @@ AttributeError: 'Jogo' object has no attribute 'painelsolar'
     self.ahoradaestrela = Elemento (img = "https://i.imgur.com/wVr5x51.jpg",
 AttributeError: 'Jogo' object has no attribute 'livrohabilita'
 '''},
+{'date': 'Wed Nov 27 2019 12:54:27.700 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''Traceback (most recent call last):
+  module _core.main line 160
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 306
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 278
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 295
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 134
+    Jogo() 
+  module <module> line 38
+    self.sitiodopicapauamarelo = Elemento(FOCO, x=90, y=120, w=20, h=20, cena=self.saladeaula, style={"opacity": 0.5}, vai=self.textositiodopicapauamarelo.vai)
+AttributeError: 'Jogo' object has no attribute 'textositiodopicapauamarelo'
+'''},
