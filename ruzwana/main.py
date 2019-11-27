@@ -78,24 +78,28 @@ class Jogo:
         self.quadrotarsila.vai = self.textoquadrotarsila.vai
         self.textoquadrotarsila.foi = self.habilitaquadro
         
+
+#cena mapa escola
+
+        escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=self.maparegiao, style={"opacity": 0}, vai=self.escola.vai)
+
+# cena sala
+        
+        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+        
+
+# cena submarino
+
+        self.submarino = Texto (self.submarino, "Neste submarino existem quadros de pintores importantes. Qual deles é de uma pintora?").vai()
+        
+
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
         
     def habilitaquadro(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhadiamante
         
-# cena sala
-        
-        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
-        
-#cena mapa escola
 
-        escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=self.maparegiao, style={"opacity": 0}, vai=self.escola.vai)
-
-# cena submarino
-
-        self.submarino = Texto (self.submarino, "Neste submarino existem quadros de pintores importantes. Qual deles é de uma pintora?").vai()
-        
     
         
 if __name__ == "__main__":
