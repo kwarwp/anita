@@ -42,3 +42,10 @@ NameError: name 'submarino' is not defined
                                         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Nov 27 2019 08:33:42.736 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 28
+  self.sala.vai = self.habilitatextosala.vai*)
+                                             ^
+SyntaxError: invalid syntax
+'''},
