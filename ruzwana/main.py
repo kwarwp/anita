@@ -36,13 +36,13 @@ class Jogo:
 #cenaescola
 
         self.textositiodopicapauamarelo = Texto (self.saladeaula, "O sitio do pica-pau amarelo é uma importante obra de Monteiro Lobato!")
-        self.sitiodopicapauamarelo = Elemento(FOCO, x=90, y=120, w=20, h=20, cena=self.saladeaula, style={"opacity": 0.5}, vai=self.textositiodopicapauamarelo.vai)
+        self.sitiodopicapauamarelo = Elemento(FOCO, x=220, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textositiodopicapauamarelo.vai)
        
         self.textocapitaesdeareia = Texto (self.saladeaula, "Essa obra é de Jorge Amado")
         self.capitaesdeareia = Elemento(FOCO, x=300, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textocapitaesdeareia.vai)
        
         self.textomemoriaspostumas = Texto (self.saladeaula, "Essa é uma importante obra de Machado de Assis")
-        self.memoriaspostumas = Elemento(FOCO, x=90, y=150, w=20, h=20, cena=self.saladeaula, style={"opacity": 0.5}, vai=self.textomemoriaspostumas.vai)
+        self.memoriaspostumas = Elemento(FOCO, x=370, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.5}, vai=self.textomemoriaspostumas.vai)
        
         self.textooguarani = Texto (self.saladeaula, "Este é um romance histórico de José de Alencar")
         self.oguarani = Elemento(FOCO, x=90, y=180, w=20, h=20, cena=self.saladeaula, style={"opacity": 0.5}, vai=self.textooguarani.vai)
