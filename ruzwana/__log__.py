@@ -913,3 +913,10 @@ NameError: <ReferenceError: no_set_attr is not defined>
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Nov 27 2019 11:29:09.968 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 89
+  self.submarino = Texto (self.submarino, "Neste submarino existem quadros de pintores importantes. Qual deles é de uma pintora?").vai()
+  ^
+IndentationError: unexpected indent
+'''},
