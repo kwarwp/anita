@@ -132,3 +132,7 @@ AttributeError: 'method' object has no attribute 'x'
     self._auto_score(move=(ev.x, ev.y))
 AttributeError: 'method' object has no attribute 'x'
 '''},
+{'date': 'Wed Nov 27 2019 08:44:19.476 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: no_set_attr is not defined>
+'''},
