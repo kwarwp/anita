@@ -1259,3 +1259,10 @@ AttributeError: 'bool' object has no attribute 'vai'
     rampaescola = Elemento (FOCO, x=240, y=250, w=100, h=200, cena=self.rampaescola, style={"opacity": 0.0}, vai=self.saladeaula.vai)
 AttributeError: 'bool' object has no attribute 'vai'
 '''},
+{'date': 'Wed Nov 27 2019 13:39:34.575 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 149
+  def habilitalivro(self):  # só passa pra sala depois que clicar no colete
+  ^
+IndentationError: unexpected indent
+'''},
