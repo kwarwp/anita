@@ -898,3 +898,7 @@ AttributeError: 'Jogo' object has no attribute 'escola'
     self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
 AttributeError: 'Jogo' object has no attribute 'sala'
 '''},
+{'date': 'Wed Nov 27 2019 11:18:38.769 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: no_set_attr is not defined>
+'''},
