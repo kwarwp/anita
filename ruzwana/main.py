@@ -29,18 +29,10 @@ class Jogo:
         self.saladeaula.direita = self.submarino
         self.saladeaula.esquerda = self.rampaescola
         self.rampaescola.esquerda = self.patioescola
-        #self.patioescola.direita = self.submarino
         self.ganhadiamante.esquerda = self.submarino
         self.painelsolar = Cena (img="https://i.imgur.com/5wYPsAJ.jpg")
-        self.ganhadiamante.vai = self.painelsolar
-        self.ganhadiamante.foi = self.painelsolardef
-        
-        
-        
-        
-        
-        
-        
+        self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
+   
 # cena quarto        
         self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
         self.travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
@@ -75,7 +67,7 @@ class Jogo:
         self.textocolete.foi = self.habilita
         self.talita.vai = self.textotalita.vai
         self.colete.vai = self.textocolete.vai
-        self.protetorsolar.vai = self.textoprotetor.vai
+        
         
 
                
@@ -116,10 +108,7 @@ class Jogo:
         self.talita2.vai = self.textotalita2.vai
         
 
-#cena painel solar 
         
-
-
 
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
@@ -131,10 +120,7 @@ class Jogo:
         
         self.submarino.direita=self.ganhadiamante
         
-    def painelsolardef(self):
     
-        self.painelsolar = Texto (self.painelsolar,"E agora qual o proximo desafio?").vai()
-             
         
 if __name__ == "__main__":
     Jogo() 
