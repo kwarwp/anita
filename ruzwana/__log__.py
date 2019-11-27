@@ -176,3 +176,7 @@ AttributeError: 'Jogo' object has no attribute 'sala'
     self.ganhamoeda.direita = self.sala
 AttributeError: 'Jogo' object has no attribute 'sala'
 '''},
+{'date': 'Wed Nov 27 2019 08:47:10.339 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: no_set_attr is not defined>
+'''},
