@@ -62,6 +62,7 @@ class Jogo:
         self.colete.vai = self.textocolete.vai
         self.protetorsolar.vai = self.textoprotetor.vai
         self.textocolete.foi = self.habilita
+        self.textoquadrotarsila.foi = self.habilitaquadro
 
         self.talita2 = Elemento (img = "https://i.imgur.com/N5HXcxK.png", 
         tit="talita",
@@ -91,7 +92,7 @@ class Jogo:
         self.submarino = Texto (self.submarino, "Neste submarino existem quadros de pintores importantes. Qual deles é de uma pintora?").vai()
         
     def habilitaquadro(self):  # só passa pra sala depois que clicar no colete
-        self.introd.direita=self.ganhamoeda2
+        self.introd.direita=self.ganhadiamante
         
 if __name__ == "__main__":
     Jogo() 
