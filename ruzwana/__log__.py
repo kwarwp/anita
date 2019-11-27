@@ -35,3 +35,10 @@ NameError: name 'sala' is not defined
     self.escola.direita = submarino.vai()
 NameError: name 'submarino' is not defined
 '''},
+{'date': 'Wed Nov 27 2019 08:33:34.687 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 28
+  self.sala.vai = habilitatextosala.vai*)
+                                        ^
+SyntaxError: invalid syntax
+'''},
