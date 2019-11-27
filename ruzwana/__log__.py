@@ -624,3 +624,10 @@ AttributeError: 'bool' object has no attribute 'nome'
     self.scorer.update(valor=cena.nome, move=self.xy,
 AttributeError: 'bool' object has no attribute 'nome'
 '''},
+{'date': 'Wed Nov 27 2019 10:12:33.241 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 95
+  self.submarino = Texto (self.submarino, "Neste submarino existem quadros de pintores importantes. Qual deles é de uma pintora?").vai()
+  ^
+IndentationError: unexpected indent
+'''},
