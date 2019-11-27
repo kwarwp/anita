@@ -1079,3 +1079,21 @@ AttributeError: 'Jogo' object has no attribute 'painelsolar'
     self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
 AttributeError: 'Jogo' object has no attribute 'painelsolar'
 '''},
+{'date': 'Wed Nov 27 2019 12:47:06.2 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''Traceback (most recent call last):
+  module _core.main line 160
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 306
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 278
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 295
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 156
+    Jogo() 
+  module <module> line 55
+    self.ahoradaestrela = Elemento (img = "https://i.imgur.com/wVr5x51.jpg",
+AttributeError: 'Jogo' object has no attribute 'livrohabilita'
+'''},
