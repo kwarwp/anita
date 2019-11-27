@@ -1450,3 +1450,10 @@ AttributeError: 'Jogo' object has no attribute 'ganhamoeda3'
     self.ganhamoeda3.direita = self.voltasotao
 AttributeError: 'Jogo' object has no attribute 'ganhamoeda3'
 '''},
+{'date': 'Wed Nov 27 2019 15:30:43.584 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 137
+  self.museu = Cena (img="https://i.imgur.com/aZPZEZo.png")
+  ^
+IndentationError: unexpected indent
+'''},
