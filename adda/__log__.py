@@ -107,3 +107,10 @@ NameError: name 'sala' is not defined
     self.Texto (self.sala, "Está na hora de ir pra escola").vai()
 AttributeError: 'Jogo' object has no attribute 'Texto'
 '''},
+{'date': 'Wed Nov 27 2019 07:03:57.495 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 60
+  def defsala(self.sala):
+                   ^
+SyntaxError: invalid syntax
+'''},
