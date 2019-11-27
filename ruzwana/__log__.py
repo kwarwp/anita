@@ -1266,3 +1266,7 @@ AttributeError: 'bool' object has no attribute 'vai'
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Nov 27 2019 14:30:48.870 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: no_set_attr is not defined>
+'''},
