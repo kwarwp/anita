@@ -23,12 +23,17 @@ class Jogo:
         self.sala.direita = self.maparegiao
         self.sala.esquerda = self.introd
         self.patioescola = Cena (img="https://i.imgur.com/9Kqt3xV.jpg")
+        self.rampaescola = Cena (img="https://i.imgur.com/D9lGay5.jpg")
+        self.saladeaula = Cena (img = "https://i.imgur.com/yJoJGXu.jpg")
         self.submarino = Cena (img="https://i.imgur.com/GOH738j.jpg")
-        self.patioescola.direita = self.submarino
+        self.saladeaula.direita = self.submarino
+        self.saladeaula.esquerda = self.rampaescola
+        self.rampaescola.esquerda = self.patioescola
+        #self.patioescola.direita = self.submarino
         self.ganhadiamante.esquerda = self.submarino
         
         
-      
+        
 # cena quarto        
         self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
         self.travesseiro = Elemento(FOCO, x=90, y=180, w=50, h=50, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
@@ -64,11 +69,8 @@ class Jogo:
         self.talita.vai = self.textotalita.vai
         self.colete.vai = self.textocolete.vai
         self.protetorsolar.vai = self.textoprotetor.vai
-        
-
-# cena sala
-        
         self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+
                
 #cena mapa escola
 
@@ -76,8 +78,9 @@ class Jogo:
 
         escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=self.maparegiao, style={"opacity": 0}, vai=self.patioescola.vai)
 
-        
+        patioescola = Elemento (FOCO, x=150, y=150, w=80, h=40, cena=self.patioescola, style={"opacity": 0.0}, vai=self.rampaescola.vai)
 
+        rampaescola = Elemento (FOCO, x=240, y=250, w=100, h=200, cena=self.rampaescola, style={"opacity": 0.0}, vai=self.saladeaula.vai)
 #cena submarino
 # cena submarino
        
@@ -112,7 +115,9 @@ class Jogo:
         self.submarino.direita=self.ganhadiamante
         
         
-    
+        
+        
+       
         
 if __name__ == "__main__":
     Jogo() 
