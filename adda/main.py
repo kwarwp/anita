@@ -18,6 +18,7 @@ class Jogo:
         self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
         self.sala.direita = self.maparegiao
         self.sala.esquerda = self.introd
+        self.escola = Cena (img="https://i.imgur.com/hpHBRz7.jpg")
         
         
 # cena quarto        
@@ -26,8 +27,8 @@ class Jogo:
 
         self.capa = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
         self.talita = Elemento (img = linkdatalita, 
-            tit="talita",
-                       style=dict(left=180, top=120,  Width=60, height=50))
+        tit="talita",
+        style=dict(left=180, top=120,  Width=60, height=50))
 
         self.colete = Elemento (img = linkcolete,
         tit = "colete",
@@ -47,7 +48,7 @@ class Jogo:
         self.talita.entra(self.introd)
         self.colete.entra(self.introd)
         self.protetorsolar.entra(self.introd)
-        self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")    
+        self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando...")    
         self.textotalita = Texto (self.introd, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
         self.textocolete = Texto (self.introd, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
         self.textoprotetor = Texto (self.introd,"O protetor solar é muito importante, mas não é o que estou procurando.")
@@ -63,7 +64,9 @@ class Jogo:
         
         self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
         
-        
+#cena escola
+
+        escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=self.maparegiao, style={"opacity": 0}, vai=self.escola.vai)
         
         
 if __name__ == "__main__":
