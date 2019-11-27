@@ -429,3 +429,23 @@ AttributeError: 'Jogo' object has no attribute 'textoquadrotarsila'
     self.textoquadrotarsila.foi = self.habilitaquadro
 AttributeError: 'Jogo' object has no attribute 'textoquadrotarsila'
 '''},
+{'date': 'Wed Nov 27 2019 09:45:11.915 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''Traceback (most recent call last):
+  module _core.main line 160
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 306
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 278
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 295
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 100
+    Jogo() 
+  module <module> line 77
+    self.textoquadrotarsila = Texto (self.submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.", vai=self.habilitaquadro)
+  module _spy.vitollino.main line 1171
+    super().__init__(None, tit=tit, txt=txt, vai=None, **kwargs)
+TypeError: (call) (id) $$super:((id) Texto:,(id) self:)() got multiple values for argument 'vai'
+'''},
