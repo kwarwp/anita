@@ -232,3 +232,10 @@ AttributeError: 'module' object has no attribute '__setitem__'
     STYLE["width"]= 600
 AttributeError: 'module' object has no attribute '__setitem__'
 '''},
+{'date': 'Fri Nov 29 2019 13:59:18.553 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  linkdaescoladatalita=
+                        ^
+SyntaxError: invalid syntax
+'''},
