@@ -6,9 +6,20 @@ linkdatalita= "https://www.trzcacak.rs/myfile/detail/201-2017902_bonecas-png-men
 linkdocolete= "https://i.imgur.com/IZkZR1d.jpg"
 linkdachave= "https://i.imgur.com/Jwdhb9P.jpg"
 linkdapanelinha= "https://i.imgur.com/HCb4RvU.jpg"
-linkdaescoladatalita=
-linkdosubmarino=
-def jogo (): 
+linkdaescoladatalita= "https://i.imgur.com/DEG8uVP.jpg"
+linkdosubmarino="https://i.imgur.com/m08RLCg.png"
+FOCO = "https://i.imgur.com/6e096Va.png"
+img_moeda = "https://i.imgur.com/tOep9V9.gif"
+
+
+
+class Jogo:
+
+# definicoes de cenas ficam aqui
+     def _int_(self):
+     
+        self.introd = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_."
+        self.
 	quartodatalita=Cena(img = "https://i.imgur.com/RCRUtAf.jpg") 
 	talita= Elemento (img=linkdatalita,
                         tit= "talita",
