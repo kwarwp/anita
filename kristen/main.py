@@ -9,7 +9,7 @@ linkjogos="https://i.imgur.com/3FXCWmB.jpg"
 linklivros="https://i.imgur.com/TwENnNe.gif"
 linkdaescrivaninha="https://i.imgur.com/Rw3pEJu.jpg"
 linkdabola="https://i.imgur.com/YcE5EW6.jpg"
-linkdaescoladatalita=
+linkdaescoladatalita= "https://www.google.com/maps/uv?hl=pt-BR&pb=!1s0x99649ea626703b:0x7d4e6aa6d6d9b26c!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipN_yZCS5Qe_lhaOr_xNN7c4d3WNFF-tkkjHuNYa%3Dw214-h143-k-no!5sescola+municipal+jornalista+e+escritor+daniel+piza+-+Pesquisa+Google&imagekey=!1e10!2sAF1QipN_yZCS5Qe_lhaOr_xNN7c4d3WNFF-tkkjHuNYa&sa=X&ved=2ahUKEwift66hnYvmAhW2I7kGHfOfABkQoiowCnoECAsQBg"
 linkdosubmarino="https://i.imgur.com/zuCVdGW.png"
 linkquadro1="https://i.imgur.com/ly6mhuo.jpg"
 linkdoquadro2="https://i.imgur.com/tJlMNQA.jpg"
