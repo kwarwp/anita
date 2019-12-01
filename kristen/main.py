@@ -23,7 +23,7 @@ class Jogo:
 
         self.introd = Cena (img = "https://i.imgur.com/PykSosS.jpg")
         self.entradadaescola = Cena (img ="https://i.imgur.com/Km1pk3N.jpg")
-        self.quartodatalita = cena (img = img="https://i.imgur.com/DEC5m3T.jpg")
+        self.quartodatalita = cena (img="https://i.imgur.com/DEC5m3T.jpg")
         self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhamoeda2 = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhamoeda3 = Cena (img="https://i.imgur.com/koWP1dw.png")
