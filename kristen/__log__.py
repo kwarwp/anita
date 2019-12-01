@@ -470,3 +470,10 @@ NameError: name 'linkbola' is not defined
                                                                         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Dec 01 2019 15:47:28.761 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 96
+  self.botao = Elemento (img = "https://i.imgur.com/KrFFLIr.png",
+                                                                                               ^
+SyntaxError: invalid syntax
+'''},
