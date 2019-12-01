@@ -526,3 +526,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Dec 01 2019 16:26:56.223 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 141
+  self.ganhamoeda2.direita = self.sotao
+  ^
+IndentationError: unexpected indent
+'''},
