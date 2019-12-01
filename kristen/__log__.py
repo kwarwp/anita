@@ -512,3 +512,10 @@ SyntaxError: invalid syntax
                               ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Dec 01 2019 16:20:52.404 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 116
+  rampaescola = Elemento (FOCO, x=240, y=250, w=100, h=200, cena=self.rampaescola, style={"opacity": 0.0}, vai=self.saladeaula.
+                                                                                                                                                                                                                                                                                                                             ^
+SyntaxError: invalid syntax
+'''},
