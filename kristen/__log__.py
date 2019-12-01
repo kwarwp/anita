@@ -498,3 +498,10 @@ SyntaxError: invalid syntax
                                                                           ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Dec 01 2019 16:16:59.317 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 106
+  self.escrivaninha.vai = self.introd)
+                                ^
+SyntaxError: invalid syntax
+'''},
