@@ -619,3 +619,10 @@ AttributeError: 'Jogo' object has no attribute 'submario1'
                                                                         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Dec 01 2019 20:50:02.452 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  self.quartodatalita = cena (img = img="https://i.imgur.com/DEC5m3T.jpg")
+                                                                          ^
+SyntaxError: invalid syntax
+'''},
