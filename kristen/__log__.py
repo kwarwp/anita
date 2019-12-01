@@ -463,3 +463,10 @@ NameError: name 'bola' is not defined
     	bola = Elemento (img = linkbola,
 NameError: name 'linkbola' is not defined
 '''},
+{'date': 'Sun Dec 01 2019 15:46:51.474 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 27
+  self.quartotalita = cena (img = img="https://i.imgur.com/DEC5m3T.jpg")
+                                                                        ^
+SyntaxError: invalid syntax
+'''},
