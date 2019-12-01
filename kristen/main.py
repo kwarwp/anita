@@ -13,6 +13,7 @@ linkdaescoladatalita= "https://www.google.com/maps/uv?hl=pt-BR&pb=!1s0x99649ea62
 linkdosubmarino="https://i.imgur.com/zuCVdGW.png"
 linkquadro1="https://i.imgur.com/ly6mhuo.jpg"
 linkdoquadro2="https://i.imgur.com/tJlMNQA.jpg"
+linkquadro3="https://i.imgur.com/32JEhNf.jpg"
 linkdosotao="https://i.imgur.com/KrFFLIr.png"
 linkdobotao="https://i.imgur.com/Q1nALyV.jpg"
 
@@ -92,64 +93,83 @@ class Jogo:
         tit = "livro",
         style = dict(left=50, top=250, width=50, height=200))
         
-        self.botao = Elemento (img = linkdobotao
+        self.botao = Elemento (img = "https://i.imgur.com/KrFFLIr.png",
+        tit="botao"
+        style=dict(left=220, top=400, width=120, height=120))
         
+        self.botao.entra(selfcapa)
+        self.capa.vai()
+        self.botao.vai=self.introd.vai
+        self.talita.entra(self.introd)
+        self.colete.entra(self.introd)
+        self.livros.entra(self.introd)
+        self.escrivaninha.vai = self.introd)
+        self.bola.entra(self.intro)
+        
+        
+#cena mapa da escola
+   
+        escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=self.maparegiao, style={"opacity": 0}, vai=self.patioescola.vai)
+
+        patioescola = Elemento (FOCO, x=150, y=150, w=80, h=40, cena=self.patioescola, style={"opacity": 0.0}, vai=self.rampaescola.vai)
+
+        rampaescola = Elemento (FOCO, x=240, y=250, w=100, h=200, cena=self.rampaescola, style={"opacity": 0.0}, vai=self.saladeaula.
 
 
 
 
 
+#cena submarino
 
+       self.talita2 = Elemento (img = "https://i.imgur.com/N5HXcxK.png", 
+        tit="talita",
+        style=dict(left=250, top=400, width=120, heigth=1500))
+        self.talita2.entra(self.submarino)
+        self.textoquadropicasso = Texto (self.submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau")  
+        self.quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadropicasso.vai)
+        self.textoquadroportinari = Texto (self.submarino, "Este quadro é de Portinari, de 1935 e chama-se café. Foi pintado com tinta a óleo.")  
+        self.quadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadroportinari.vai)      
+        self.quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=self.submarino, style={"opacity": 0.0}, vai=self.habilitaquadro)
+        self.textoquadrotarsila = Texto (self.submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
+        self.quadrotarsila.vai = self.textoquadrotarsila.vai
+        self.textoquadrotarsila.foi = self.habilitaquadro
+        self.textotalita2 = Texto (self.submarino, "A passagem secreta me trouxe até esse submarino e agora eu preciso encontrar o quadro de uma pintora brasileira famosa para conseguir sair!")
+        self.talita2.vai = self.textotalita2.vai
+        
+        
+ #cena sotao
+ 
+       self.ganhamoeda2.direita = self.sotao
+        self.saladeaula2.esquerda = self.ganhamoeda2
+        self.talita4 = Elemento (img = "https://i.imgur.com/e3dxEn1.jpg"
+        tit="talita",
+        style=dict(left=250, top=250, width=120, heigth=1500))
+        self.talita4.entra(self.sotao)
+        self.textotalita4 = Texto (self.sotao, "Vou fazer um trabalho sobre uma área da Ciência em que as mulheres têm se destacado muito atualmente.")
+        self.talita4.vai = self.textotalita4.vai
+        self.textotalita4.foi = self.habilitavolta
+        acha_painel_solar= Elemento (FOCO, x=0, y=0, w=200, h=100, cena=self.sotao, style={"opacity": 0.0}, vai=self.painelsolar.vai)
 
+#cena sotao volta
+        self.ganhamoeda3.direita = self.voltasotao
+        self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
+        self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.textotalitaencontrou.vai)
 
-
-
-	
-	talita= Elemento (img= linkdatalita,
-                     tit="talita",
-                     style=dict(left=180, top=50,  Width=30, height=50))
-     
-	colete= Elemento(img=linkcolete,
-	tit="colete",
-	style=dict(left=300, top=140, width=50, heigth=80))
-    
-	jogos = Elemento (img = linkjogos,
-	tit = "jogos",
-	style = dict(left=120, top=250, width=50, height=200))
-    
-	livros = Elemento (img = linklivros,
-      tit="livros",
-      style=dict(left=250, top=200, width=50, height=180))
-     
-	escrivaninha = Elemento (img = linkdaescrivaninha,
-      tit="escrivaninha",
-      style= dict(left=50, top=250, width=50, heigth=80))
-      
-	bola = Elemento (img = linkdabola,
-      tit="bola",
-      style= dict(left=150, top=90, widt=30, heigth=50))
-                         
-                      
-                        
-      
-   	talita.entra(quartodatalita)
-   	colete.entra(quartodatalita)
-   	jogos.entra(quartodatalita)
-   	livros.entra(quartodatalita)
-   	escrivaninha.entra(quartodatalita)
-   	bola.entra(quartodatalita)
-   	textotalita=Texto(quartodatalita,"hey,encontre o objeto criado por stephanie kwolek e ganhe moedas") 
-   	textocolete=Texto(quartodatalita,"parabéns! vista o colete e passe para a proxima fase")
-   	talita.vai=textotalita.vai
-   	colete.vai=textocolete.vai
-  
-   	quartodatalita.vai()
-Jogo()
-
-	submarino= Cena(img="https://i.imgur.com/KrFFLIr.png")
-      quadro1=
-      tit="quarto1"
-      style=dict(left=20, top=40, width=30, height=60,
-      quadro2=
-      tit="quadro2"
-      style=dict(left=10, top=20, width=30, heigth=60,
+    def habilita(self):  # só passa pra sala depois que clicar no colete
+        self.introd.direita=self.ganhamoeda
+        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+ 
+    def habilitaquadro(self):  # só passa pra sala depois que clicar no colete
+        
+        self.submarino.direita=self.ganhadiamante
+        
+    def habilitalivro(self):  # só passa pra sala depois que clicar no colete
+        
+        self.saladeaula.direita=self.ganhamoeda2
+   
+    def habilitavolta(self):
+        self.painelsolar.direita=self.ganhamoeda3
+        self.ganhamoeda3.direita = self.submarino
+        
+if __name__ == "__main__":
+    Jogo() 
