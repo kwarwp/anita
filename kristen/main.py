@@ -103,7 +103,7 @@ class Jogo:
         self.talita.entra(self.introd)
         self.colete.entra(self.introd)
         self.livros.entra(self.introd)
-        self.escrivaninha.vai = self.introd)
+        self.escrivaninha.vai=self.introd)
         self.bola.entra(self.intro)
         
         
