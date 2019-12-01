@@ -633,3 +633,10 @@ SyntaxError: invalid syntax
                                                                                                                                                   ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Dec 01 2019 20:51:16.238 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 86
+  self.colete = Elemento (img = linkdocolete,
+                                                                                                                                                    ^
+SyntaxError: invalid syntax
+'''},
