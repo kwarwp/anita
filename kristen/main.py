@@ -138,7 +138,7 @@ class Jogo:
         
  #cena sotao
  
-       self.ganhamoeda2.direita = self.sotao
+        self.ganhamoeda2.direita = self.sotao
         self.saladeaula2.esquerda = self.ganhamoeda2
         self.talita4 = Elemento (img = "https://i.imgur.com/e3dxEn1.jpg"
         tit="talita",
