@@ -484,3 +484,10 @@ SyntaxError: invalid syntax
                                                                                                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Dec 01 2019 15:50:40.414 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 96
+  self.botao = Elemento (img = linkdobotao,
+                                                                         ^
+SyntaxError: invalid syntax
+'''},
