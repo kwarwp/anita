@@ -533,3 +533,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Dec 01 2019 16:27:20.110 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 143
+  self.talita4 = Elemento (img = "https://i.imgur.com/e3dxEn1.jpg"
+                                                                            ^
+SyntaxError: invalid syntax
+'''},
