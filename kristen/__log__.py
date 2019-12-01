@@ -519,3 +519,10 @@ SyntaxError: invalid syntax
                                                                                                                                                                                                                                                                                                                              ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Dec 01 2019 16:26:20.403 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 123
+  self.talita2 = Elemento (img = "https://i.imgur.com/N5HXcxK.png", 
+  ^
+IndentationError: unexpected indent
+'''},
