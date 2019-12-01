@@ -37,7 +37,7 @@ class Jogo:
         self.submarino1 = Cena (img = "https://i.imgur.com/GOH738j.jpg")
         self.saladeleitura.esquerda = self.rampaescola
         self.rampaescola.esquerda = self.patioescola
-        self.submarino.esquerda = self.submario1
+        self.submarino1.esquerda = self.submario1
         self.ganhadiamante.esquerda = self.submarino1
         self.saladeaula = Cena (img="https://i.imgur.com/y2WMlxb.jpg")
         self.sotao = Cena (img="https://i.imgur.com/D2KRRlS.jpg")
