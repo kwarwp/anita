@@ -103,7 +103,7 @@ class Jogo:
         self.talita.entra(self.introd)
         self.colete.entra(self.introd)
         self.livros.entra(self.introd)
-        self.escrivaninha.vai=self.introd)
+        self.escrivaninha.vai=self.introd.vai
         self.bola.entra(self.intro)
         
         
@@ -114,7 +114,6 @@ class Jogo:
         patioescola = Elemento (FOCO, x=150, y=150, w=80, h=40, cena=self.patioescola, style={"opacity": 0.0}, vai=self.rampaescola.vai)
 
         rampaescola = Elemento (FOCO, x=240, y=250, w=100, h=200, cena=self.rampaescola, style={"opacity": 0.0}, vai=self.saladeaula.
-
 
 
 
