@@ -612,3 +612,10 @@ AttributeError: 'Jogo' object has no attribute 'submario1'
     self.submarino1.esquerda = self.submario1
 AttributeError: 'Jogo' object has no attribute 'submario1'
 '''},
+{'date': 'Sun Dec 01 2019 20:49:28.302 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  self.quartotalita = cena (img = img="https://i.imgur.com/DEC5m3T.jpg")
+                                                                        ^
+SyntaxError: invalid syntax
+'''},
