@@ -120,7 +120,7 @@ class Jogo:
 
 #cena submarino
 
-       self.talita2 = Elemento (img = "https://i.imgur.com/N5HXcxK.png", 
+        self.talita2 = Elemento (img = "https://i.imgur.com/N5HXcxK.png", 
         tit="talita",
         style=dict(left=250, top=400, width=120, heigth=1500))
         self.talita2.entra(self.submarino)
