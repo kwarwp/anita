@@ -19,7 +19,7 @@ class Jogo:
     def __init__(self):
 
         self.introducao = Cena (img = "https://i.imgur.com/5kB6A8i.jpg")
-        self.sala.Cena = Cena (img ="https://i.imgur.com/5kB6A8i.jpg")
+        self.sala.Cena = Cena (img ="https://i.imgur.com/i0bpw80.jpg")
         self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhamoeda2 = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhamoeda3 = Cena (img="https://i.imgur.com/koWP1dw.png")
@@ -28,7 +28,7 @@ class Jogo:
         self.ganhadiamante = Cena (img="https://i.imgur.com/M9Xx8ab.png")
         self.sala.direita = self.maparegiao
         self.sala.esquerda = self.introd
-           self.patioescola = Cena (img="https://i.imgur.com/9Kqt3xV.jpg")
+        self.patioescola = Cena (img="https://i.imgur.com/9Kqt3xV.jpg")
         self.rampaescola = Cena (img="https://i.imgur.com/D9lGay5.jpg")
         self.saladeaula = Cena (img = "https://i.imgur.com/u3DYHmo.jpg")
         self.submarino = Cena (img="https://i.imgur.com/GOH738j.jpg")
