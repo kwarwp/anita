@@ -11,8 +11,34 @@ linksubmarino="https://i.imgur.com/7bsWL02.jpg"
 linkquadro1= "https://i.imgur.com/x0JjYNb.jpg"
 linkquadro2= "https://i.imgur.com/xSE0HV4.jpg"
 linksotao="https://i.imgur.com/7bsWL02.jpg"
-def Jogo ():
-	quartodatalita= Cena (img= "https://image.freepik.com/vetores-gratis/modelo-de-plano-de-fundo-interior-quarto-dos-desenhos-animados-aconchegante-casa-moderna-sala-na-luz-da-manha_33099-171.jpg")
+    def Jogo ():
+    
+        self.Intro = Cena (img= "https://image.freepik.com/vetores-gratis/modelo-de-plano-de-fundo-interior-quarto-dos-desenhos-animados-aconchegante-casa-moderna-sala-na-luz-da-manha_33099-171.jpg")
+        self.sala = Cena (img= "https://i.imgur.com/hBgCTYo.jpg"
+        self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
+        self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
+        self.ganhamoeda2 = Cena (img="https://i.imgur.com/koWP1dw.png")
+        self.ganhamoeda3 = Cena (img="https://i.imgur.com/koWP1dw.png")
+        self.ganhamoeda.direita=self.sala
+        self.ganhamoeda.esquerda=self.introd
+        self.sala.direita = self.maparegiao
+        self.sala.esquerda = self.introd
+        self.patioescola = Cena (img="https://i.imgur.com/9Kqt3xV.jpg")
+        self.rampaescola = Cena (img="https://i.imgur.com/D9lGay5.jpg")
+        self.saladeaula = Cena (img = "https://i.imgur.com/u3DYHmo.jpg")
+        self.submarino = Cena (img="https://i.imgur.com/GOH738j.jpg")
+        self.saladeaula.esquerda = self.rampaescola
+        self.rampaescola.esquerda = self.patioescola
+        self.ganhadiamante.esquerda = self.submarino
+         self.painelsolar = Cena (img= "https://i.imgur.com/xfYAwKB.jpg")
+        self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
+        self.sotao = Cena (img="https://i.imgur.com/E9op9Yf.jpg")
+        self.voltasotao = Cena ("https://i.imgur.com/7bsWL02.jpg")
+        
+        
+        
+    
+    
 	talita = Elemento (img =linkdatalita,
 				tit="talita",
 				style=dict (left=300,top=50,width=60,height=50))
