@@ -14,11 +14,11 @@ class Jogo:
     def __init__(self):
 
         self.introd = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
-        self.sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
-        self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
-        self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
-        self.ganhamoeda2 = Cena (img="https://i.imgur.com/koWP1dw.png")
-        self.ganhamoeda3 = Cena (img="https://i.imgur.com/koWP1dw.png")
+        self.sala = Cena (img = "")
+        self.maparegiao = Cena(img=")
+        self.ganhamoeda = Cena (img="")
+        self.ganhamoeda2 = Cena (img="")
+        self.ganhamoeda3 = Cena (img="")
         self.ganhamoeda.direita=self.sala
         self.ganhamoeda.esquerda=self.introd
         self.ganhadiamante = Cena (img="https://i.imgur.com/M9Xx8ab.png")
@@ -165,7 +165,7 @@ class Jogo:
 
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
-        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+        self.sala = Texto (self.sala, "hora de ir pra escola").vai()
  
     def habilitaquadro(self):  # só passa pra sala depois que clicar no colete
         
