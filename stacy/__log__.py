@@ -34,3 +34,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Dec 02 2019 11:10:08.934 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 6
+  def __init__(self):
+  ^
+IndentationError: expected an indented block
+'''},
