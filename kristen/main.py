@@ -85,7 +85,7 @@ class Jogo:
         
         self.colete = Elemento (img = linkcolete,
         tit ="colete",
-        style=dict(left=300, top=140, width=50, heigth=80), vai=self.habilita))
+        style=dict(left=300, top=140, width=50, heigth=80, vai=self.habilita))
         
         self.livros = Elemento (img = linkdolivro,
         tit = "livro",
