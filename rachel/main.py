@@ -157,8 +157,7 @@ class Jogo:
         self.textotalita6 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
         self.textotalita6.foi = self.habilitavolta
         self.talita6.vai = self.textotalita6.vai
-       
-
+        
 #cenasotaovolta
         self.ganhamoeda3.direita = self.voltasotao
         self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
