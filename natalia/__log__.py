@@ -385,3 +385,10 @@ SyntaxError: EOL while scanning string literal
                           ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Dec 02 2019 07:44:00.784 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 4
+  STYLE["heigth"] = "200px
+                          ^
+SyntaxError: EOL while scanning string literal
+'''},
