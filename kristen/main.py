@@ -20,6 +20,7 @@ class Jogo:
 
         self.introd = Cena (img = "https://i.imgur.com/5kB6A8i.jpg")
         self.sala = Cena (img ="https://i.imgur.com/i0bpw80.jpg")
+        self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
         self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhamoeda2 = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhamoeda3 = Cena (img="https://i.imgur.com/koWP1dw.png")
