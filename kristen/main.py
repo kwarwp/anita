@@ -151,7 +151,7 @@ class Jogo:
 
 #cenapainelsolar
 
-        self.talita6 = Elemento (img = "https://i.imgur.com/2LZFFjU.png."
+        self.talita6 = Elemento (img = "https://i.imgur.com/2LZFFjU.png"
 
         self.talita6 = Elemento (img = "https://i.imgur.com/QV5fuXJ.png", 
         tit="Talita",
