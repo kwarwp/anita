@@ -479,3 +479,10 @@ NameError: name 'travesseiro' is not defined
                                                                   ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Dec 02 2019 10:15:14.488 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  textotalita = Texto (quartodaTalita, "Olá. Hoje vai ser um dia l
+                                                                  ^
+SyntaxError: EOL while scanning string literal
+'''},
