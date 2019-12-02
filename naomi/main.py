@@ -6,8 +6,8 @@ linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
 linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
 FOCO = "https://i.imgur.com/6e096Va.png"
-img_moeda = "https://i.imgur.com/tOep9V9.gif"
-
+IMG_MOEDA = "https://i.imgur.com/tOep9V9.gif"
+IMG_DIAMANTE = "https://i.imgur.com/tuBG3Y5.jpg"
 class Jogo:
 
 # definicoes de cenas ficam aqui 
