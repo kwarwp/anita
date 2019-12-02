@@ -246,3 +246,10 @@ SyntaxError: invalid syntax
                                                                                                                                         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Dec 02 2019 04:52:00.912 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 41
+  self.talita.entra(quartodatalita)
+  ^
+IndentationError: unexpected indent
+'''},
