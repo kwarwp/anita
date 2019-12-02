@@ -16,10 +16,7 @@ class Jogo:
         self.Talita.entra(self.sala)
         
         
-        
-        
-      
+
 if __name__ == "__main__":
     Jogo() 
-        
         
