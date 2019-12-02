@@ -703,3 +703,10 @@ SyntaxError: EOL while scanning string literal
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Dec 01 2019 21:49:01.710 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 154
+  self.talita6 = Elemento (img = "https://i.imgur.com/2LZFFjU.png"
+                                                                             ^
+SyntaxError: invalid syntax
+'''},
