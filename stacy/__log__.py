@@ -166,3 +166,10 @@ Exception: <SyntaxError: unexpected token: '{'>
 'error': '''
 Exception: <SyntaxError: unexpected token: '{'>
 '''},
+{'date': 'Mon Dec 02 2019 11:58:49.409 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  STYLE = dict (left = 200, top = 190, width = 100, height = 1500))
+                                                                  ^
+SyntaxError: invalid syntax
+'''},
