@@ -668,3 +668,10 @@ SyntaxError: invalid syntax
                                                                                                                                     ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Sun Dec 01 2019 21:17:36.482 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 107
+  self.textolivros = Texto (self.introd,"O livro te leva para viagens emocionantes, sem sair de casa. Mas não é isso que procuro".")
+                                                                                                                                    ^
+SyntaxError: EOL while scanning string literal
+'''},
