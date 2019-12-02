@@ -48,3 +48,10 @@ SyntaxError: invalid syntax
                                                                                                                                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Dec 02 2019 04:19:41.527 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 32
+  def habilita(self):  # só passa pra sala depois que clicar no colete
+  ^
+IndentationError: unexpected indent
+'''},
