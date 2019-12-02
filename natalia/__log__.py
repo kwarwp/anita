@@ -239,3 +239,10 @@ AttributeError: 'module' object has no attribute '__setitem__'
                         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Dec 02 2019 04:46:29.139 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  self.introd = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_."
+                                                                                                                                        ^
+SyntaxError: invalid syntax
+'''},
