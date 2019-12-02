@@ -765,3 +765,10 @@ SyntaxError: invalid syntax
                                                   ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Dec 02 2019 14:58:18.755 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  self.colete =Elemento(img="linkcolete,"
+                                                   ^
+SyntaxError: invalid syntax
+'''},
