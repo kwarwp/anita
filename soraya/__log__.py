@@ -20,3 +20,10 @@ SyntaxError: invalid syntax
                                                                       ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Dec 02 2019 04:14:40.266 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  self.colete = Elemento (img = linkcolete,
+                                                                          ^
+SyntaxError: invalid syntax
+'''},
