@@ -13,7 +13,7 @@ class Jogo:
 # definicoes de cenas ficam aqui 
     def __init__(self):
 
-        self.introd = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
+        self.introd = Cena (img = "")
         self.sala = Cena (img = "")
         self.maparegiao = Cena(img=")
         self.ganhamoeda = Cena (img="")
@@ -21,30 +21,30 @@ class Jogo:
         self.ganhamoeda3 = Cena (img="")
         self.ganhamoeda.direita=self.sala
         self.ganhamoeda.esquerda=self.introd
-        self.ganhadiamante = Cena (img="https://i.imgur.com/M9Xx8ab.png")
+        self.ganhadiamante = Cena (img="")
         self.sala.direita = self.maparegiao
         self.sala.esquerda = self.introd
-        self.patioescola = Cena (img="https://i.imgur.com/9Kqt3xV.jpg")
-        self.rampaescola = Cena (img="https://i.imgur.com/D9lGay5.jpg")
-        self.saladeaula = Cena (img = "https://i.imgur.com/u3DYHmo.jpg")
-        self.submarino = Cena (img="https://i.imgur.com/GOH738j.jpg")
+        self.patioescola = Cena (img="")
+        self.rampaescola = Cena (img="")
+        self.saladeaula = Cena (img = "")
+        self.submarino = Cena (img="")
         self.saladeaula.esquerda = self.rampaescola
         self.rampaescola.esquerda = self.patioescola
         self.ganhadiamante.esquerda = self.submarino
-        self.painelsolar = Cena (img="https://i.imgur.com/5wYPsAJ.jpg")
+        self.painelsolar = Cena (img="")
         self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
-        self.saladeaula2 = Cena (img="https://i.imgur.com/y2WMlxb.jpg")
-        self.sotao = Cena (img="https://i.imgur.com/D2KRRlS.jpg")
-        self.voltasotao = Cena ("https://i.imgur.com/SpyaFmX.jpg")
+        self.saladeaula2 = Cena (img="")
+        self.sotao = Cena (img="")
+        self.voltasotao = Cena ("")
 #cenaescola
         
         self.textositiodopicapauamarelo = Texto (self.saladeaula, "O sitio do pica-pau amarelo é uma importante obra de Monteiro Lobato!")
         self.sitiodopicapauamarelo = Elemento(FOCO, x=220, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textositiodopicapauamarelo.vai)
        
-        self.textocapitaesdeareia = Texto (self.saladeaula, "Essa obra é de Jorge Amado")
+        self.textocapitaesdeareia = Texto (self.saladeaula, "")
         self.capitaesdeareia = Elemento(FOCO, x=300, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textocapitaesdeareia.vai)
        
-        self.textomemoriaspostumas = Texto (self.saladeaula, "Essa é uma importante obra de Machado de Assis")
+        self.textomemoriaspostumas = Texto (self.saladeaula, "")
         self.memoriaspostumas = Elemento(FOCO, x=370, y=330, w=70, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textomemoriaspostumas.vai)
        
         self.textooguarani = Texto (self.saladeaula, "Este é um romance histórico de José de Alencar")
@@ -92,11 +92,11 @@ class Jogo:
         self.talita.entra(self.introd)
         self.colete.entra(self.introd)
         self.protetorsolar.entra(self.introd)
-        self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando...")    
-        self.textotalita = Texto (self.introd, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
-        self.textocolete = Texto (self.introd, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
-        self.textoprotetor = Texto (self.introd,"O protetor solar é muito importante, mas não é o que estou procurando.")
-        self.textocolete.foi = self.habilita
+        self.textotravesseiro = Texto (self.introd, " ")     
+        self.textotalita = Texto (self.introd, " ")
+        self.textocolete = Texto (self.introd, " ")
+        self.textoprotetor = Texto (self.introd," ")
+        self.textocolete.foi = self.habilita.vai
         self.talita.vai = self.textotalita.vai
         self.colete.vai = self.textocolete.vai
         
@@ -160,7 +160,7 @@ class Jogo:
         
 #cenasotaovolta
         self.ganhamoeda3.direita = self.voltasotao
-        self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
+        self.textotalitaencontrou = Texto (self.voltasotao, "")
         self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.textotalitaencontrou.vai)
 
     def habilita(self):  # só passa pra sala depois que clicar no colete
