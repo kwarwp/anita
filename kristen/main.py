@@ -158,14 +158,8 @@ class Jogo:
         self.textotalita6 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
         self.textotalita6.foi = self.habilitavolta
         self.talita6.vai = self.textotalita6.vai",
-        tit="Talita",
-        style=dict(left=250, top=300, width=120, heigth=1500))
-        self.talita6.entra(self.painelsolar)
-        self.textotalita6 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
-        self.textotalita6.foi = self.habilitavolta
-        self.talita6.vai = self.textotalita6.vai
         
-        #cenasotaovolta
+#cenasotaovolta
         self.ganhamoeda3.direita = self.voltasotao
         self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
         self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.textotalitaencontrou.vai)
