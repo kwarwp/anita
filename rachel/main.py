@@ -23,7 +23,7 @@ class Jogo:
         self.ganhamoeda.esquerda=self.introd
         self.ganhadiamante = Cena (img="https://i.imgur.com/M9Xx8ab.png")
         self.sala.direita = self.maparegiao
-        self.sala.esquerda = self.introd
+        self.sala.esquerda = self.introd 
         self.patioescola = Cena (img="https://i.imgur.com/9Kqt3xV.jpg")
         self.rampaescola = Cena (img="https://i.imgur.com/D9lGay5.jpg")
         self.saladeaula = Cena (img = "https://i.imgur.com/u3DYHmo.jpg")
