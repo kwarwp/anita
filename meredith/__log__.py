@@ -486,3 +486,10 @@ SyntaxError: EOL while scanning string literal
                                                                   ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Dec 02 2019 10:29:32.312 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 34
+  Jogo()
+  ^
+IndentationError: expected an indented block
+'''},
