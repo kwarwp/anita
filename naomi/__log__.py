@@ -500,3 +500,10 @@ SyntaxError: invalid syntax
                 ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Dec 02 2019 09:29:04.553 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  self.maparegiao = Cena(img=")
+                               ^
+SyntaxError: EOL while scanning string literal
+'''},
