@@ -41,3 +41,10 @@ SyntaxError: invalid syntax
                                                                                                                                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Dec 02 2019 04:19:28.36 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  self.textotalita=Texto(quartodatalita, " oi esse aqui e o meu quarto,ache oo elemento que a stephanie kudlek criou"
+                                                                                                                               ^
+SyntaxError: invalid syntax
+'''},
