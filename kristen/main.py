@@ -19,7 +19,7 @@ class Jogo:
 # definicoes de cenas ficam aqui 
     def __init__(self):
 
-        self.introd = Cena (img = "https://i.imgur.com/PykSosS.jpg")
+        self.quartodatalita = Cena (img = "https://i.imgur.com/PykSosS.jpg")
         self.entradadaescola = Cena (img ="https://i.imgur.com/Km1pk3N.jpg")
         self.quartodatalita = cena (img="https://i.imgur.com/DEC5m3T.jpg")
         self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
