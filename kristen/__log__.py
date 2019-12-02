@@ -661,3 +661,10 @@ SyntaxError: invalid syntax
                                                                                                                                                  ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Dec 01 2019 21:05:51.563 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 107
+  self.textolivros = Texto (self.introd,"O livro te leva para viagens emocionantes, sem sair de casa. Mas não é isso que procuro".")
+                                                                                                                                    ^
+SyntaxError: EOL while scanning string literal
+'''},
