@@ -77,7 +77,7 @@ class Jogo:
 #cenaquartotalita
 
         self.livros = Texto (self.introd, "Livros são importantes, mas não é isso que eu procuro")  
-        self.livros = Elemento(FOCO, x=90, y=180, w=80, h=80, cena=self.introd, style={"opacity": 0.0}, vai=self.textolivros.vai)
+        self.livros = Elemento (FOCO, x=90, y=180, w=80, h=80, cena=self.introd, style={"opacity": 0.0}, vai=self.textolivros.vai)
 
         
         self.capa = Cena (img = "https://i.imgur.com/PykSosS.jpg")
