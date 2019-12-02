@@ -11,7 +11,10 @@ linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
 FOCO = "https://i.imgur.com/6e096Va.png"
 
 class Jogo:
+
+# definicoes de cenas ficam aqui 
     def __init__(self):
+    
         quartodaTalita=Cena(img=linkquartodaTalita)
         
         colete = Elemento (img = linkcolete,
