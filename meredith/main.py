@@ -36,8 +36,8 @@ class Jogo:
         self.colete.vai = self.textocolete.vai
         
         
-        def habilita(self):  # só passa pra sala depois que clicar no colete
-            self.quartodaTalita.direita=self.ganhamoeda
+    def habilita(self):  # só passa pra sala depois que clicar no colete
+        self.quartodaTalita.direita=self.ganhamoeda
         
 if __name__ == "__main__":
     Jogo() 
