@@ -895,3 +895,10 @@ NameError: name 'cena' is not defined
     self.ganhamoeda.direita=self.sala
 AttributeError: 'Jogo' object has no attribute 'sala'
 '''},
+{'date': 'Sun Dec 01 2019 22:33:09.885 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 31
+  self.patioescola = Cena (img="https://i.imgur.com/9Kqt3xV.jpg")
+  ^
+IndentationError: unexpected indent
+'''},
