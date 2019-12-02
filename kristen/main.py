@@ -104,7 +104,7 @@ class Jogo:
         self.livros.entra(self.introd)    
         self.textotalita = Texto (self.introd, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
         self.textocolete = Texto (self.introd, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
-        self.textolivros = Texto (self.introd, "O livro te leva para viagens emocionantes, sem sair de casa. Mas não é isso que procuro".")
+        self.textolivros = Texto (self.introd, "O livro te leva para viagens emocionantes, sem sair de casa. Mas não é isso que procuro")
         self.textocolete.foi = self.habilita
         self.talita.vai = self.textotalita.vai
         self.colete.vai = self.textocolete.vai
