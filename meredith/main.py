@@ -13,6 +13,7 @@ FOCO = "https://i.imgur.com/6e096Va.png"
 class Jogo:
     def __init__(self):
         quartodaTalita=Cena(img=linkquartodaTalita)
+        
         colete = Elemento (img = linkcolete,
         tit = "colete",
         style=dict(left=300, top=140, width=50, heigth=80))
@@ -23,12 +24,10 @@ class Jogo:
 
         talita.entra(quartodaTalita)
         colete.entra(quartodaTalita)
-   
         textotalita = Texto (quartodaTalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
         textocolete = Texto (quartodaTalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
 
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         
-if __name__ == "__main__":
-    Jogo() 
+Jogo() 
