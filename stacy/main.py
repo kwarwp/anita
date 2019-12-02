@@ -4,7 +4,6 @@ STYLE ["width"] = 600
 STYLE ["height"] = "200 px"
 linkdatalita ="https://i.imgur.com/N5HXcxK.png"
 
-
 class Jogo:
     def __init__(self):
 
