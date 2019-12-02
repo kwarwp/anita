@@ -19,7 +19,7 @@ class Jogo:
     def __init__(self):
 
         self.introducao = Cena (img = "https://i.imgur.com/5kB6A8i.jpg")
-        self.sala.Cena = Cena (img ="https://i.imgur.com/i0bpw80.jpg")
+        self.sala = Cena (img ="https://i.imgur.com/i0bpw80.jpg")
         self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhamoeda2 = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhamoeda3 = Cena (img="https://i.imgur.com/koWP1dw.png")
