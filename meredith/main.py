@@ -35,7 +35,6 @@ class Jogo:
         self.textocolete.foi = self.habilita
         self.colete.vai = self.textocolete.vai
         
-        
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.quartodaTalita.direita=self.ganhamoeda
         
