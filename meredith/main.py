@@ -30,7 +30,7 @@ class Jogo:
 
         self.botao = Elemento (img = "https://i.imgur.com/gZTKZhv.png",
         tit="Jogar",
-        style=dict(left=220, top=300, width=120, heigth=120))
+        style=dict(left=220, top=400, width=120, heigth=120))
         
         self.botao.entra(self.capa)
         
