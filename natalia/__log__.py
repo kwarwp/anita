@@ -378,3 +378,10 @@ NameError: name 'linkcolete' is not defined
                           ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Dec 02 2019 05:21:33.58 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 4
+  STYLE["heigth"] = "200px
+                          ^
+SyntaxError: EOL while scanning string literal
+'''},
