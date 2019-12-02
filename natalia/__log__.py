@@ -346,3 +346,10 @@ NameError: name 'textotalita' is not defined
     self.talita.vai = textotalita.vai    
 NameError: name 'textotalita' is not defined
 '''},
+{'date': 'Mon Dec 02 2019 05:04:01.467 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 50
+  def habilita(self):  # só passa pra sala depois que clicar no colete
+  ^
+IndentationError: unexpected indent
+'''},
