@@ -780,3 +780,10 @@ SyntaxError: EOL while scanning string literal
                                            ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Sun Dec 01 2019 22:07:04.755 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 160
+  self.talita6.vai = self.textotalita6.vai"
+                                           ^
+SyntaxError: EOL while scanning string literal
+'''},
