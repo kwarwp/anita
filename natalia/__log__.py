@@ -269,3 +269,10 @@ IndentationError: unexpected indent
     STYLE["width"]= 600
 AttributeError: 'module' object has no attribute '__setitem__'
 '''},
+{'date': 'Mon Dec 02 2019 04:53:25.851 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  self.quartodatalita=Cena(img = "https://i.imgur.com/SI1BO9E.png")
+  ^
+IndentationError: expected an indented block
+'''},
