@@ -723,3 +723,10 @@ NameError: name 'quartotalita' is not defined
     self.botao.vai=self.quartotalita.vai 
 AttributeError: 'Jogo' object has no attribute 'quartotalita'
 '''},
+{'date': 'Mon Dec 02 2019 14:47:48.463 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  self.talita = Elemento (img = linkdatalita,
+                                                                                                                                                  ^
+SyntaxError: invalid syntax
+'''},
