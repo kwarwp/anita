@@ -19,26 +19,28 @@ class Jogo:
     def __init__(self):
 
         self.introducao = Cena (img = "https://i.imgur.com/5kB6A8i.jpg")
-        self.entradadaescola = Cena (img ="https://i.imgur.com/Km1pk3N.jpg")
+        self.sala.Cena = Cena (img ="https://i.imgur.com/5kB6A8i.jpg")
         self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhamoeda2 = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhamoeda3 = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhamoeda.direita=self.sala
         self.ganhamoeda.esquerda=self.introd
         self.ganhadiamante = Cena (img="https://i.imgur.com/M9Xx8ab.png")
-        self.cozinha.direita = self.quartotalita
-        self.cozinha.esquerda = self.introd
-        self.patioescola = Cena (img="https://i.imgur.com/9Kqt3xV.jpg")
+        self.sala.direita = self.maparegiao
+        self.sala.esquerda = self.introd
+           self.patioescola = Cena (img="https://i.imgur.com/9Kqt3xV.jpg")
         self.rampaescola = Cena (img="https://i.imgur.com/D9lGay5.jpg")
-        self.saladeleitura = Cena (img = "https://i.imgur.com/u3DYHmo.jpg")
-        self.submarino = Cena (img = "https://i.imgur.com/GOH738j.jpg")
-        self.saladeleitura.esquerda = self.rampaescola
+        self.saladeaula = Cena (img = "https://i.imgur.com/u3DYHmo.jpg")
+        self.submarino = Cena (img="https://i.imgur.com/GOH738j.jpg")
+        self.saladeaula.esquerda = self.rampaescola
         self.rampaescola.esquerda = self.patioescola
-        self.submarino.esquerda = self.submarino
         self.ganhadiamante.esquerda = self.submarino
-        self.saladeaula = Cena (img="https://i.imgur.com/y2WMlxb.jpg")
+        self.painelsolar = Cena (img="https://i.imgur.com/5wYPsAJ.jpg")
+        self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
+        self.saladeaula2 = Cena (img="https://i.imgur.com/y2WMlxb.jpg")
         self.sotao = Cena (img="https://i.imgur.com/D2KRRlS.jpg")
         self.voltasotao = Cena ("https://i.imgur.com/SpyaFmX.jpg")
+        
         
 #cenaescola
          
