@@ -239,3 +239,10 @@ Exception: <SyntaxError: unexpected token: '{'>
 'error': '''
 Exception: <SyntaxError: unexpected token: '{'>
 '''},
+{'date': 'Mon Dec 02 2019 14:20:55.20 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  self.Talita = Elemento (img = "https://i.imgur.com/N5HXcxK.png",
+                                                                                                         ^
+SyntaxError: invalid syntax
+'''},
