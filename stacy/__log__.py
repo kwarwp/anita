@@ -69,3 +69,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Dec 02 2019 11:18:31.783 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 7
+  self.quarto = Cena (img = "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwiy-uO9k5fmAhUwK7kGHXwyCvcQjRx6BAgBEAQ&url=https%3A%2F%2Fbr.freepik.com%2Fvetores-gratis%2Fmodelo-de-plano-de-fundo-interior-quarto-dos-desenhos-animados-aconchegante-casa-moderna-sala-na-luz-da-manha_2238484.htm&psig=AOvVaw33vZcE4BBBs-yZHh5JcU7Y&ust=1575381163175212"
+  ^
+IndentationError: expected an indented block
+'''},
