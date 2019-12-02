@@ -696,3 +696,10 @@ SyntaxError: EOL while scanning string literal
                                                                                                                                      ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Sun Dec 01 2019 21:22:39.353 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 131
+  submarino= Cena(img="https://i.imgur.com/KrFFLIr.png")
+  ^
+IndentationError: unexpected indent
+'''},
