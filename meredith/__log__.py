@@ -500,3 +500,10 @@ IndentationError: expected an indented block
                                                     ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Dec 02 2019 10:50:01.901 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 38
+  self.introd.direita=self.ganhamoeda
+  ^
+IndentationError: expected an indented block
+'''},
