@@ -154,3 +154,7 @@ Exception: <SyntaxError: unexpected token: '{'>
 'error': '''
 Exception: <SyntaxError: unexpected token: '{'>
 '''},
+{'date': 'Mon Dec 02 2019 11:38:52.634 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <SyntaxError: unexpected token: '{'>
+'''},
