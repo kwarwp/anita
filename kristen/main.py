@@ -136,29 +136,63 @@ class Jogo:
         self.textotalita2 = Texto (self.submarino, "A passagem secreta me trouxe até esse submarino e agora eu preciso encontrar o quadro de uma pintora brasileira famosa para conseguir sair!")
         self.talita2.vai = self.textotalita2.vai
         
+#cena sotao
+ 
+        self.ganhamoeda2.direita = self.sotao
+        self.saladeaula2.esquerda = self.ganhamoeda2
+        self.talita4 = Elemento (img = "https://i.imgur.com/QV5fuXJ.png", 
+        tit="talita",
+        style=dict(left=250, top=250, width=120, heigth=1500))
+        self.talita4.entra(self.sotao)
+        self.textotalita4 = Texto (self.sotao, "Vou fazer um trabalho sobre uma área da Ciência em que as mulheres têm se destacado muito atualmente.")
+        self.talita4.vai = self.textotalita4.vai
+        self.textotalita4.foi = self.habilitavolta
+        acha_painel_solar= Elemento (FOCO, x=0, y=0, w=200, h=100, cena=self.sotao, style={"opacity": 0.0}, vai=self.painelsolar.vai)
+
+#cenapainelsolar
+
+        self.talita6 = Elemento (img = "https://i.imgur.com/2LZFFjU.png"
+
+        self.talita6 = Elemento (img = "https://i.imgur.com/QV5fuXJ.png", 
+        tit="Talita",
+        style=dict(left=250, top=300, width=120, heigth=1500))
+        self.talita6.entra(self.painelsolar)
+        self.textotalita6 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
+        self.textotalita6.foi = self.habilitavolta
+        self.talita6.vai = self.textotalita6.vai", 
+        tit="Talita",
+        style=dict(left=250, top=300, width=120, heigth=1500))
+        self.talita6.entra(self.painelsolar)
+        self.textotalita6 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
+        self.textotalita6.foi = self.habilitavolta
+        self.talita6.vai = self.textotalita6.vai
+        
+        #cenasotaovolta
+        self.ganhamoeda3.direita = self.voltasotao
+        self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
+        self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.textotalitaencontrou.vai)
+
+    def habilita(self):  # só passa pra sala depois que clicar no colete
+        self.introd.direita=self.ganhamoeda
+        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+ 
+    def habilitaquadro(self):  # só passa pra sala depois que clicar no colete
+        
+        self.submarino.direita=self.ganhadiamante
+        
+    def habilitalivro(self):  # só passa pra sala depois que clicar no colete
+        
+        self.saladeaula.direita=self.ganhamoeda2
+   
+    def habilitavolta(self):
+        self.painelsolar.direita=self.ganhamoeda3
+        self.ganhamoeda3.direita = self.submarino
+        
+if __name__ == "__main__":
+    Jogo() 
+        
+        
 
 
 
 
-      
-   	talita.entra(quartodatalita)
-   	colete.entra(quartodatalita)
-   	jogos.entra(quartodatalita)
-   	livros.entra(quartodatalita)
-   	escrivaninha.entra(quartodatalita)
-   	bola.entra(quartodatalita)
-   	textotalita=Texto(quartodatalita,"hey,encontre o objeto criado por stephanie kwolek e ganhe moedas") 
-   	textocolete=Texto(quartodatalita,"parabéns! vista o colete e passe para a proxima fase")
-   	talita.vai=textotalita.vai
-   	colete.vai=textocolete.vai
-  
-   	quartodatalita.vai()
-Jogo()
-
-	submarino = Cena(img="https://i.imgur.com/KrFFLIr.png")
-      quadro1=
-      tit="quarto1"
-      style=dict(left=20, top=40, width=30, height=60,
-      quadro2=
-      tit="quadro2"
-      style=dict(left=10, top=20, width=30, heigth=60,
