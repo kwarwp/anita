@@ -30,10 +30,12 @@ class Jogo:
         self.colete.entra(self.quartodaTalita)
         self.textotalita = Texto (self.quartodaTalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
         self.textocolete = Texto (self.quartodaTalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
-
-        self.talita.vai = self.textotalita.vai
-        self.colete.vai = self.textocolete.vai
        
+        self.talita.vai = self.textotalita.vai
+        self.textocolete.foi = self.habilita
+        self.colete.vai = self.textocolete.vai
+        
+        
         def habilita(self):  # só passa pra sala depois que clicar no colete
             self.quartodaTalita.direita=self.ganhamoeda
         
