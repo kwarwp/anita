@@ -288,3 +288,10 @@ SyntaxError: invalid syntax
                                                          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Dec 02 2019 14:26:41.333 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  STYLE= dict(left=200, top=190, width=100, height=1500))
+                                                        ^
+SyntaxError: invalid syntax
+'''},
