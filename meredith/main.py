@@ -15,6 +15,7 @@ class Jogo:
 # definicoes de cenas ficam aqui 
     def __init__(self):
     
+        self.capa = Cena ("https://i.imgur.com/NwcgtMe.jpg")
         self.ganhamoeda = Cena (img="https://i.imgur.com/eqBJynn.png")
         self.quartodatalita=Cena(img=linkquartodatalita)
         
@@ -25,6 +26,15 @@ class Jogo:
         self.talita = Elemento (img = linkdatalita,
         tit="talita",
         style=dict(left=180, top=120,  Width=60, height=50))
+
+
+        self.botao = Elemento (img = "https://i.imgur.com/gZTKZhv.png",
+        tit="Jogar",
+        style=dict(left=220, top=400, width=120, heigth=120))
+        
+        self.botao.entra(self.capa)
+        self.capa.vai()
+        self.botao.vai=self.quartodatalita.vai 
 
         self.talita.entra(self.quartodatalita)
         self.colete.entra(self.quartodatalita)
