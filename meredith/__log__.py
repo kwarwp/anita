@@ -493,3 +493,10 @@ SyntaxError: EOL while scanning string literal
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Dec 02 2019 10:43:04.43 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 22
+  style=dict(left=300, top=140, width=50, heigth=80))
+                                                    ^
+SyntaxError: invalid syntax
+'''},
