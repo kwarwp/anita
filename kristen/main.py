@@ -10,10 +10,8 @@ linklivros="https://i.imgur.com/TwENnNe.gif"
 linkdaescrivaninha="https://i.imgur.com/Rw3pEJu.jpg"
 linkdabola="https://i.imgur.com/YcE5EW6.jpg"
 linkdaescoladatalita= "https://www.google.com/maps/uv?hl=pt-BR&pb=!1s0x99649ea626703b:0x7d4e6aa6d6d9b26c!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipN_yZCS5Qe_lhaOr_xNN7c4d3WNFF-tkkjHuNYa%3Dw214-h143-k-no!5sescola+municipal+jornalista+e+escritor+daniel+piza+-+Pesquisa+Google&imagekey=!1e10!2sAF1QipN_yZCS5Qe_lhaOr_xNN7c4d3WNFF-tkkjHuNYa&sa=X&ved=2ahUKEwift66hnYvmAhW2I7kGHfOfABkQoiowCnoECAsQBg"
+linkcozinhatalita="https://i.imgur.com/GNgIuJD.jpg"
 linkdosubmarino1="https://i.imgur.com/GOH738j.jpg"
-linkquadro1="https://i.imgur.com/ly6mhuo.jpg"
-linkdoquadro2="https://i.imgur.com/ly6mhuo.jpg"
-linkquadro3="https://i.imgur.com/UuBRZWd.jpg"
 linkdobotao="https://i.imgur.com/Q1nALyV.jpg"
 
 class Jogo:
@@ -30,8 +28,8 @@ class Jogo:
         self.ganhamoeda.direita=self.sala
         self.ganhamoeda.esquerda=self.introd
         self.ganhadiamante = Cena (img="https://i.imgur.com/M9Xx8ab.png")
-        self.sala.direita = self.quartotalita
-        self.sala.esquerda = self.introd
+        self.cozinha.direita = self.quartotalita
+        self.cozinha.esquerda = self.introd
         self.patioescola = Cena (img="https://i.imgur.com/9Kqt3xV.jpg")
         self.rampaescola = Cena (img="https://i.imgur.com/D9lGay5.jpg")
         self.saladeleitura = Cena (img = "https://i.imgur.com/u3DYHmo.jpg")
@@ -109,7 +107,36 @@ class Jogo:
         self.talita.vai = self.textotalita.vai
         self.colete.vai = self.textocolete.vai
 
-#cena 
+#cena mapa da regiao
+         
+         
+        escolatalita = Elemento(FOCO, x=150, y=150, w=50, h=50, cena=self.maparegiao, style={"opacity": 0}, vai=self.patioescola.vai)
+
+        patioescola = Elemento (FOCO, x=150, y=150, w=80, h=40, cena=self.patioescola, style={"opacity": 0.0}, vai=self.rampaescola.vai)
+
+        rampaescola = Elemento (FOCO, x=240, y=250, w=100, h=200, cena=self.rampaescola, style={"opacity": 0.0}, vai=self.saladeaula.vai)
+
+#cena submarino
+
+#cena submarino
+
+        
+        self.talita2 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
+        tit="talita",
+        style=dict(left=250, top=400, width=120, heigth=1500))
+        self.talita2.entra(self.submarino)
+        self.textoquadropicasso = Texto (self.submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau")  
+        self.quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadropicasso.vai)
+        self.textoquadroportinari = Texto (self.submarino, "Este quadro é de Portinari, de 1935 e chama-se café. Foi pintado com tinta a óleo.")  
+        self.quadroportinari = Elemento(FOCO, x=240, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadroportinari.vai)      
+        self.quadrotarsila = Elemento(FOCO, x=380, y=260, w=50, h=50, cena=self.submarino, style={"opacity": 0.0}, vai=self.habilitaquadro)
+        self.textoquadrotarsila = Texto (self.submarino, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
+        self.quadrotarsila.vai = self.textoquadrotarsila.vai
+        self.textoquadrotarsila.foi = self.habilitaquadro
+        self.textotalita2 = Texto (self.submarino, "A passagem secreta me trouxe até esse submarino e agora eu preciso encontrar o quadro de uma pintora brasileira famosa para conseguir sair!")
+        self.talita2.vai = self.textotalita2.vai
+        
+
 
 
 
@@ -128,7 +155,7 @@ class Jogo:
    	quartodatalita.vai()
 Jogo()
 
-	submarino= Cena(img="https://i.imgur.com/KrFFLIr.png")
+	submarino = Cena(img="https://i.imgur.com/KrFFLIr.png")
       quadro1=
       tit="quarto1"
       style=dict(left=20, top=40, width=30, height=60,
