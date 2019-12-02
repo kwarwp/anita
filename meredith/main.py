@@ -15,23 +15,23 @@ class Jogo:
 # definicoes de cenas ficam aqui 
     def __init__(self):
     
-        quartodaTalita=Cena(img=linkquartodaTalita)
+        self.quartodaTalita=Cena(img=linkquartodaTalita)
         
-        colete = Elemento (img = linkcolete,
+        self.colete = Elemento (img = linkcolete,
         tit = "colete",
         style=dict(left=300, top=140, width=50, heigth=80))
                               
-        talita = Elemento (img = linkdaTalita, 
+        self.talita = Elemento (img = linkdaTalita, 
         tit="talita",
         style=dict(left=180, top=120,  Width=60, height=50))
 
-        talita.entra(quartodaTalita)
-        colete.entra(quartodaTalita)
-        textotalita = Texto (quartodaTalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
-        textocolete = Texto (quartodaTalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
+        self.talita.entra(self.quartodaTalita)
+        self.colete.entra(self.quartodaTalita)
+        self.textotalita = Texto (self.quartodaTalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
+        self.textocolete = Texto (self.quartodaTalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
 
-        talita.vai = textotalita.vai
-        colete.vai = textocolete.vai
+        self.talita.vai = self.textotalita.vai
+        self.colete.vai = self.textocolete.vai
         
 if __name__ == "__main__":
     Jogo() 
