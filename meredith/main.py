@@ -15,12 +15,13 @@ class Jogo:
 # definicoes de cenas ficam aqui 
     def __init__(self):
     
+        self.ganhamoeda = Cena (img="https://i.imgur.com/eqBJynn.png")
         self.quartodaTalita=Cena(img=linkquartodaTalita)
         
         self.colete = Elemento (img = linkcolete,
         tit = "colete",
-        style=dict(left=300, top=140, width=50, heigth=80))
-                              
+        style=dict(left=300, top=140, width=50, heigth=80), vai=self.habilita)
+             
         self.talita = Elemento (img = linkdaTalita,
         tit="talita",
         style=dict(left=180, top=120,  Width=60, height=50))
@@ -32,6 +33,9 @@ class Jogo:
 
         self.talita.vai = self.textotalita.vai
         self.colete.vai = self.textocolete.vai
+       
+        def habilita(self):  # só passa pra sala depois que clicar no colete
+            self.introd.direita=self.ganhamoeda
         
 if __name__ == "__main__":
     Jogo() 
