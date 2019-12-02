@@ -17,13 +17,15 @@ class Jogo:
     def __init__(self):
 
         self.quartodatalita=Cena(img = "https://i.imgur.com/SI1BO9E.png")
+        self.ganhamoeda = Cena (img="https://i.imgur.com/1a5FtmE.png")
+        
         self.talita= Elemento (img=linkdatalita,
         tit= "talita",
-        style= dict(left=180, top=50,  Width=60, height=50))
+        style= dict(left=180, top=50,  Width=3, height=20))
                    
-        self.colete= Elemento(img= linkdocolete,
-        tit= "colete",
-        style=dict(left=120, top= 30, width= 40, height=30))
+        self.colete = Elemento (img = linkdocolete,
+        tit = "colete",
+        style=dict(left=300, top=140, width=50, heigth=80), vai=self.habilita)
                       
         self.chave= Elemento(img= linkdachave,
         tit = "chave",
@@ -35,12 +37,18 @@ class Jogo:
                      
         self.talita.entra(self.quartodatalita)
         self.textotalita = Texto (self.quartodatalita, "Oi")
+        self.textocolete = Texto (self.quartodatalita, "Você acertou")
         self.colete.entra(self.quartodatalita)
         self.chave.entra(self.quartodatalita)
         self.panelinha.entra(self.quartodatalita)
         self.quartodatalita.vai()
-        self.talita.vai = self.textotalita.vai    
+        self.talita.vai = self.textotalita.vai
+        self.textocolete.foi = self.habilita
+        self.colete.vai = self.textocolete.vai
 
+ 
+    def habilita(self):  # só passa pra sala depois que clicar no colete
+        self.quartodatalita.direita=self.ganhamoeda
 
 if __name__ == "__main__":
     Jogo()    
