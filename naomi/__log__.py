@@ -507,3 +507,10 @@ SyntaxError: invalid syntax
                                ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Dec 02 2019 11:15:02.965 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  self.maparegiao = Cena(img=")
+                               ^
+SyntaxError: EOL while scanning string literal
+'''},
