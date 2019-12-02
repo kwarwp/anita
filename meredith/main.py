@@ -33,7 +33,7 @@ class Jogo:
         style=dict(left=220, top=400, width=120, heigth=120))
         
         self.botao.entra(self.capa)
-        self.capa.vai()
+        
         self.botao.vai=self.quartodatalita.vai 
 
         self.talita.entra(self.quartodatalita)
@@ -44,7 +44,7 @@ class Jogo:
         self.talita.vai = self.textotalita.vai
         self.textocolete.foi = self.habilita
         self.colete.vai = self.textocolete.vai
-        self.quartodatalita.vai()
+        self.capa.vai()
         
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.quartodatalita.direita=self.ganhamoeda
