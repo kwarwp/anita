@@ -5,7 +5,7 @@ STYLE["heigh"]="200px"
 linkdacapadojogo="https://i.imgur.com/NwcgtMe.jpg"
 linkdobotao="https://i.imgur.com/gZTKZhv.png"  
 linkdatalita="https://i.imgur.com/qSWjvPE.png"
-linkquartodatalita="https://i.imgur.com/DyTUlGG.jpg"
+linkquartodatalita="https://i.imgur.com/wL8HNW8.jpg"
 linkcolete = "https://i.imgur.com/SRaVHBw.png"
 linkprotetorsolar = "https://i.imgur.com/1ph5Tne.png"
 FOCO = "https://i.imgur.com/6e096Va.png"
@@ -34,6 +34,7 @@ class Jogo:
         self.talita.vai = self.textotalita.vai
         self.textocolete.foi = self.habilita
         self.colete.vai = self.textocolete.vai
+        self.quartodatalita.vai()
         
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.quartodatalita.direita=self.ganhamoeda
