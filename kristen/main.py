@@ -38,7 +38,6 @@ class Jogo:
         self.ganhadiamante.esquerda = self.submarino
         self.painelsolar = Cena (img= "https://i.imgur.com/5wYPsAJ.jpg")
         self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
-        self.saladeaula2 = Cena (img="https://i.imgur.com/y2WMlxb.jpg")
         self.sotao = Cena (img="https://i.imgur.com/D2KRRlS.jpg")
         self.voltasotao = Cena ("https://i.imgur.com/SpyaFmX.jpg")
         
