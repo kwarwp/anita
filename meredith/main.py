@@ -30,5 +30,5 @@ class Jogo:
         talita.vai = textotalita.vai
         colete.vai = textocolete.vai
         
-        if __name__ == "__main__":
-Jogo()
+if __name__ == "__main__":
+    Jogo() 
