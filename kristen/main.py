@@ -151,9 +151,7 @@ class Jogo:
 
 #cenapainelsolar
 
-        self.talita6 = Elemento (img = "https://i.imgur.com/2LZFFjU.png"
-
-        self.talita6 = Elemento (img = "https://i.imgur.com/QV5fuXJ.png", 
+        self.talita6 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
         tit="Talita",
         style=dict(left=250, top=300, width=120, heigth=1500))
         self.talita6.entra(self.painelsolar)
