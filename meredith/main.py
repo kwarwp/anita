@@ -21,7 +21,7 @@ class Jogo:
         tit = "colete",
         style=dict(left=300, top=140, width=50, heigth=80))
                               
-        self.talita = Elemento (img = linkdaTalita, 
+        self.talita = Elemento (img = linkdaTalita,
         tit="talita",
         style=dict(left=180, top=120,  Width=60, height=50))
 
