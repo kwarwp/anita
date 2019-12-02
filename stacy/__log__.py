@@ -173,3 +173,10 @@ Exception: <SyntaxError: unexpected token: '{'>
                                                                   ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Dec 02 2019 12:03:27.484 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 15
+  STYLE = dict (left = 200, top = 190, width = 100, height = 1500))
+                                                                  ^
+SyntaxError: invalid syntax
+'''},
