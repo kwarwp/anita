@@ -779,3 +779,10 @@ SyntaxError: invalid syntax
                                                                                                                                                   ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Dec 04 2019 08:37:44.41 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 27
+  self.talita = Elemento (img = linkdatalita,
+                                                                                                                                                  ^
+SyntaxError: invalid syntax
+'''},
