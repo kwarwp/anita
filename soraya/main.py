@@ -5,10 +5,17 @@ STYLE["height"]= "200px"
 linkcolete="https://i.imgur.com/SRaVHBw.png"
 linkdatalita="https://i.imgur.com/WV9Cd5z.png"
 linkquartodatalita="https://i.imgur.com/2KjQNfD.jpg"
+linkdacaixadesom="https://i.imgur.com/v1t2DL4.jpg"
+linkdobotao="https://i.imgur.com/FtRP89I.jpg
+linkdalol="https://i.imgur.com/EW0HBMw.png"
+linkcapadojogo=
+
 class Jogo:
     # definicoes de cenas ficam aqui 
     def __init__(self):
-        self.quartodatalita=Cena(img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREI1tc3ljKAM-C5hZTeauUtZ5sB2_omrRWaqszuHqo9vGDPNPbKg&s")
+    
+        self.quartodatalita=Cena(img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE Image
+I1tc3ljKAM-C5hZTeauUtZ5sB2_omrRWaqszuHqo9vGDPNPbKg&s")
         self.ganhamoeda=Cena("https://i.imgur.com/ESvDBWm.png")
         self.talita= Elemento (img= linkdatalita,
         tit="talita",
