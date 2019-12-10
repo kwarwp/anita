@@ -694,3 +694,10 @@ AttributeError: 'method' object has no attribute 'vai'
     self.textocolete.foi = self.habilita.vai
 AttributeError: 'method' object has no attribute 'vai'
 '''},
+{'date': 'Tue Dec 10 2019 15:51:08.456 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 41
+  self.textodomcasmurro = Texto (self.saladeaula, ")
+                                                    ^
+SyntaxError: EOL while scanning string literal
+'''},
