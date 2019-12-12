@@ -1095,3 +1095,10 @@ NameError: <ReferenceError: no_set_attr is not defined>
 'error': '''
 NameError: <ReferenceError: no_set_attr is not defined>
 '''},
+{'date': 'Thu Dec 12 2019 14:18:44.494 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 46
+  self.colete = Texto (self.quartodatalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.").vai()
+  ^
+IndentationError: unexpected indent
+'''},
