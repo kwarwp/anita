@@ -1043,3 +1043,7 @@ AttributeError: 'Jogo' object has no attribute 'introd'
 'error': '''
 NameError: <ReferenceError: no_set_attr is not defined>
 '''},
+{'date': 'Thu Dec 12 2019 14:05:03.556 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: no_set_attr is not defined>
+'''},
