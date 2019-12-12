@@ -637,3 +637,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Thu Dec 12 2019 11:33:47.579 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  self.sala = Cena (img= "https://i.imgur.com/hBgCTYo.jpg"
+                                                                    ^
+SyntaxError: invalid syntax
+'''},
