@@ -1039,3 +1039,7 @@ AttributeError: 'Jogo' object has no attribute 'introd'
     self.textocolete = Texto (self.introd, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
 AttributeError: 'Jogo' object has no attribute 'introd'
 '''},
+{'date': 'Thu Dec 12 2019 14:04:59.261 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: no_set_attr is not defined>
+'''},
