@@ -858,3 +858,7 @@ AttributeError: 'Jogo' object has no attribute 'mapadaregiao'
 'error': '''
 NameError: <ReferenceError: no_set_attr is not defined>
 '''},
+{'date': 'Thu Dec 12 2019 13:14:01.975 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: no_set_attr is not defined>
+'''},
