@@ -1063,3 +1063,7 @@ NameError: <ReferenceError: no_set_attr is not defined>
 'error': '''
 NameError: <ReferenceError: no_set_attr is not defined>
 '''},
+{'date': 'Thu Dec 12 2019 14:06:00.209 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: no_set_attr is not defined>
+'''},
