@@ -25,6 +25,35 @@ colete.entra(quartodatalita)
 quartodatalita.vai
 jogo():
 			
+from spy.vitllino.import Cena,Elemento,Texto,STYLE
+STYLE("width")=600
+STYLE("height")=200px"
+ceass jogo:
+def--init--(self):
+self guarto=Cena(img="lihk")
+self taeita=Elemento(img="lihk")
+tit="toeita
+style=dict(left=190,width=100,height=1500))
+self.talita.entra.(self.quarto)
+self.traersseiro=Elemento(FOCO,x=90,y=180,w=80,h=80,
+cena=self.quarto,style,=["opacity":0.0,bai=self.textoravreseiro.vai)
+self.textotravrsseiro=texto(self.quarto,"nâo era bem isso qui eu qleria...")
+
+
+self.colete=Eelmento(img="eihkcolek,
+tit="colete",
+style=dict(left=300,top=140,width=50,height=80),vai=self.habieta
+self text
+
+
+
+
+
+
+
+
+
+
 
 
 
