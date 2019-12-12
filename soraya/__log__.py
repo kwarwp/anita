@@ -141,3 +141,10 @@ SyntaxError: EOL while scanning string literal
                   ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Dec 12 2019 15:15:25.467 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  self.quartodatalita=Cena(img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE Image
+                                                                                              ^
+SyntaxError: EOL while scanning string literal
+'''},
