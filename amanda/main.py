@@ -26,11 +26,12 @@ class Jogo:
     self.capa=Cena(img= "https://i.imgur.com/Bcnfg0C.png")
     self.ganhamoeda = Cena(img="https://i.imgur.com/koWP1dw.png")
     self.sala=Cena(img="https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-neat-living-room-cartoon-background-roomsofamuralplantarrangementcartoonbackgroundtidy-image_63917.jpg")
+    #self.sala = Texto (self.sala, "Esta na hora de ir pra escola") 
     self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
     
-    self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
-    #self.quartodatalita = Texto (self.quartodatalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
     
+   
+  
     self.capa.direita=self.quartodatalita 
     self.quartodatalita.esquerda=self.capa
     self.quartodatalita.direita=self.ganhamoeda
@@ -42,7 +43,8 @@ class Jogo:
     self.capa.vai()
     
 
-       
+    
+    self.colete = Texto (self.quartodatalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.").vai()
     
     self.submarino=Cena(img= "https://i.imgur.com/GOH738j.jpg")
     self.quadro1=Elemento(img=linkquadro1,  tit="quadro1", style=dict(lef=80, top=90, width=40, heih=110))
