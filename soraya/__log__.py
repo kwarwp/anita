@@ -127,3 +127,10 @@ NameError: name 'quartodatalita' is not defined
     self.textocolete=Texto(quartodatalita,"parabens,tenho um presente para vc")
 NameError: name 'quartodatalita' is not defined
 '''},
+{'date': 'Thu Dec 12 2019 15:14:01.778 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  linkdobotao="https://i.imgur.com/FtRP89I.jpg
+                                              ^
+SyntaxError: EOL while scanning string literal
+'''},
