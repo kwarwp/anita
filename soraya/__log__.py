@@ -134,3 +134,10 @@ NameError: name 'quartodatalita' is not defined
                                               ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Thu Dec 12 2019 15:14:22.903 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  linkcapadojogo=
+                  ^
+SyntaxError: invalid syntax
+'''},
