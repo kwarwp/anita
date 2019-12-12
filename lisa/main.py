@@ -17,6 +17,7 @@ FOCO = "https://i.imgur.com/6e096Va.png"
 class Jogo:
     def __init__(self):
     
+       
         self.introd = Cena (img= "https://image.freepik.com/vetores-gratis/modelo-de-plano-de-fundo-interior-quarto-dos-desenhos-animados-aconchegante-casa-moderna-sala-na-luz-da-manha_33099-171.jpg")
         self.sala = Cena (img= "https://i.imgur.com/hBgCTYo.jpg")
         self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
@@ -25,7 +26,7 @@ class Jogo:
         self.ganhamoeda3 = Cena (img="https://i.imgur.com/koWP1dw.png")
         self.ganhadiamante= Cena(img="https://images.vexels.com/media/users/3/151691/isolated/preview/2dcb5661394335eaa59671bad4e24eb4---cone-isolado-de-diamante-by-vexels.png")
         #self.introd.vai() 
-        
+       
         self.ganhamoeda.direita=self.sala
         self.ganhamoeda.esquerda=self.introd
         self.sala.direita = self.maparegiao
@@ -51,6 +52,8 @@ class Jogo:
         self.barbie = Elemento (img= linkdabarbie, tit="barbie",  style=dict (left=50,top=250,width=50,height=200))
 
         #Cena quarto da talita                
+        #self.capa = Cena (img = "https://i.imgur.com/Bcnfg0C.png")
+        #self.capa.direita=self.quartodatalita
                        
         self.quartodatalita=Cena(img="https://i.imgur.com/5kB6A8i.jpg")           
         self.talita.entra(self.quartodatalita)
