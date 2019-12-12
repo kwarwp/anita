@@ -1,14 +1,14 @@
 # anita.natalia.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 STYLE["width"] = 600
-STYLE["heigth"] = "200px
+STYLE["heigth"] = "200px"
 linkdatalita= "https://i.imgur.com/Kv9q9Nn.jpg"
 linkdocolete="https://i.imgur.com/8SZtFTF.jpg"
 linkdachave= "https://i.imgur.com/VCwaOnM.jpg"
 linkdapanelinha="https://i.imgur.com/BHFuZf5.jpg"
 linkdaescoladatalita= "https://i.imgur.com/Ndbwc9g.jpg"
 linkdosubmarino= "https://i.imgur.com/ByVHe0d.jpg"
-FOCO = 
+FOCO = "https://i.imgur.com/6e096Va.png"
 img_moeda = "https://i.imgur.com/tOep9V9.gif"
 
 class Jogo:
