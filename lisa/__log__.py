@@ -901,3 +901,10 @@ NameError: name 'quartodatalita' is not defined
     self.talita.entra(quartodatalita)
 NameError: name 'quartodatalita' is not defined
 '''},
+{'date': 'Thu Dec 12 2019 12:02:19.679 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 55
+  self.quartodatalita=Cena(img="https://i.imgur.com/5kB6A8i.jpg"           
+                                                                                     ^
+SyntaxError: invalid syntax
+'''},
