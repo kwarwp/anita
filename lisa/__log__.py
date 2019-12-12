@@ -707,3 +707,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Thu Dec 12 2019 11:40:39.340 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 57
+  self.sumbmarino=Cena(img= "https://i.imgur.com/7bsWL02.jpg")
+  ^
+IndentationError: unexpected indent
+'''},
