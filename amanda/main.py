@@ -12,7 +12,7 @@ linkdosubmarinodatalita=" https://i.imgur.com3VTh.png"
 linkdosotaodatalita="https://i.imgur.com/WIA1F7a.jpg"
 linkquadro1="https://i.imgur.com/384nre7.jpg"
 linkquadro2=" https://i.imgur.com/ILFWaoo.jpg"
-FOCO = "https://i.imgur.com/6e096Va.png"
+#FOCO = "https://i.imgur.com/6e096Va.png"
 class Jogo:
   def __init__(self):
    
@@ -39,13 +39,9 @@ class Jogo:
     self.sala.esquerda=self.ganhamoeda
     self.sala.direita=self.maparegiao
     self.maparegiao.esquerda=self.sala
-   
-    
-   
     self.capa.vai()
     
-   
- 
+
        
     
     self.submarino=Cena(img= "https://i.imgur.com/GOH738j.jpg")
@@ -53,8 +49,7 @@ class Jogo:
     self.quadro2=Elemento(img=linkquadro2,  tit="quadro1",style=dict(lef=30, top=40, width=50, heih=60))
     
 
-   
-      
+ 
 if __name__ == "__main__":
     Jogo() 
          
