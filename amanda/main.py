@@ -27,7 +27,7 @@ class Jogo:
     self.sala=Cena(img="https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-neat-living-room-cartoon-background-roomsofamuralplantarrangementcartoonbackgroundtidy-image_63917.jpg")
     self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
     
-    #self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+    self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
     #self.textotalita = Texto (self.quartodatalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
     
     self.capa.direita=self.quartodatalita 
