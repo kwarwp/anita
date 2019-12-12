@@ -27,6 +27,9 @@ class Jogo:
     self.sala=Cena(img="https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-neat-living-room-cartoon-background-roomsofamuralplantarrangementcartoonbackgroundtidy-image_63917.jpg")
     self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
     
+    self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+    self.textotalita = Texto (self.quartodatalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
+    
     self.capa.direita=self.quartodatalita 
     self.quartodatalita.esquerda=self.capa
     self.quartodatalita.direita=self.ganhamoeda
@@ -43,10 +46,8 @@ class Jogo:
     self.quadro1=Elemento(img=linkquadro1,  tit="quadro1", style=dict(lef=80, top=90, width=40, heih=110))
     self.quadro2=Elemento(img=linkquadro2,  tit="quadro1",style=dict(lef=30, top=40, width=50, heih=60))
     
-    def habilita(self):  # só passa pra sala depois que clicar no colete
-        self.quartodatalita.direita=self.ganhamoeda
-        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
- 
+
+   
       
 if __name__ == "__main__":
     Jogo() 
