@@ -43,6 +43,10 @@ class Jogo:
     self.quadro1=Elemento(img=linkquadro1,  tit="quadro1", style=dict(lef=80, top=90, width=40, heih=110))
     self.quadro2=Elemento(img=linkquadro2,  tit="quadro1",style=dict(lef=30, top=40, width=50, heih=60))
     
+    def habilita(self):  # só passa pra sala depois que clicar no colete
+        self.quartodatalita.direita=self.ganhamoeda
+        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+ 
       
 if __name__ == "__main__":
     Jogo() 
