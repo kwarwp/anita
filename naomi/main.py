@@ -37,15 +37,34 @@ class Jogo:
         self.sotao = Cena (img="https://i.imgur.com/9Ch9scD.jpg")
         self.voltasotao = Cena ("https://i.imgur.com/9Ch9scD.jpg")
 #cenaescola
+
+        self.textositiodopicapauamarelo = Texto (self.saladeaula, "O sitio do pica-pau amarelo é uma importante obra de Monteiro Lobato!")
+        self.sitiodopicapauamarelo = Elemento(FOCO, x=220, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textositiodopicapauamarelo.vai)
+       
         
         self.textodomcasmurro = Texto (self.saladeaula,"Romance por Machado de Assis")
         self.domcasmurro = Elemento(FOCO, x=220, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textositiodopicapauamarelo.vai)
        
+       
+        self.textocapitaesdeareia = Texto (self.saladeaula, "Essa obra é de Jorge Amado")
+        self.capitaesdeareia = Elemento(FOCO, x=300, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textocapitaesdeareia.vai)
+       
+       
         self.textoocastelodepapel = Texto (self.saladeaula, " uma obra de Mary Del Priore. O Castelo de Papel: Uma história de Isabel de Bragança, princesa imperial do Brasil, e Gastão de Orléans, conde d'Eu")
         self.ocastelodepapel = Elemento(FOCO, x=300, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textocapitaesdeareia.vai)
        
+       
+        self.textomemoriaspostumas = Texto (self.saladeaula, "Essa é uma importante obra de Machado de Assis")
+        self.memoriaspostumas = Elemento(FOCO, x=370, y=330, w=70, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textomemoriaspostumas.vai)
+       
+       
         self.textoiracema = Texto (self.saladeaula, "romance por José de Alencar")
         self.iracema = Elemento(FOCO, x=370, y=330, w=70, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textomemoriaspostumas.vai)
+       
+       
+        self.textooguarani = Texto (self.saladeaula, "Este é um romance histórico de José de Alencar")
+        self.oguarani = Elemento(FOCO, x=110, y=120, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textooguarani.vai)
+       
        
         self.textooturistaaprendiz = Texto (self.saladeaula, "Livro por Mário de Andrade")
         self.oturistaaprendiz = Elemento(FOCO, x=110, y=120, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textooguarani.vai)
