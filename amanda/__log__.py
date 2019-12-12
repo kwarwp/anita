@@ -639,3 +639,10 @@ SyntaxError: EOL while scanning string literal
                                           ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Thu Dec 12 2019 12:17:07.419 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  linkcapadojogo=" module <string> line 26
+                                          ^
+SyntaxError: EOL while scanning string literal
+'''},
