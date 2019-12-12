@@ -28,7 +28,7 @@ class Jogo:
     self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
     
     self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
-    self.textotalita = Texto (self.quartodatalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
+    #self.textotalita = Texto (self.quartodatalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
     
     self.capa.direita=self.quartodatalita 
     self.quartodatalita.esquerda=self.capa
