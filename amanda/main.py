@@ -44,12 +44,7 @@ class Jogo:
    
     self.capa.vai()
     
-    self.textocolete = Texto (self.introd, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
-    self.textocolete.foi = self.habilita
-    self.colete.vai = self.textocolete.vai
-    def habilita(self):  # só passa pra sala depois que clicar no colete
-        self.quartodatalita.direita=self.ganhamoeda
-        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+   
  
        
     
