@@ -25,13 +25,16 @@ class Jogo:
     self.capa=Cena(img= "https://i.imgur.com/Bcnfg0C.png")
     self.ganhamoeda = Cena(img="https://i.imgur.com/koWP1dw.png")
     self.sala=Cena(img="https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-neat-living-room-cartoon-background-roomsofamuralplantarrangementcartoonbackgroundtidy-image_63917.jpg")
+    self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
+    
     self.capa.direita=self.quartodatalita 
     self.quartodatalita.esquerda=self.capa
-    
     self.quartodatalita.direita=self.ganhamoeda
     self.ganhamoeda.esquerda=self.quartodatalita
     self.ganhamoeda.direita=self.sala
-    
+    self.sala.esquerda=self.ganhamoeda
+    self.sala.direita=self.mapadaregiao
+    self.mapadaregio=self.sala
    
     
     self.capa.vai()
