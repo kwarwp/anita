@@ -906,3 +906,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Thu Dec 12 2019 13:39:42.752 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 45
+  def vai (self):  
+  ^
+IndentationError: unexpected indent
+'''},
