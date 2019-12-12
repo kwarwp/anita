@@ -38,17 +38,12 @@ linksotao="https://i.imgur.com/7bsWL02.jpg"
         
         
     
-    
-	talita = Elemento (img =linkdatalita,
-				tit="talita",
-				style=dict (left=300,top=50,width=60,height=50))
-                     
-				colete = Elemento (img= linkdocolete ,
-				tit="colete",
-				style=dict (left=50,top=250,width=50,height=200))
-			       barbie = Elemento (img= linkdabarbie,
-                        tit="barbie",
-                        style=dict (left=50,top=250,width=50,height=200))
+        talita = Elemento (img =linkdatalita, tit="talita", style=dict (left=300,top=50,width=60,height=50))
+        colete = Elemento (img= linkdocolete, tit="colete", style=dict (left=50,top=250,width=50,height=200))
+        barbie = Elemento (img= linkdabarbie, tit="barbie",  style=dict (left=50,top=250,width=50,height=200))
+   
+                        
+                       
                     
     talita.entra(quartodatalita)
     colete.entra(quartodatalita)
