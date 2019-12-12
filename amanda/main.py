@@ -32,18 +32,24 @@ class Jogo:
     
     self.capa.direita=self.quartodatalita 
     self.quartodatalita.esquerda=self.capa
-    #self.quartodatalita.direita=self.ganhamoeda
+    self.quartodatalita.direita=self.ganhamoeda
     self.ganhamoeda.esquerda=self.quartodatalita
     self.ganhamoeda.direita=self.sala
     self.sala.esquerda=self.ganhamoeda
     self.sala.direita=self.maparegiao
     self.maparegiao.esquerda=self.sala
    
+    self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai() 
+    self.quartodatalida= Texto (self.quartodatalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.").vai()
+    #self.coletedatalita = Texto (self.quartodatalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais").vai()
     
+    self.textocoletedatalita = Texto (self.quartodatalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
+    self.coletedatalita = Elemento(FOCO, x=220, y=320, w=60, h=100, cena=self.quartodatalita, style={"opacity": 0.0}, vai=self.textocoletedatalita.vai)
+   
     self.capa.vai()
-     def habilita(self):  # só passa pra sala depois que clicar no colete
-        self.quartodatalita.direita=self.ganhamoeda
-        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+    
+   
+       
     
     self.submarino=Cena(img= "https://i.imgur.com/GOH738j.jpg")
     self.quadro1=Elemento(img=linkquadro1,  tit="quadro1", style=dict(lef=80, top=90, width=40, heih=110))
