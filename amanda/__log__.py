@@ -892,3 +892,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Thu Dec 12 2019 13:39:19.183 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 44
+  def habilita(self):  
+  ^
+IndentationError: unexpected indent
+'''},
