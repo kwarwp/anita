@@ -29,7 +29,6 @@ class Jogo:
     
     self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
     self.textotalita = Texto (self.quartodatalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
-    self.talita.vai = self.textotalita.vai
     
     self.capa.direita=self.quartodatalita 
     self.quartodatalita.esquerda=self.capa
