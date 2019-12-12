@@ -644,3 +644,10 @@ IndentationError: unexpected indent
                                                                     ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Dec 12 2019 11:34:02.159 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 34
+  self.painelsolar = Cena (img= "https://i.imgur.com/xfYAwKB.jpg")
+  ^
+IndentationError: unexpected indent
+'''},
