@@ -12,6 +12,7 @@ linkdosubmarinodatalita=" https://i.imgur.com3VTh.png"
 linkdosotaodatalita="https://i.imgur.com/WIA1F7a.jpg"
 linkquadro1="https://i.imgur.com/384nre7.jpg"
 linkquadro2=" https://i.imgur.com/ILFWaoo.jpg"
+FOCO = "https://i.imgur.com/6e096Va.png"
 class Jogo:
   def __init__(self):
    
@@ -19,8 +20,8 @@ class Jogo:
     self.quartodatalita=Cena (img = "https://i.imgur.com/MXoIGJR.jpg")
     self.talita = Elemento (img = linkdatalita, tit="talita", style=dict(left=150, top=80, width=80, heih=150))
     self.talita.entra(self.quartodatalita)
-    self.coletedatalita = Elemento (img = linkcoletedatalita, tit="colete",  style=dict(lef=100, top=40, width=80, heih=100))
-    self.coletedatalita.entra(self.quartodatalita)
+    self.colete = Elemento (img = linkcoletedatalita, tit="colete",  style=dict(lef=100, top=40, width=80, heih=100))
+    self.colete.entra(self.quartodatalita)
     
     self.capa=Cena(img= "https://i.imgur.com/Bcnfg0C.png")
     self.ganhamoeda = Cena(img="https://i.imgur.com/koWP1dw.png")
@@ -32,7 +33,7 @@ class Jogo:
     
     self.capa.direita=self.quartodatalita 
     self.quartodatalita.esquerda=self.capa
-    self.quartodatalita.direita=self.ganhamoeda
+    #self.quartodatalita.direita=self.ganhamoeda
     self.ganhamoeda.esquerda=self.quartodatalita
     self.ganhamoeda.direita=self.sala
     self.sala.esquerda=self.ganhamoeda
@@ -43,12 +44,18 @@ class Jogo:
     self.quartodatalida= Texto (self.quartodatalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.").vai()
     #self.coletedatalita = Texto (self.quartodatalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais").vai()
     
-    self.textocoletedatalita = Texto (self.quartodatalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
-    self.coletedatalita = Elemento(FOCO, x=220, y=320, w=60, h=100, cena=self.quartodatalita, style={"opacity": 0.0}, vai=self.textocoletedatalita.vai)
+    #self.textocoletedatalita = Texto (self.quartodatalita, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
+    #self.coletedatalita = Elemento(FOCO, x=220, y=320, w=60, h=100, cena=self.quartodatalita, style={"opacity": 0.0}, vai=self.textocoletedatalita.vai)
    
     self.capa.vai()
     
-   
+    self.textocolete = Texto (self.introd, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
+    self.textocolete.foi = self.habilita
+    self.colete.vai = self.textocolete.vai
+    def habilita(self):  # só passa pra sala depois que clicar no colete
+        self.quartodatalita.direita=self.ganhamoeda
+        self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
+ 
        
     
     self.submarino=Cena(img= "https://i.imgur.com/GOH738j.jpg")
