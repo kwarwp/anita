@@ -885,3 +885,10 @@ NameError: <ReferenceError: no_set_attr is not defined>
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Thu Dec 12 2019 13:38:20.506 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 44
+  def habilita(self):  # só passa pra sala depois que clicar no colete
+  ^
+IndentationError: unexpected indent
+'''},
