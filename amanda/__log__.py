@@ -878,3 +878,10 @@ NameError: <ReferenceError: no_set_attr is not defined>
 'error': '''
 NameError: <ReferenceError: no_set_attr is not defined>
 '''},
+{'date': 'Thu Dec 12 2019 13:36:46.429 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 44
+  def vai(self,ev=0):
+  ^
+IndentationError: unexpected indent
+'''},
