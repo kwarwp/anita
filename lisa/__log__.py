@@ -651,3 +651,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Thu Dec 12 2019 11:34:27.652 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 51
+  textotalita=Texto(quartodatalita,"Para eu sair do quarto preciso que vc ache para mim o objeto que stephanie kudlek criou"/
+                                                                                                                                                                                                                                    ^
+SyntaxError: invalid syntax
+'''},
