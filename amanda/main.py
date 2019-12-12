@@ -29,6 +29,7 @@ class Jogo:
     
     self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
     self.textotalita = Texto (self.quartodatalita, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
+    self.talita.vai = self.textotalita.vai
     
     self.capa.direita=self.quartodatalita 
     self.quartodatalita.esquerda=self.capa
@@ -45,7 +46,7 @@ class Jogo:
     self.submarino=Cena(img= "https://i.imgur.com/GOH738j.jpg")
     self.quadro1=Elemento(img=linkquadro1,  tit="quadro1", style=dict(lef=80, top=90, width=40, heih=110))
     self.quadro2=Elemento(img=linkquadro2,  tit="quadro1",style=dict(lef=30, top=40, width=50, heih=60))
-    self.talita.vai = self.textotalita.vai
+    
 
    
       
