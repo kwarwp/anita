@@ -811,3 +811,10 @@ AttributeError: 'Jogo' object has no attribute 'ganhamoeda'
     self.quartodatalita.direita=self.ganhamoeda
 AttributeError: 'Jogo' object has no attribute 'ganhamoeda'
 '''},
+{'date': 'Thu Dec 12 2019 13:02:20.355 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 34
+  self.sala=Cena(img"https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-neat-living-room-cartoon-background-roomsofamuralplantarrangementcartoonbackgroundtidy-image_63917.jpg")
+                     ^
+SyntaxError: invalid syntax
+'''},
