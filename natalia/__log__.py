@@ -399,3 +399,10 @@ SyntaxError: EOL while scanning string literal
                           ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Thu Dec 12 2019 15:19:22.615 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  FOCO = 
+          ^
+SyntaxError: invalid syntax
+'''},
