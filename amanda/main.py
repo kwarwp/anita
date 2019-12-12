@@ -23,7 +23,8 @@ class Jogo:
     
     self.coletedatalita.entra(self.quartodatalita)
     self.capa.vai()                        
-    self.capa.direita=self.quartodatalita   
+    self.capa.direita=self.quartodatalita  
+    self.quartodatalita.direita=self.ganhamoeda
     
     self.submarino=Cena(img= "https://i.imgur.com/GOH738j.jpg")
     self.quadro1=Elemento(img=linkquadro1,  tit="quadro1", style=dict(lef=80, top=90, width=40, heih=110))
