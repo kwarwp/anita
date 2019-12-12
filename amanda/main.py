@@ -31,7 +31,7 @@ class Jogo:
     self.ganhamoeda.esquerda=self.quartodatalita
     self.ganhamoeda.direita=self.sala
     
-    self.sala=Cena(img"https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-neat-living-room-cartoon-background-roomsofamuralplantarrangementcartoonbackgroundtidy-image_63917.jpg")
+    self.sala=Cena(img="https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-neat-living-room-cartoon-background-roomsofamuralplantarrangementcartoonbackgroundtidy-image_63917.jpg")
     
     self.capa.vai()
     
