@@ -14,23 +14,25 @@ linkquadro1="https://i.imgur.com/384nre7.jpg"
 linkquadro2=" https://i.imgur.com/ILFWaoo.jpg"
 class Jogo:
   def __init__(self):
-    self.capa=Cena(img= "https://i.imgur.com/Bcnfg0C.png")
+   
     
     self.quartodatalita=Cena (img = "https://i.imgur.com/MXoIGJR.jpg")
     self.talita = Elemento (img = linkdatalita, tit="talita", style=dict(left=150, top=80, width=80, heih=150))
+    self.talita.entra(self.quartodatalita)
     self.coletedatalita = Elemento (img = linkcoletedatalita, tit="colete",  style=dict(lef=100, top=40, width=80, heih=100))
-    self.talita.entra(self.quartodatalita)           
-    
     self.coletedatalita.entra(self.quartodatalita)
-    self.capa.vai()                        
-    self.capa.direita=self.quartodatalita  
+    
+    self.capa=Cena(img= "https://i.imgur.com/Bcnfg0C.png")
+    self.ganhamoeda = Cena(img="https://i.imgur.com/koWP1dw.png")
+    self.capa.direita=self.quartodatalita 
+    self.quartodatalita.esquerda=self.capa
     
     self.quartodatalita.direita=self.ganhamoeda
-    self.quartodatalita.esquerda=self.capa
     self.ganhamoeda.esquerda=self.quartodatalita
     
-    self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
-    self.ganhamoeda.vai()
+   
+    self.capa.vai()
+    
     self.submarino=Cena(img= "https://i.imgur.com/GOH738j.jpg")
     self.quadro1=Elemento(img=linkquadro1,  tit="quadro1", style=dict(lef=80, top=90, width=40, heih=110))
     self.quadro2=Elemento(img=linkquadro2,  tit="quadro1",style=dict(lef=30, top=40, width=50, heih=60))
