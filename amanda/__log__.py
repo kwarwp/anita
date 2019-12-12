@@ -854,3 +854,7 @@ AttributeError: 'Jogo' object has no attribute 'sala'
     self.sala.direita=self.mapadaregiao
 AttributeError: 'Jogo' object has no attribute 'mapadaregiao'
 '''},
+{'date': 'Thu Dec 12 2019 13:13:44.328 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: no_set_attr is not defined>
+'''},
