@@ -33,8 +33,8 @@ class Jogo:
     self.ganhamoeda.esquerda=self.quartodatalita
     self.ganhamoeda.direita=self.sala
     self.sala.esquerda=self.ganhamoeda
-    self.sala.direita=self.mapadaregiao
-    self.mapadaregio=self.sala
+    self.sala.direita=self.maparegiao
+    self.maparegiao=self.sala
    
     
     self.capa.vai()
