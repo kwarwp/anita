@@ -26,6 +26,8 @@ class Jogo:
     self.capa.direita=self.quartodatalita  
     self.quartodatalita.direita=self.ganhamoeda
     
+    self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
+    
     self.submarino=Cena(img= "https://i.imgur.com/GOH738j.jpg")
     self.quadro1=Elemento(img=linkquadro1,  tit="quadro1", style=dict(lef=80, top=90, width=40, heih=110))
     self.quadro2=Elemento(img=linkquadro2,  tit="quadro1",style=dict(lef=30, top=40, width=50, heih=60))
