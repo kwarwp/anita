@@ -21,12 +21,12 @@ class Jogo:
         self.introd = Cena (img = "https://i.imgur.com/5kB6A8i.jpg")
         self.sala = Cena (img ="https://i.imgur.com/i0bpw80.jpg")
         self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
-        self.ganhamoeda = Cena (img="https://i.imgur.com/koWP1dw.png")
-        self.ganhamoeda2 = Cena (img="https://i.imgur.com/koWP1dw.png")
-        self.ganhamoeda3 = Cena (img="https://i.imgur.com/koWP1dw.png")
+        self.ganhamoeda = Cena (img="https://i.imgur.com/zn6EVTz.jpg")
+        self.ganhamoeda2 = Cena (img="https://i.imgur.com/zn6EVTz.jpg")
+        self.ganhamoeda3 = Cena (img="https://i.imgur.com/zn6EVTz.jpg")
         self.ganhamoeda.direita=self.sala
         self.ganhamoeda.esquerda=self.introd
-        self.ganhadiamante = Cena (img="https://i.imgur.com/M9Xx8ab.png")
+        self.ganhadiamante = Cena (img="https://i.imgur.com/tj5Jo3K.jpg")
         self.sala.direita = self.maparegiao
         self.sala.esquerda = self.introd
         self.patioescola = Cena (img="https://i.imgur.com/9Kqt3xV.jpg")
