@@ -91,7 +91,7 @@ class Jogo:
         style = dict(left=150, top=200, width=50, height=200))
         
         self.jogos = Elemento (img = linkjogos,
-        tit - "jogo",
+        tit - "jogos",
         style = dict(left=250, top=200, width=50, height=200))
         
         self.botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
