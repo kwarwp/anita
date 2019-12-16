@@ -5,7 +5,7 @@ STYLE["width"]= 600
 STYLE["heigth"]= "200px"
 linkdatalita="https://i.imgur.com/2LZFFjU.png"
 linkcolete="https://i.imgur.com/lWiNq2H.png"
-linkjogos="https://i.imgur.com/3FXCWmB.jpg"
+linkjogos="https://i.imgur.com/tpU1Zkr.jpg"
 linklivros="https://i.imgur.com/TwENnNe.gif"
 linkdaescrivaninha="https://i.imgur.com/Rw3pEJu.jpg"
 linkdabola="https://i.imgur.com/YcE5EW6.jpg"
@@ -81,7 +81,6 @@ class Jogo:
         self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
         self.travesseiro = Elemento(FOCO, x=90, y=180, w=80, h=80, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
 
-        
         self.colete = Elemento (img = linkcolete,
         tit ="colete",
         style=dict(left=300, top=100, width=50, heigth=80, vai=self.habilita))
@@ -92,7 +91,7 @@ class Jogo:
         
         self.jogos = Elemento (img = linkjogos,
         tit = "jogos",
-        style = dict(left=250, top=200, width=50, height=200))
+        style = dict(left=150, top=200, width=50, height=200))
         
         self.botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
         tit="Jogar",
