@@ -1406,3 +1406,10 @@ AttributeError: 'Jogo' object has no attribute 'saladeaula2'
     self.saladeaula2.esquerda = self.ganhamoeda2
 AttributeError: 'Jogo' object has no attribute 'saladeaula2'
 '''},
+{'date': 'Mon Dec 16 2019 06:22:44.93 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 94
+  tit - "jogo",
+              ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
