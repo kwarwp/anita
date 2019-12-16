@@ -1413,3 +1413,10 @@ AttributeError: 'Jogo' object has no attribute 'saladeaula2'
               ^
 SyntaxError: non-keyword arg after keyword arg
 '''},
+{'date': 'Mon Dec 16 2019 06:23:23.420 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 94
+  tit - "jogos",
+               ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
