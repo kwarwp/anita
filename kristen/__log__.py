@@ -1420,3 +1420,10 @@ SyntaxError: non-keyword arg after keyword arg
                ^
 SyntaxError: non-keyword arg after keyword arg
 '''},
+{'date': 'Mon Dec 16 2019 06:58:11.895 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 112
+  self.textojogos = Texto (self.introd, "Os jogos servem para o nosso entretenimento, mas não é o que fará você passar para a próxima fase"))
+                                                                                                                                            ^
+SyntaxError: invalid syntax
+'''},
