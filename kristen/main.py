@@ -13,6 +13,7 @@ FOCO = "https://i.imgur.com/6e096Va.png"
 img_moeda = "https://i.imgur.com/tOep9V9.gif"
 
 
+
 class Jogo:
 
 # definicoes de cenas ficam aqui 
@@ -77,13 +78,21 @@ class Jogo:
         tit="talita",
         style=dict(left=180, top=120,  Width=60, height=50))
         
+        self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
+        self.travesseiro = Elemento(FOCO, x=90, y=180, w=80, h=80, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
+
+        
         self.colete = Elemento (img = linkcolete,
         tit ="colete",
-        style=dict(left=300, top=140, width=50, heigth=80, vai=self.habilita))
+        style=dict(left=300, top=100, width=50, heigth=80, vai=self.habilita))
         
         self.livros = Elemento (img = linklivros,
         tit = "livros",
-        style = dict(left=50, top=250, width=50, height=200))
+        style = dict(left=150, top=200, width=50, height=200))
+        
+        self.jogos = Elemento (img = linkjogos,
+        tit - "jogo",
+        style = dict(left=250, top=200, width=50, height=200))
         
         self.botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
         tit="Jogar",
@@ -95,10 +104,12 @@ class Jogo:
         self.botao.vai=self.introd.vai
         self.talita.entra(self.introd)
         self.colete.entra(self.introd)
-        self.livros.entra(self.introd)    
+        self.livros.entra(self.introd) 
+        self.jogos.entra(self.introd)
         self.textotalita = Texto (self.introd, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
         self.textocolete = Texto (self.introd, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
         self.textolivros = Texto (self.introd, "O livro te leva para viagens emocionantes, sem sair de casa. Mas não é isso que procuro")
+        self.textojogos = Texto (self.introd, "Os jogos servem para o nosso entretenimento, mas não é o que fará você passar para a próxima fase"))
         self.textocolete.foi = self.habilita
         self.talita.vai = self.textotalita.vai
         self.colete.vai = self.textocolete.vai
