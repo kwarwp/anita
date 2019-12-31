@@ -1498,3 +1498,10 @@ SyntaxError: EOL while scanning string literal
                                                                                                                                                    ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Dec 30 2019 23:13:05.217 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 48
+  self.textositiodopicapauamarelo = Texto (self.saladeaula, "O sitio do pica-pau amarelo é uma importante obra de Monteiro Lobato!")
+  ^
+IndentationError: unexpected indent
+'''},
