@@ -1484,3 +1484,10 @@ AttributeError: 'module' object has no attribute '__setitem__'
                                                                                                                                                    ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Dec 30 2019 23:11:21.146 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 52
+  self.capitaesdeareia = Elemento(FOCO, x=300, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textocapitaesdeareia.vai"
+                                                                                                                                                   ^
+SyntaxError: EOL while scanning string literal
+'''},
