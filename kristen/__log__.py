@@ -1491,3 +1491,10 @@ SyntaxError: EOL while scanning string literal
                                                                                                                                                    ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Dec 30 2019 23:11:45.625 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 51
+  self.capitaesdeareia = Elemento(FOCO, x=300, y=320, w=60, h=100, cena=self.saladeaula, style={"opacity": 0.0}, vai=self.textocapitaesdeareia.vai"
+                                                                                                                                                   ^
+SyntaxError: EOL while scanning string literal
+'''},
