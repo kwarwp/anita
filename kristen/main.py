@@ -77,14 +77,14 @@ class Jogo:
         self.capa = Cena (img = "https://i.imgur.com/PykSosS.jpg")
         self.talita = Elemento (img = linkdatalita, 
         tit="talita",
-        style=dict(left=180, top=120,  Width=60, height=50))
+        style=dict(left=180, top=100,  Width=60, height=50))
         
         self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
         self.travesseiro = Elemento(FOCO, x=90, y=180, w=80, h=80, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
 
         self.colete = Elemento (img = linkcolete,
         tit ="colete",
-        style=dict(left=300, top=100, width=50, heigth=80, vai=self.habilita))
+        style=dict(left=300, top=50, width=50, heigth=80, vai=self.habilita))
         
         self.jogos = Elemento (img = linkjogos,
         tit = "jogos",
