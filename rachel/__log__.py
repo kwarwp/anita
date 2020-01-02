@@ -1239,3 +1239,10 @@ SyntaxError: invalid syntax
                                                                                                                                                                              ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Jan 02 2020 17:54:42.88 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 186
+  self.textoedward = Texto (self.hospital, "Edward Jenner- inventou a vacina da varíola. A primeira imunização deste tipo na história do ocidente.)
+                                                                                                                                                   ^
+SyntaxError: EOL while scanning string literal
+'''},
