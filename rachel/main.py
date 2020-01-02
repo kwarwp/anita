@@ -178,7 +178,7 @@ class Jogo:
         self.textotalita7 = Texto (self.hospital, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
         #self.textotalita7.foi = self.habilitafica
         self.talita7.vai = self.textotalita7.vai
-        
+        self.hospital.vai()
 
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
