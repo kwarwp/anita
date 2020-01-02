@@ -173,9 +173,9 @@ class Jogo:
        
         self.talita7=Elemento(img= "https://i.imgur.com/N5HXcxK.png",
         tit="Talita",
-        style=dict(left=250, top=300, width=120, heigth=1500))
+        style=dict(left=150, top=250, width=150, heigth=1700))
         self.talita7.entra(self.hospital)
-        self.textotalita = Texto(self.hospital, "  jjj")
+        self.textotalita = Texto(self.hospital, "Olá. Eu tenho uma amiga chamada Bia, ela foi diagnosticada com Leucemia. E para ajuda-lá teremos que encontrar uma mulher muito inteligente que criou um remédio para o tratamento da Bia.")
         self.talita7.vai=self.textotalita.vai
         
         
