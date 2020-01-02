@@ -39,8 +39,7 @@ class Jogo:
         self.voltasotao = Cena ("https://i.imgur.com/SpyaFmX.jpg")
         self.ganhadiamante.esquerda = self.submarino
         self.hospital.esquerda= self.ganhadiamante
-        self.gertrude = Elemento (img= "https://i.imgur.com/RCxLvpr.jpg")
-        self.edwart= Elemento(img= "https://i.imgur.com/WYqmfnH.jpg")
+        
        
  
 #cenaescola
@@ -170,14 +169,10 @@ class Jogo:
         self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
         self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.textotalitaencontrou.vai)
 #cenahospital
-        self.gertrudes.entra(self.hospital)
-        self.talita7 = Elemento (img = "https://i.imgur.com/QV5fuXJ.png", 
-        tit="Talita",
-        style=dict(left=250, top=300, width=120, heigth=1500))
-        self.talita7.entra(self.hospital)
-        self.textotalita7 = Texto (self.hospital, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
-        #self.textotalita7.foi = self.habilitafica
-        self.talita7.vai = self.textotalita7.vai
+        self.gertrude = Elemento (img= "https://i.imgur.com/RCxLvpr.jpg")
+        self.edwart= Elemento(img= "https://i.imgur.com/WYqmfnH.jpg")
+        self.gertrude.entra(self.hospital)
+        
         self.hospital.vai()
 
     def habilita(self):  # só passa pra sala depois que clicar no colete
