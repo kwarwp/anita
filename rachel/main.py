@@ -171,7 +171,10 @@ class Jogo:
 #cenahospital
        
        
-        self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg",tit ="colete", style=dict(left=300, top=50, width=50, heigth=80, vai=self.habilitagertrude))
+        self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg"
+        tit ="Gertrude Elion", 
+        style=dict(left=300, top=50, width=100, heigth=80, vai=self.habilitagertrude))
+        
         self.gertrude.entra(self.hospital)
 
         self.hospital.vai()
