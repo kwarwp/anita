@@ -12,7 +12,7 @@ class Jogo:
 
 # definicoes de cenas ficam aqui 
     def __init__(self):
-        self.mar= Cena (img= "https://s3-sa-east-1.amazonaws.com/uploads-astrocentro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg")
+      
         self.introd = Cena (img = "https://lh5.googleusercontent.com/-fs1hatHWU9s/UUpy0DJqlXI/AAAAAAAAbs4/Vy1LL28sPeY/s400/tumblr_lt4n2aSjsX1qmvaoo.gif")
         self.sala = Cena (img = "https://i.imgur.com/Q57lw3T.jpg")
         self.maparegiao = Cena(img="https://i.imgur.com/MGJSDE3.png")
@@ -170,17 +170,21 @@ class Jogo:
         self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.textotalitaencontrou.vai)
 #cenahospital
        
-       
-        self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg"
+        self.mar= Cena (img= "https://s3-sa-east-1.amazonaws.com/uploads-astrocentro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg")
+        self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg",
         tit ="Gertrude Elion", 
         style=dict(left=300, top=50, width=100, heigth=80, vai=self.habilitagertrude))
+        
+        self.edward = Elemento(img= "https://i.imgur.com/WYqmfnH.jpg".
+        tit ="Edward Jenner", 
+        style=dict(left=300, top=50, width=100, heigth=80)
         
         self.gertrude.entra(self.hospital)
 
         self.hospital.vai()
 
     def habilitagertrude(self):
-        self.hospital.direita=self.ganhei
+        self.hospital.direita=self.mar
         
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
