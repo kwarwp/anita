@@ -1232,3 +1232,10 @@ TypeError: 'str' object is not callable
                                                                            ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Jan 02 2020 17:47:53.598 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 178
+  self.edward = Elemento(img= "https://i.imgur.com/WYqmfnH.jpg",
+                                                                                                                                                                             ^
+SyntaxError: invalid syntax
+'''},
