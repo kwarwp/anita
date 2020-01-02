@@ -30,12 +30,16 @@ class Jogo:
         self.submarino = Cena (img="https://i.imgur.com/GOH738j.jpg")
         self.saladeaula.esquerda = self.rampaescola
         self.rampaescola.esquerda = self.patioescola
-        self.ganhadiamante.esquerda = self.submarino
+       
         self.painelsolar = Cena (img="https://i.imgur.com/5wYPsAJ.jpg")
         self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
         self.saladeaula2 = Cena (img="https://i.imgur.com/y2WMlxb.jpg")
         self.sotao = Cena (img="https://i.imgur.com/D2KRRlS.jpg")
         self.voltasotao = Cena ("https://i.imgur.com/SpyaFmX.jpg")
+        self.ganhadiamante.esquerda = self.submarino
+        self.ganhadiamante.direita = self.voltasotao
+        self.gertrude = Elemento (img= "https://i.imgur.com/RCxLvpr.jpg")
+        self.hospital= Cena ( img= "https://i.imgur.com/eG8zYKW.jpg")
 #cenaescola
         
         self.textositiodopicapauamarelo = Texto (self.saladeaula, "O sitio do pica-pau amarelo é uma importante obra de Monteiro Lobato!")
@@ -101,7 +105,7 @@ class Jogo:
         self.colete.vai = self.textocolete.vai
         
         
-
+       
                
 #cena mapa escola
 
@@ -162,7 +166,8 @@ class Jogo:
         self.ganhamoeda3.direita = self.voltasotao
         self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
         self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.textotalitaencontrou.vai)
-
+#cenahospital
+        
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
         self.sala = Texto (self.sala, "Esta na hora de ir pra escola").vai()
