@@ -1139,3 +1139,10 @@ AttributeError: 'Jogo' object has no attribute 'gertrudes'
     self.gertrudes.entra(self.hospital)
 AttributeError: 'Jogo' object has no attribute 'gertrudes'
 '''},
+{'date': 'Thu Jan 02 2020 17:09:12.314 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 172
+  self.gertrude = Elemento (img= "https://i.imgur.com/RCxLvpr.jpg",FOCO, x=380, y=260, w=50, h=50, cena=self.hospital, style={"opacity": 0.0}, vai=self.habilitagertrude) 
+                                                                       ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
