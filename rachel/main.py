@@ -174,7 +174,6 @@ class Jogo:
         self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg",
         tit ="Gertrude Elion", 
         style=dict(left=100, top=50, width=100, heigth=80, vai=self.habilitagertrude))
-        
         self.textogertrude = Texto (self.hospital, "hhsh")
         self.textogertrude.foi = self.habilitagertrude
         self.gertrude.vai = self.textogertrude.vai
@@ -182,10 +181,17 @@ class Jogo:
         self.edward = Elemento(img= "https://i.imgur.com/WYqmfnH.jpg",
         tit ="Edward Jenner", 
         style=dict(left=300, top=50, width=100, heigth=80))
-        
         self.textoedward = Texto (self.hospital, "Edward Jenner- inventou a vacina da varíola. A primeira imunização deste tipo na história do ocidente.")
         self.edward.vai=self.textoedward.vai
         
+        
+        self.michelle= Elemento (img= "https://i.imgur.com/FHR17Yd.jpg",
+        tit = "Michelle Ménard",
+        style=dict(left=200, top=100, width=100, heigth=80))
+        self.textomichelle= Texto(self.hospital, " Essa é a Michelle Ménard, criadora do esmalte para unhas no século xx.")
+        self.michelle.vai=self.textomichelle.vai
+        
+        self.michelle.entra(self.hospital)
         self.gertrude.entra(self.hospital)
         self.edward.entra(self.hospital)
 
