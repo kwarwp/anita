@@ -183,6 +183,9 @@ class Jogo:
         tit ="Edward Jenner", 
         style=dict(left=300, top=50, width=100, heigth=80))
         
+        self.textoedward = Texto (self.hospital, "Edward Jenner- inventou a vacina da varíola. A primeira imunização deste tipo na história do ocidente.)
+        self.edward.vai=self.textoedward.vai
+        
         self.gertrude.entra(self.hospital)
         self.edward.entra(self.hospital)
 
