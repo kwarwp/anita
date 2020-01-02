@@ -173,13 +173,18 @@ class Jogo:
         self.mar= Cena (img= "https://s3-sa-east-1.amazonaws.com/uploads-astrocentro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg")
         self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg",
         tit ="Gertrude Elion", 
-        style=dict(left=300, top=50, width=100, heigth=80, vai=self.habilitagertrude))
+        style=dict(left=100, top=50, width=100, heigth=80, vai=self.habilitagertrude))
         
-        self.edward = Elemento(img= "https://i.imgur.com/WYqmfnH.jpg".
+        self.textogertrude = Texto (self.hospital, "hhsh")
+        self.textogertrude.foi = self.habilitagertrude
+        self.gertrude.vai = self.textogertrude.vai
+        
+        self.edward = Elemento(img= "https://i.imgur.com/WYqmfnH.jpg",
         tit ="Edward Jenner", 
-        style=dict(left=300, top=50, width=100, heigth=80)
+        style=dict(left=300, top=50, width=100, heigth=80))
         
         self.gertrude.entra(self.hospital)
+        self.edward.entra(self.hospital)
 
         self.hospital.vai()
 
