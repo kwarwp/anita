@@ -1182,3 +1182,10 @@ AttributeError: 'method' object has no attribute 'vai'
     self.gertrude = Elemento (FOCO, x=380, y=260, w=50, h=50, cena=self.hospital, style={"opacity": 0.0}, vai=self.habilitagertrude.vai) 
 AttributeError: 'method' object has no attribute 'vai'
 '''},
+{'date': 'Thu Jan 02 2020 17:35:41.186 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 172
+  self.gertrude = Elemento((img= "https://i.imgur.com/WYqmfnH.jpg"(FOCO, x=380, y=260, w=50, h=50, cena=self.hospital, style={"opacity": 0.0}, vai=self.habilitagertrude)) 
+                                                                                                                                                                          ^
+SyntaxError: invalid syntax
+'''},
