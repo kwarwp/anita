@@ -1225,3 +1225,10 @@ TypeError: 'str' object is not callable
     self.gertrude = Elemento(img= "https://i.imgur.com/WYqmfnH.jpg"(FOCO, x=380, y=260, w=50, h=50, cena=self.hospital, style={"opacity": 0.0}, vai=self.habilitagertrude)) 
 TypeError: 'str' object is not callable
 '''},
+{'date': 'Thu Jan 02 2020 17:44:37.202 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 174
+  self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg"
+                                                                           ^
+SyntaxError: invalid syntax
+'''},
