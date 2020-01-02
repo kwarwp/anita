@@ -169,15 +169,12 @@ class Jogo:
         self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
         self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.textotalitaencontrou.vai)
 #cenahospital
-        self.gertrude = Elemento((img= "https://i.imgur.com/WYqmfnH.jpg"(FOCO, x=380, y=260, w=50, h=50, cena=self.hospital, style={"opacity": 0.0}, vai=self.habilitagertrude)) 
-        self.edwart= Elemento(img= "https://i.imgur.com/WYqmfnH.jpg")
+       
+       
+        self.gertrude = Elemento(img= "https://i.imgur.com/WYqmfnH.jpg",tit ="colete", style=dict(left=300, top=50, width=50, heigth=80, vai=self.habilitagertrude))
         self.gertrude.entra(self.hospital)
         self.gertrude= Elemento(img= "https://i.imgur.com/RCxLvpr.jpg")
-        self.textoquadrotarsila = Texto (self.hospital, "Este quadro se chama Abaporu. É de Tarsila do Amaral, uma grande pintora brasileira.")
        
-        
-        self.gertrude.vai = self.textoquadrotarsil.vai
-        self.textoquadrotarsila.foi = self.habilitagertrude
         self.hospital.vai()
 
     def habilitagertrude(self):
