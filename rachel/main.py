@@ -79,6 +79,7 @@ class Jogo:
         self.talita = Elemento (img = linkdatalita, 
         tit="talita",
         style=dict(left=180, top=120,  Width=60, height=50))
+        self.introd.esquerda=self.capa
 
         self.colete = Elemento (img = linkcolete,
         tit = "colete",
