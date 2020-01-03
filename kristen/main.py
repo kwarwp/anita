@@ -145,9 +145,9 @@ class Jogo:
         self.talita2.vai = self.textotalita2.vai
         
 #cena sotao
-        self.ganhamoeda2.direita = self.gabrielchato
+       
         self.saladeaula2.esquerda = self.ganhamoeda2
-        
+        self.ganhamoeda2.direita = self.gabrielchato
         self.talita4=Elemento(img= "https://i.imgur.com/2LZFFjU.png",
         tit="talita",
         style=dict(left=250, top=250, width=120, heigth=1500))
