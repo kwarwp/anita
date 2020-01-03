@@ -1688,3 +1688,10 @@ AttributeError: 'Jogo' object has no attribute 'saladeaula2'
     self.saladeaula2.esquerda = self.ganhamoeda2
 AttributeError: 'Jogo' object has no attribute 'saladeaula2'
 '''},
+{'date': 'Thu Jan 02 2020 21:45:19.659 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 158
+  acha_painel_solar= Elemento (FOCO, x=0, y=0, w=200, h=100, cena=self.sotao, style={"opacity": 0.0}, vai=self.painelsolar.vai)'''
+                                                                                                                               ^
+SyntaxError: invalid syntax : triple string end not found
+'''},
