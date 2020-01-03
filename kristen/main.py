@@ -147,7 +147,9 @@ class Jogo:
 #cena sotao
         self.ganhamoeda2.direita = self.sotao
         self.saladeaula2.esquerda = self.ganhamoeda2
-        self.talita10=Elemento(img= "https://i.imgur.com/2LZFFjU.png")
+        self.talita10=Elemento(img= "https://i.imgur.com/2LZFFjU.png",
+        tit="talita",
+        style=dict(left=250, top=250, width=120, heigth=1500))
         self.talita10.entra(self.sotao)
        
 #cenapainelsolar
