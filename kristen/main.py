@@ -39,10 +39,9 @@ class Jogo:
         self.ganhadiamante.esquerda = self.submarino
         self.painelsolar = Cena (img= "https://i.imgur.com/5wYPsAJ.jpg")
         self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
-        #self.sotao = Cena (img="https://i.imgur.com/D2KRRlS.jpg")
+        self.sotao = Cena (img="https://i.imgur.com/D2KRRlS.jpg")
         self.voltasotao = Cena ("https://i.imgur.com/SpyaFmX.jpg")
-        self.gabrielchato=Cena (img = "https://s3-sa-east-1.amazonaws.com/uploads-astrocentro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg")
-        
+       
 #cenaescola
          
         self.textositiodopicapauamarelo = Texto (self.saladeaula, "O sitio do pica-pau amarelo é uma importante obra de Monteiro Lobato!")
@@ -146,12 +145,16 @@ class Jogo:
         
 #cena sotao
        
+        self.ganhamoeda2.direita = self.sotao
         self.saladeaula2.esquerda = self.ganhamoeda2
-        self.ganhamoeda2.direita = self.gabrielchato
-        self.talita4=Elemento(img= "https://i.imgur.com/2LZFFjU.png",
+        self.talita4 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
         tit="talita",
         style=dict(left=250, top=250, width=120, heigth=1500))
-        self.talita4.entra(self.gabrielchato)
+        self.talita4.entra(self.sotao)
+        self.textotalita4 = Texto (self.sotao, "Vou fazer um trabalho sobre uma área da Ciência em que as mulheres têm se destacado muito atualmente.")
+        self.talita4.vai = self.textotalita4.vai
+        self.textotalita4.foi = self.habilitavolta
+        acha_painel_solar= Elemento (FOCO, x=0, y=0, w=200, h=100, cena=self.sotao, style={"opacity": 0.0}, vai=self.painelsolar.vai)
         
 #cenapainelsolar
 
@@ -164,9 +167,9 @@ class Jogo:
         self.talita5.vai = self.textotalita5.vai
         
 #cenasotaovolta
-        self.ganhamoeda3.direita = self.voltasotao
-        self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
-        self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.textotalitaencontrou.vai)
+        #self.ganhamoeda3.direita = self.voltasotao
+        #self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
+        #self.talitaencontrou = Elemento(FOCO, x=500, y=240, w=60, h=100, cena=self.voltasotao, style={"opacity": 0.0}, vai=self.textotalitaencontrou.vai)
 
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
