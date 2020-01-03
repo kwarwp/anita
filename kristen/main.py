@@ -152,8 +152,8 @@ class Jogo:
         tit="talita",
         style=dict(left=250, top=250, width=120, heigth=1500))
         self.talita4.entra(self.sotao)
-        self.textotalita= Texto(self.sotao, "Vou fazer um trabalho sobre uma área da Ciência em que as mulheres têm se destacado muito atualmente.")
-        self.talita4.vai=self.textotalita.vai
+        self.textotalita4= Texto(self.sotao, "Vou fazer um trabalho sobre uma área da Ciência em que as mulheres têm se destacado muito atualmente.")
+        self.talita4.vai=self.textotalita4.vai
         #self.textotalita4 = Texto (self.sotao, "Vou fazer um trabalho sobre uma área da Ciência em que as mulheres têm se destacado muito atualmente.")
         #self.talita4.vai = self.textotalita4.vai
         #self.textotalita4.foi = self.habilitavolta
