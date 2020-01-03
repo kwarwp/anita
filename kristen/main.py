@@ -39,9 +39,9 @@ class Jogo:
         self.ganhadiamante.esquerda = self.submarino
         self.painelsolar = Cena (img= "https://i.imgur.com/5wYPsAJ.jpg")
         self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
-        self.sotaochato = Cena (img="https://i.imgur.com/D2KRRlS.jpg")
+        #self.sotao = Cena (img="https://i.imgur.com/D2KRRlS.jpg")
         self.voltasotao = Cena ("https://i.imgur.com/SpyaFmX.jpg")
-        
+        self.gabrielchato=Cena (img = "https://s3-sa-east-1.amazonaws.com/uploads-astrocentro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg")
         
 #cenaescola
          
@@ -145,14 +145,14 @@ class Jogo:
         self.talita2.vai = self.textotalita2.vai
         
 #cena sotao
-        self.ganhamoeda2.direita = self.sotaochato
+        self.ganhamoeda2.direita = self.gabrielchato
         self.saladeaula2.esquerda = self.ganhamoeda2
         
         self.talita4=Elemento(img= "https://i.imgur.com/2LZFFjU.png",
         tit="talita",
         style=dict(left=250, top=250, width=120, heigth=1500))
-        self.talita4.entra(self.sotaochato)
-       
+        self.talita4.entra(self.gabrielchato)
+        
 #cenapainelsolar
 
         self.talita5 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
