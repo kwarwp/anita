@@ -179,11 +179,7 @@ class Jogo:
         self.textotalita = Texto(self.hospital, "Olá. Eu tenho uma amiga chamada Bia, ela foi diagnosticada com Leucemia. E para ajuda-lá teremos que encontrar uma mulher muito inteligente que criou um remédio para o tratamento da Bia.")
         self.talita7.vai=self.textotalita.vai
         
-        self.creditos=Cena(img= "https://j.gifs.com/gZy3DG.gif")
-        
-        
-        self.parabens= Cena (img= "https://i.imgur.com/O4J0s1e.png")
-        self.parabens.direita=self.creditos 
+      
         self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg",
         tit ="Gertrude Elion", 
         style=dict(left=50, top=50, width=80, heigth=80, vai=self.habilitagertrude))
@@ -208,8 +204,14 @@ class Jogo:
         self.gertrude.entra(self.hospital)
         self.edward.entra(self.hospital)
 
-     
-
+       
+        self.creditos=Cena(img= "https://j.gifs.com/gZy3DG.gif")
+        
+        
+        self.parabens= Cena (img= "https://i.imgur.com/O4J0s1e.png")
+        self.parabens.direita=self.creditos 
+        self.creditos.esquerda=self.parabens
+        self.parabens.esquerda=self.hospital
     def habilitagertrude(self):
         self.hospital.direita=self.parabens
         
