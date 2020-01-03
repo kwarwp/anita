@@ -179,9 +179,11 @@ class Jogo:
         self.textotalita = Texto(self.hospital, "Olá. Eu tenho uma amiga chamada Bia, ela foi diagnosticada com Leucemia. E para ajuda-lá teremos que encontrar uma mulher muito inteligente que criou um remédio para o tratamento da Bia.")
         self.talita7.vai=self.textotalita.vai
         
+        self.creditos=Cena(img= "https://j.gifs.com/gZy3DG.gif")
         
         
-        self.mar= Cena (img= "https://s3-sa-east-1.amazonaws.com/uploads-astrocentro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg")
+        self.parabens= Cena (img= "https://i.imgur.com/O4J0s1e.png")
+        self.parabens.esquerda=self.creditos 
         self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg",
         tit ="Gertrude Elion", 
         style=dict(left=50, top=50, width=80, heigth=80, vai=self.habilitagertrude))
@@ -195,7 +197,7 @@ class Jogo:
         self.textoedward = Texto (self.hospital, "Edward Jenner- inventou a vacina da varíola. A primeira imunização deste tipo na história do ocidente.")
         self.edward.vai=self.textoedward.vai
         
-        
+     
         self.michelle= Elemento (img= "https://i.imgur.com/FHR17Yd.jpg",
         tit = "Michelle Ménard",
         style=dict(left=200, top=50, width=90, heigth=80))
@@ -209,7 +211,7 @@ class Jogo:
      
 
     def habilitagertrude(self):
-        self.hospital.direita=self.mar
+        self.hospital.direita=self.parabens
         
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
