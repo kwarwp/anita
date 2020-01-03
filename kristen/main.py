@@ -145,8 +145,17 @@ class Jogo:
         self.talita2.vai = self.textotalita2.vai
         
 #cena sotao
- 
         self.ganhamoeda2.direita = self.sotao
+        self.saladeaula2.esquerda = self.ganhamoeda2
+        self.talita4 = Elemento (img = "https://i.imgur.com/QV5fuXJ.png", 
+        tit="talita",
+        style=dict(left=250, top=250, width=120, heigth=1500))
+        self.talita4.entra(self.sotao)
+        self.textotalita4 = Texto (self.sotao, "Vou fazer um trabalho sobre uma área da Ciência em que as mulheres têm se destacado muito atualmente.")
+        self.talita4.vai = self.textotalita4.vai
+        self.textotalita4.foi = self.habilitavolta
+        acha_painel_solar= Elemento (FOCO, x=0, y=0, w=200, h=100, cena=self.sotao, style={"opacity": 0.0}, vai=self.painelsolar.vai)
+       ''' self.ganhamoeda2.direita = self.sotao
         self.saladeaula2.esquerda = self.ganhamoeda2
         self.talita4 = Elemento (img = "https://i.imgur.com/JiJFDay.png", 
         tit="talita",
@@ -157,7 +166,7 @@ class Jogo:
         #self.textotalita4 = Texto (self.sotao, "Vou fazer um trabalho sobre uma área da Ciência em que as mulheres têm se destacado muito atualmente.")
         #self.talita4.vai = self.textotalita4.vai
         #self.textotalita4.foi = self.habilitavolta
-       # acha_painel_solar= Elemento (FOCO, x=0, y=0, w=200, h=100, cena=self.sotao, style={"opacity": 0.0}, vai=self.painelsolar.vai)
+       # acha_painel_solar= Elemento (FOCO, x=0, y=0, w=200, h=100, cena=self.sotao, style={"opacity": 0.0}, vai=self.painelsolar.vai)'''
 
 #cenapainelsolar
 
