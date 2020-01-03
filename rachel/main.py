@@ -183,7 +183,7 @@ class Jogo:
         
         
         self.parabens= Cena (img= "https://i.imgur.com/O4J0s1e.png")
-        self.parabens.esquerda=self.creditos 
+        self.parabens.direita=self.creditos 
         self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg",
         tit ="Gertrude Elion", 
         style=dict(left=50, top=50, width=80, heigth=80, vai=self.habilitagertrude))
