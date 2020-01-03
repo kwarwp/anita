@@ -1803,3 +1803,10 @@ AttributeError: 'Jogo' object has no attribute 'saladeaula2'
     self.saladeaula2.esquerda = self.ganhamoeda2
 AttributeError: 'Jogo' object has no attribute 'saladeaula2'
 '''},
+{'date': 'Thu Jan 02 2020 21:53:47.798 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 158
+  ''' self.ganhamoeda2.direita = self.sotao
+  ^
+IndentationError: unexpected indent
+'''},
