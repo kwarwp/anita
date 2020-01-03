@@ -147,7 +147,7 @@ class Jogo:
        
         self.ganhamoeda2.direita = self.sotao
         self.saladeaula2.esquerda = self.ganhamoeda2
-        self.talita4 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
+        self.talita4 = Elemento (img = "https://i.imgur.com/QV5fuXJ.png", 
         tit="talita",
         style=dict(left=250, top=250, width=120, heigth=1500))
         self.talita4.entra(self.sotao)
