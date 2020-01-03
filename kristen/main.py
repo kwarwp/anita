@@ -148,7 +148,7 @@ class Jogo:
         self.ganhamoeda2.direita = self.sotao
         self.saladeaula2.esquerda = self.ganhamoeda2
         self.talita10=Elemento(img= "https://i.imgur.com/2LZFFjU.png")
-        self.talita.entra(self.sotao)
+        self.talita10.entra(self.sotao)
        
 #cenapainelsolar
 
