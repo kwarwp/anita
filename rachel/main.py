@@ -201,7 +201,7 @@ class Jogo:
         self.textomichelle= Texto(self.hospital, " Essa é a Michelle Ménard, criadora do esmalte para unhas no século xx.")
         self.michelle.vai=self.textomichelle.vai
         
-        self.credito= Cena(img = "https://i.imgur.com/O4J0s1e.png")
+        self.credito= Cena(img = "https://j.gifs.com/gZy3DG.gif")
         
         self.michelle.entra(self.hospital)
         self.gertrude.entra(self.hospital)
