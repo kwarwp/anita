@@ -205,7 +205,7 @@ class Jogo:
         self.gertrude.entra(self.hospital)
         self.edward.entra(self.hospital)
 
-        self.hospital.vai()
+        
 
     def habilitagertrude(self):
         self.hospital.direita=self.mar
