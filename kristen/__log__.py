@@ -2426,3 +2426,10 @@ AttributeError: 'GUI' object has no attribute 'saladeaula2'
     self.saladeaula.esquerda = self.ganhamoeda2
 AttributeError: 'GUI' object has no attribute 'saladeaula'
 '''},
+{'date': 'Sun Jan 05 2020 14:23:59.686 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 165
+  self.talita5 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
+  ^
+IndentationError: unexpected indent
+'''},
