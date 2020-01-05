@@ -3,12 +3,12 @@
 from _spy_vitollino_main import Cena,Elemento,Texto,STYLE
 STYLE["width"] = 600
 STYLE["heigth"] = "200px"
-linkdatalita="https://i.imgur.com/2LZFFjU.png"
-linkcolete="https://i.imgur.com/lWiNq2H.png"
-linkjogos="https://i.imgur.com/tpU1Zkr.jpg"
-linklivros="https://i.imgur.com/TwENnNe.gif"
-linkdaescrivaninha="https://i.imgur.com/Rw3pEJu.jpg"
-linkdabola="https://i.imgur.com/YcE5EW6.jpg"
+linkdatalita ="https://i.imgur.com/2LZFFjU.png"
+linkcolete ="https://i.imgur.com/lWiNq2H.png"
+linkjogos ="https://i.imgur.com/tpU1Zkr.jpg"
+linklivros ="https://i.imgur.com/TwENnNe.gif"
+linkdaescrivaninha ="https://i.imgur.com/Rw3pEJu.jpg"
+linkdabola ="https://i.imgur.com/YcE5EW6.jpg"
 FOCO = "https://i.imgur.com/6e096Va.png"
 img_moeda = "https://i.imgur.com/tOep9V9.gif"
 
