@@ -149,12 +149,12 @@ class Jogo:
         
 #cena sotao
        
-    self.ganhamoeda2.direita = self.sotao
-    self.saladeaula2.esquerda = self.ganhamoeda2
-    self.talita4 = Elemento (img = "https://i.imgur.com/QV5fuXJ.png", 
-    tit="talita",
-    style=dict(left=250, top=250, width=120, heigth=1500))
-    self.talita4.entra(self.sotao)
+        self.ganhamoeda2.direita = self.sotao
+        self.saladeaula2.esquerda = self.ganhamoeda2
+        self.talita4 = Elemento (img = "https://i.imgur.com/QV5fuXJ.png", 
+        tit="talita",
+        style=dict(left=250, top=250, width=120, heigth=1500))
+        self.talita4.entra(self.sotao)
         #self.textotalita4 = Texto (self.sotao, "Vou fazer um trabalho sobre uma área da Ciência em que as mulheres têm se destacado muito atualmente.")
         #self.talita4.vai = self.textotalita4.vai
         #self.textotalita4.foi = self.habilitavolta
@@ -162,13 +162,13 @@ class Jogo:
         
 #cenapainelsolar
 
-    self.talita5 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
-     tit="talita",
-     style=dict(left=250, top=300, width=120, heigth=1500))
-    self.talita5.entra(self.painelsolar)
-    self.textotalita5 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
-    self.textotalita5.foi = self.habilitavolta
-    self.talita5.vai = self.textotalita5.vai
+        self.talita5 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
+        tit="talita",
+        style=dict(left=250, top=300, width=120, heigth=1500))
+        self.talita5.entra(self.painelsolar)
+        self.textotalita5 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
+        self.textotalita5.foi = self.habilitavolta
+        self.talita5.vai = self.textotalita5.vai
         
 #cenasotaovolta
         #self.ganhamoeda3.direita = self.voltasotao
