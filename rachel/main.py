@@ -180,7 +180,7 @@ class Jogo:
         
         
         
-        self.mar= Cena (img= "https://s3-sa-east-1.amazonaws.com/uploads-astrocentro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg")
+        self.parabens= Cena (img= "https://i.imgur.com/O4J0s1e.png")
         self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg",
         tit ="Gertrude Elion", 
         style=dict(left=50, top=50, width=80, heigth=80, vai=self.habilitagertrude))
@@ -201,14 +201,17 @@ class Jogo:
         self.textomichelle= Texto(self.hospital, " Essa é a Michelle Ménard, criadora do esmalte para unhas no século xx.")
         self.michelle.vai=self.textomichelle.vai
         
+        self.credito=Elemento(img = "https://i.imgur.com/O4J0s1e.png")
+        
         self.michelle.entra(self.hospital)
         self.gertrude.entra(self.hospital)
         self.edward.entra(self.hospital)
-
-        
+        self.parabens.esquerda=self.hospital
+        self.parabens.esquerda=self.credito
+        self.credito.esquerda=self.parabens
 
     def habilitagertrude(self):
-        self.hospital.direita=self.mar
+        self.hospital.direita=self.parabens
         
     def habilita(self):  # só passa pra sala depois que clicar no colete
         self.introd.direita=self.ganhamoeda
