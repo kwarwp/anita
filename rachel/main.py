@@ -207,7 +207,8 @@ class Jogo:
         self.gertrude.entra(self.hospital)
         self.edward.entra(self.hospital)
         self.parabens.esquerda=self.hospital
-        self.parabens.esquerda=self.credito
+        self.parabens.esquerda=self.hospital
+        self.parabens.direita=self.credito
         self.credito.esquerda=self.parabens
 
     def habilitagertrude(self):
