@@ -2365,3 +2365,10 @@ AttributeError: 'GUI' object has no attribute 'ganhamoeda2'
     self.ganhamoeda2.direita = self.sotao
 AttributeError: 'GUI' object has no attribute 'sotao'
 '''},
+{'date': 'Sun Jan 05 2020 14:21:41.246 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 165
+  self.talita5 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
+  ^
+IndentationError: unexpected indent
+'''},
