@@ -163,7 +163,7 @@ class Jogo:
 #cenapainelsolar
 
      self.talita5 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
-     tit="Talita",
+     tit="talita",
      style=dict(left=250, top=300, width=120, heigth=1500))
      self.talita5.entra(self.painelsolar)
      self.textotalita5 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
