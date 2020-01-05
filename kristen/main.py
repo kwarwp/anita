@@ -1,6 +1,6 @@
 # anita.kristen.main.py
 # anita.naomi.main.py
-from _spy_vitollino_main import Cena,Elemento,Texto,STYLE
+from _spy.vitollino.main import Cena,Elemento,Texto,STYLE
 STYLE["width"] = 600
 STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/2LZFFjU.png"
