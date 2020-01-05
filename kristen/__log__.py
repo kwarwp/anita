@@ -2304,3 +2304,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Sun Jan 05 2020 14:15:47.918 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 161
+  self.talita5 = Elemento (img = "https://i.imgur.com/2LZFFjU.png",tit="Talita",style=dict(left=250, top=300, width=120, heigth=1500))
+  ^
+IndentationError: unexpected indent
+'''},
