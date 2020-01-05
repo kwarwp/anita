@@ -36,12 +36,16 @@ class Jogo:
         self.submarino = Cena (img="https://i.imgur.com/GOH738j.jpg")
         self.saladeaula.esquerda = self.rampaescola
         self.rampaescola.esquerda = self.patioescola
-        self.ganhadiamante.esquerda = self.submarino
-        self.painelsolar = Cena (img= "https://i.imgur.com/5wYPsAJ.jpg")
-        self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.painelsolar.vai)
+        
+        self.painelsolar = Cena (img="https://i.imgur.com/5wYPsAJ.jpg")
+        self.hospital= Cena ( img= "https://i.imgur.com/eG8zYKW.jpg")
+        self.diamante = Elemento (FOCO, x=300, y=150, w=200, h=200, cena=self.ganhadiamante, style={"opacity": 0.0}, vai=self.hospital.vai)
+        self.saladeaula2 = Cena (img="https://i.imgur.com/y2WMlxb.jpg")
         self.sotao = Cena (img="https://i.imgur.com/D2KRRlS.jpg")
         self.voltasotao = Cena ("https://i.imgur.com/SpyaFmX.jpg")
-       
+        self.ganhadiamante.esquerda = self.submarino
+        self.hospital.esquerda= self.ganhadiamante
+        
 #cenaescola
          
         self.textositiodopicapauamarelo = Texto (self.saladeaula, "O sitio do pica-pau amarelo é uma importante obra de Monteiro Lobato!")
