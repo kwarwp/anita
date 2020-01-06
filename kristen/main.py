@@ -134,7 +134,7 @@ class Jogo:
         
         self.talita2 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
         tit="Talita",
-         style=dict(left=180, top=100,  Width=60, height=50))
+         style=dict(left=180, top=100,  Width=120, height=5000))
         self.talita2.entra(self.submarino)
         self.textoquadropicasso = Texto (self.submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau.")  
         self.quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadropicasso.vai)
@@ -164,12 +164,58 @@ class Jogo:
 
         self.talita5 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
         tit="Talita",
-        style=dict(left=200, top=190,  Width=300, height=100))
+        style=dict(left=250, top=300, width=120, heigth=1500))
         self.talita5.entra(self.painelsolar)
         self.textotalita5 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
         self.textotalita5.foi = self.habilitavolta
         self.talita5.vai = self.textotalita5.vai
         self.painelsolar.vai()
+        
+#cenahospital
+        
+        self.talita7=Elemento(img= "https://i.imgur.com/N5HXcxK.png",
+        tit="Talita",
+        style=dict(left=150, top=250, width=150, heigth=1700))
+        self.talita7.entra(self.hospital)
+        self.textotalita = Texto(self.hospital, "Olá. Eu tenho uma amiga chamada Bia, ela foi diagnosticada com Leucemia. E para ajuda-lá teremos que encontrar uma mulher muito inteligente que criou um remédio para o tratamento da Bia.")
+        self.talita7.vai=self.textotalita.vai
+        
+        
+        
+        self.parabens= Cena (img= "https://i.imgur.com/O4J0s1e.png")
+        self.gertrude = Elemento(img= "https://i.imgur.com/RCxLvpr.jpg",
+        tit ="Gertrude Elion", 
+        style=dict(left=50, top=50, width=80, heigth=80, vai=self.habilitagertrude))
+        self.textogertrude = Texto (self.hospital, "Essa é a Gertrude Elion, bioquímica e desenvolvedora do tratamento de leucemia") 
+        self.textogertrude.foi = self.habilitagertrude
+        self.gertrude.vai = self.textogertrude.vai
+        
+        self.edward = Elemento(img= "https://i.imgur.com/WYqmfnH.jpg",
+        tit ="Edward Jenner", 
+        style=dict(left=350, top=50, width=80, heigth=50))
+        self.textoedward = Texto (self.hospital, "Edward Jenner- inventou a vacina da varíola. A primeira imunização deste tipo na história do ocidente.")
+        self.edward.vai=self.textoedward.vai
+        
+        
+        self.michelle= Elemento (img= "https://i.imgur.com/FHR17Yd.jpg",
+        tit = "Michelle Ménard",
+        style=dict(left=200, top=50, width=90, heigth=80))
+        self.textomichelle= Texto(self.hospital, " Essa é a Michelle Ménard, criadora do esmalte para unhas no século xx.")
+        self.michelle.vai=self.textomichelle.vai
+        
+        self.credito= Cena(img = "https://j.gifs.com/gZy3DG.gif")
+        
+        self.michelle.entra(self.hospital)
+        self.gertrude.entra(self.hospital)
+        self.edward.entra(self.hospital)
+        self.parabens.esquerda=self.hospital
+        self.parabens.esquerda=self.hospital
+        self.parabens.direita=self.credito
+        self.credito.esquerda=self.parabens
+
+    def habilitagertrude(self):
+        self.hospital.direita=self.parabens
+        
 #cenasotaovolta
         #self.ganhamoeda3.direita = self.voltasotao
         #self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
