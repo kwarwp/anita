@@ -169,7 +169,7 @@ class Jogo:
         self.textotalita5 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
         self.textotalita5.foi = self.habilitavolta
         self.talita5.vai = self.textotalita5.vai
-        self.painelsolar.vai()
+       
         
 #cenahospital
         
