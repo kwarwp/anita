@@ -175,7 +175,7 @@ class Jogo:
        
         self.talita7=Elemento(img= "https://i.imgur.com/2LZFFjU.png",
         tit="Talita",
-        style=dict(left=150, top=240, width=150, heigth="1050px"))
+        style=dict(left=200, top=150,  Width=300, height="200px"))
         self.talita7.entra(self.hospital)
         self.textotalita = Texto(self.hospital, "Olá. Eu tenho uma amiga chamada Bia, ela foi diagnosticada com Leucemia. E para ajuda-lá teremos que encontrar uma mulher muito inteligente que criou um remédio para o tratamento da Bia.")
         self.talita7.vai=self.textotalita.vai
