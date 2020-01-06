@@ -134,7 +134,7 @@ class Jogo:
         
         self.talita2 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
         tit="Talita",
-        style=dict(left=250, top=150,  Width=60, height=90000000000000000000000000000))
+        style=dict(left=250, top=150,  Width=60, height="90000000000000000000000000000px"))
         self.talita2.entra(self.submarino)
         self.textoquadropicasso = Texto (self.submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau.")  
         self.quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadropicasso.vai)
