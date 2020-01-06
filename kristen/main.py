@@ -5,7 +5,7 @@ STYLE["width"] = 600
 STYLE["heigth"] = "200px"
 linkdatalita ="https://i.imgur.com/2LZFFjU.png"
 linkcolete ="https://i.imgur.com/lWiNq2H.png"
-linkjogos ="https://i.imgur.com/tpU1Zkr.jpg"
+linkjogos ="https://i.imgur.com/80kbOmL.png"
 linklivros ="https://i.imgur.com/TwENnNe.gif"
 linkdaescrivaninha ="https://i.imgur.com/Rw3pEJu.jpg"
 linkdabola ="https://i.imgur.com/YcE5EW6.jpg"
@@ -79,7 +79,7 @@ class Jogo:
        
         self.capa = Cena (img = "https://i.imgur.com/PykSosS.jpg")
         self.talita = Elemento (img = linkdatalita, 
-        tit="talita",
+        tit="Talita",
         style=dict(left=180, top=100,  Width=60, height=50))
         
         self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
@@ -87,7 +87,7 @@ class Jogo:
 
         self.colete = Elemento (img = linkcolete,
         tit ="colete",
-        style=dict(left=300, top=50, width=50, heigth=80, vai=self.habilita))
+        style=dict(left=300, top=100, width=50, heigth=80, vai=self.habilita))
         
         self.jogos = Elemento (img = linkjogos,
         tit = "jogos",
@@ -133,8 +133,8 @@ class Jogo:
 
         
         self.talita2 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
-        tit="talita",
-        style=dict(left=250, top=400, width=120, heigth=1500))
+        tit="Talita",
+         style=dict(left=180, top=100,  Width=60, height=50))
         self.talita2.entra(self.submarino)
         self.textoquadropicasso = Texto (self.submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau.")  
         self.quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadropicasso.vai)
@@ -151,9 +151,9 @@ class Jogo:
        
         self.ganhamoeda2.direita = self.sotao
         self.saladeaula2.esquerda = self.ganhamoeda2
-        self.talita4 = Elemento (img = "https://i.imgur.com/QV5fuXJ.png", 
-        tit="talita",
-        style=dict(left=250, top=250, width=120, heigth=1500))
+        self.talita4 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
+        tit="Talita",
+        style=dict(left=300, top=100,  Width=60, height=50))
         self.talita4.entra(self.sotao)
         self.textotalita4 = Texto (self.sotao, "Vou fazer um trabalho sobre uma área da Ciência em que as mulheres têm se destacado muito atualmente.")
         self.talita4.vai = self.textotalita4.vai
@@ -163,13 +163,13 @@ class Jogo:
 #cenapainelsolar
 
         self.talita5 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
-        tit="talita",
-        style=dict(left=250, top=300, width=120, heigth=1500))
+        tit="Talita",
+        style=dict(left=200, top=190,  Width=300, height=100))
         self.talita5.entra(self.painelsolar)
         self.textotalita5 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
         self.textotalita5.foi = self.habilitavolta
         self.talita5.vai = self.textotalita5.vai
-        
+        self.painelsolar.vai()
 #cenasotaovolta
         #self.ganhamoeda3.direita = self.voltasotao
         #self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
