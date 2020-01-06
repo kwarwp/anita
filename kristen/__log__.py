@@ -2487,3 +2487,10 @@ AttributeError: 'GUI' object has no attribute 'ganhamoeda2'
     self.ganhamoeda2.direita = self.sotao
 AttributeError: 'GUI' object has no attribute 'ganhamoeda2'
 '''},
+{'date': 'Mon Jan 06 2020 20:26:29.90 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 135
+  self.talita2 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
+                                                                                                                                                                                 ^
+SyntaxError: invalid syntax
+'''},
