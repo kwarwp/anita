@@ -134,7 +134,7 @@ class Jogo:
         
         self.talita2 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
         tit="Talita",
-        style=dict(left=250, top=150,  Width=60, height="90000000000000000000000000000px"))
+        style=dict(left=250, top=240,  Width=60, height="240px"))
         self.talita2.entra(self.submarino)
         self.textoquadropicasso = Texto (self.submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau.")  
         self.quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadropicasso.vai)
@@ -164,7 +164,7 @@ class Jogo:
 
         self.talita5 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
         tit="Talita",
-        style=dict(left=200, top=200,  Width=300, height=100))
+        style=dict(left=200, top=200,  Width=300, height="200px"))
         self.talita5.entra(self.painelsolar)
         self.textotalita5 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
         self.textotalita5.foi = self.habilitavolta
@@ -175,7 +175,7 @@ class Jogo:
        
         self.talita7=Elemento(img= "https://i.imgur.com/2LZFFjU.png",
         tit="Talita",
-        style=dict(left=150, top=200, width=150, heigth=1700))
+        style=dict(left=150, top=240, width=150, heigth="1050px"))
         self.talita7.entra(self.hospital)
         self.textotalita = Texto(self.hospital, "Olá. Eu tenho uma amiga chamada Bia, ela foi diagnosticada com Leucemia. E para ajuda-lá teremos que encontrar uma mulher muito inteligente que criou um remédio para o tratamento da Bia.")
         self.talita7.vai=self.textotalita.vai
