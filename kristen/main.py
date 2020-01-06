@@ -134,7 +134,7 @@ class Jogo:
         
         self.talita2 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
         tit="Talita",
-        style=dict(left=250, top=300, width=120, heigth=5500000))
+         style=dict(left=180, top=100,  Width=60, height=50))
         self.talita2.entra(self.submarino)
         self.textoquadropicasso = Texto (self.submarino, "Este quadro é de Pablo Picasso e chama-se Tête de femme au chapeau.")  
         self.quadropicasso = Elemento(FOCO, x=100, y=200, w=100, h=100, cena=self.submarino, style={"opacity": 0.0}, vai=self.textoquadropicasso.vai)
@@ -164,16 +164,16 @@ class Jogo:
 
         self.talita5 = Elemento (img = "https://i.imgur.com/2LZFFjU.png", 
         tit="Talita",
-        style=dict(left=250, top=300, width=120, heigth=15000))
+        style=dict(left=200, top=190,  Width=300, height=100))
         self.talita5.entra(self.painelsolar)
         self.textotalita5 = Texto (self.painelsolar, "As mulheres estão dominando o setor de energia renovável. Um grande exemplo disso veio de Nicole Kuepper, uma jovem cientista australiana que recentemente criou células fotovoltáicas - usadas para transformar energia solar em energia elétrica - a partir de produtos parecidos com esmalte e acetona, com baixo custo. Isso deverá ajudar populações que ainda não têm energia elétrica")
         self.textotalita5.foi = self.habilitavolta
         self.talita5.vai = self.textotalita5.vai
-       
-        
+
 #cenahospital
-        
-        self.talita7=Elemento(img= "https://i.imgur.com/N5HXcxK.png",
+       
+       
+        self.talita7=Elemento(img= "https://i.imgur.com/2LZFFjU.png",
         tit="Talita",
         style=dict(left=150, top=250, width=150, heigth=1700))
         self.talita7.entra(self.hospital)
@@ -215,7 +215,6 @@ class Jogo:
 
     def habilitagertrude(self):
         self.hospital.direita=self.parabens
-        
 #cenasotaovolta
         #self.ganhamoeda3.direita = self.voltasotao
         #self.textotalitaencontrou = Texto (self.voltasotao, "OMG! Encontrei uma passagem secreta")
