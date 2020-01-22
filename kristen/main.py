@@ -80,14 +80,14 @@ class Jogo:
         self.capa = Cena (img = "https://i.imgur.com/PykSosS.jpg")
         self.talita = Elemento (img = linkdatalita, 
         tit="Talita",
-        style=dict(left=180, top=250,  Width=60, height=50))
+        style=dict(left=180, top=200,  Width=60, height=50))
         
         self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
         self.travesseiro = Elemento(FOCO, x=90, y=180, w=80, h=80, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
 
         self.colete = Elemento (img = linkcolete,
         tit ="colete",
-        style=dict(left=300, top=250, width=50, heigth=80, vai=self.habilita))
+        style=dict(left=300, top=200, width=50, heigth=80, vai=self.habilita))
         
         self.jogos = Elemento (img = linkjogos,
         tit = "jogos",
@@ -111,9 +111,9 @@ class Jogo:
         self.livros.entra(self.introd) 
         self.jogos.entra(self.introd)
         self.textotalita = Texto (self.introd, "Olá. Hoje vai ser um dia longo e eu preciso estar preparada para encarar muitos desafios. Hoje sairei de Costa Barros protegida e contarei com uma invenção femina para isso.")
-        self.textocolete = Texto (self.introd, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais")
-        self.textolivros = Texto (self.introd, "O livro te leva para viagens emocionantes, sem sair de casa. Mas não é isso que procuro")
-        self.textojogos = Texto (self.introd, "Os jogos servem para o nosso entretenimento, mas não é o que fará você passar para a próxima fase")
+        self.textocolete = Texto (self.introd, "Stephanie Kwolek criou o colete à prova de balas Kevlar, que todos os anos salva a vida de milhares de policiais.")
+        self.textolivros = Texto (self.introd, "O livro te leva para viagens emocionantes, sem sair de casa. Mas não é isso que procuro.")
+        self.textojogos = Texto (self.introd, "Os jogos servem para o nosso entretenimento, mas não é o que fará você passar para a próxima fase.")
         self.textocolete.foi = self.habilita
         self.talita.vai = self.textotalita.vai
         self.colete.vai = self.textocolete.vai
