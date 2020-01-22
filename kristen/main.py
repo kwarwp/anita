@@ -80,7 +80,7 @@ class Jogo:
         self.capa = Cena (img = "https://i.imgur.com/PykSosS.jpg")
         self.talita = Elemento (img = linkdatalita, 
         tit="Talita",
-        style=dict(left=180, top=150,  Width=60, height=50))
+        style=dict(left=180, top=180,  Width=60, height=50))
         
         self.textotravesseiro = Texto (self.introd, "Não era bem isso que eu estava procurando..")  
         self.travesseiro = Elemento(FOCO, x=90, y=180, w=80, h=80, cena=self.introd, style={"opacity": 0.0}, vai=self.textotravesseiro.vai)
