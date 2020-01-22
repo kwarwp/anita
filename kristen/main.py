@@ -87,15 +87,15 @@ class Jogo:
 
         self.colete = Elemento (img = linkcolete,
         tit ="colete",
-        style=dict(left=300, top=100, width=50, heigth=80, vai=self.habilita))
+        style=dict(left=300, top=30, width=50, heigth=80, vai=self.habilita))
         
         self.jogos = Elemento (img = linkjogos,
         tit = "jogos",
-        style = dict(left=150, top=200, width=50, height=200))
+        style = dict(left=30, top=50, width=50, height=200))
         
         self.livros = Elemento (img = linklivros,
         tit = "livros",
-        style = dict(left=150, top=200, width=50, height=200))
+        style = dict(left=15, top=80, width=50, height=200))
         
                 
         self.botao = Elemento (img = "https://i.imgur.com/hDAafpT.png",
