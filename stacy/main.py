@@ -11,7 +11,7 @@ class Jogo:
         self.sala.vai ()
         self.Talita= Elemento (img = "https://i.imgur.com/N5HXcxK.png"),
         tit="Talita",
-        STYLE= dict (left=200, top=190, width=100, height=1500))
+        STYLE= dict (left=200, top=190, width=100, height=1500)
         self.Talita.entra(self.sala)
         
         
