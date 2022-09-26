@@ -235,9 +235,11 @@ class Jogo:
     def habilitavolta(self):
         self.painelsolar.direita=self.ganhamoeda3
         self.ganhamoeda3.direita = self.submarino
-        
+
+Jogo()
 if __name__ == "__main__":
-    Jogo() 
+    #Jogo() 
+    pass
         
         
 
