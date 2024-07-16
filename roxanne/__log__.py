@@ -27,3 +27,10 @@ SyntaxError: invalid syntax
                     ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Jul 16 2024 14:33:38.309 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 4
+  STYLE["heigth]= "200px"
+                    ^
+SyntaxError: invalid syntax
+'''},
