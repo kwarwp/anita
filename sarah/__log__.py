@@ -20,3 +20,10 @@ SyntaxError: EOL while scanning string literal
                                                                                                                                                  ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Wed Aug 14 2024 15:41:03.448 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 8
+  linkquartodatalita="https://cdna.artstation.com/p/assets/images/images/008/176/322/large/ian-barreto-anymalu-quarto-ianbarreto.jpg?1510953832""
+                                                                                                                                                 ^
+SyntaxError: EOL while scanning string literal
+'''},
